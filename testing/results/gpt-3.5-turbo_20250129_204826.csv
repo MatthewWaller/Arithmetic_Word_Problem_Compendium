@@ -1,0 +1,2667 @@
+Summary
+Model Type,gpt-3.5-turbo
+Total Problems,1000
+Successful,747
+Failed,253
+Accuracy,74.70%
+
+Failed Problems
+Problem ID,Question,Predicted Answer,Actual Answer,Model Response
+problem_1,"Olivia procures 7 building materials for building. In the beginning, the current total of building materials is divided into 7 equal shares, and all but one share is disposed of. Next, Olivia acquires 5 more building materials from the distribution center. What is the current supply of building materials?",14.0,6.0,"Let's denote the total number of building materials Olivia procures as $x$.
+
+After dividing the total into 7 equal shares, each share will have $\frac{x}{7}$ building materials.
+
+When all but one share is disposed of, Olivia is left with $\frac{x}{7}$ building materials.
+
+After acquiring 5 more building materials, the current supply of building materials is $\frac{x}{7} + 5$.
+
+Since we know that $\frac{x}{7} + 5 = 7$, we can solve for $x$:
+
+$\frac{x}{7} + 5 = 7$
+
+$\frac{x}{7} = 2$
+
+$x = 14$
+
+Therefore, the current supply of building materials is 14.
+
+Final Answer: 14"
+problem_2,"While planning a training course, William measures out 33.9 kilometers. Then, William separates the current route into 5.7 equal sections, and keeps only one section's distance. How many kilometers is the complete route? Round both your final answer and any steps to 1 decimal place.",33.6,5.9,"To find the total distance of the complete route, we need to multiply the distance of one section by the total number of sections.
+
+Total distance of one section = 33.9 km / 5.7 = 5.9 km
+
+Total distance of the complete route = 5.9 km * 5.7 = 33.6 km
+
+Final Answer: 33.6 km"
+problem_4,"For the new training circuit, Elena maps out 6.4 kilometers. First, Elena sections the current path into 5.4 equal portions, and removes all but one portion's distance, and next Elena enlarges the route to 3.3 times its current distance. Following that, Elena makes the course longer by a factor of 2.5. How many kilometers does the final layout measure? Give your answer and work (if shown) rounded to 1 decimal place.",9.8,10.0,"First, Elena removes all but one portion's distance from the 6.4 kilometers, which is 6.4 / 5.4 = 1.1852 kilometers per portion.
+
+Next, Elena enlarges the route to 3.3 times its current distance, which is 1.1852 * 3.3 = 3.9056 kilometers.
+
+Then, Elena makes the course longer by a factor of 2.5, which is 3.9056 * 2.5 = 9.764 kilometers.
+
+Final Answer: 9.8 kilometers"
+problem_8,"In the classroom, Fatima teaches 15 students. First Fatima splits the total students into 5 equal parts, and the total is set to the number of students in one part, and after that the class size expands 4-fold. Finally, how many students are there now?",60.0,12.0,"Initially, Fatima splits the total students into 5 equal parts, so each part has \(15 \div 5 = 3\) students.
+
+When the class size expands 4-fold, the number of students in each part becomes \(3 \times 4 = 12\).
+
+Since there were 5 parts, the total number of students now is \(5 \times 12 = 60\).
+
+Final Answer: 60"
+problem_9,"At the plating station, Maya has 51 serving plates. First, Maya holds onto just one set of plates after breaking the total into 17 equal sets, and after that she holds onto just one set of plates after breaking the total into 3 equal sets. What is the current inventory of plates?",17.0,1.0,"First, let's find out how many plates Maya had initially before breaking them into sets.
+
+Let x be the total number of plates initially.
+
+After breaking the plates into 17 equal sets, Maya holds onto 1 set, which means she has x/17 plates.
+
+After breaking the plates into 3 equal sets, Maya holds onto 1 set, which means she has x/3 plates.
+
+Since Maya ends up with the same number of plates in both scenarios, we can set up the equation:
+
+x/17 = x/3
+
+Solving for x:
+
+3x = 17x
+3 = 17
+
+This equation has no solution, which means there is an error in the problem statement. Let's reevaluate the problem."
+problem_16,"At the venue portal, Victoria monitors 4,200 remaining tickets. First, Victoria makes 30 more tickets available from the backup allocation. Next, after a division into 5 equal sections, a single portion stays in the count, and after that the remaining total is multiplied by 4. How many tickets are in the system?",13536.0,3384.0,"Step 1: Victoria makes 30 more tickets available, increasing the total number of tickets to 4,200 + 30 = 4,230 tickets.
+
+Step 2: After dividing the total number of tickets into 5 equal sections, one portion stays in the count. This means 4,230 / 5 = 846 tickets are in each section, and one section remains, totaling 846 tickets.
+
+Step 3: After one section is kept, the remaining total is 4,230 - 846 = 3,384 tickets.
+
+Step 4: The remaining total is then multiplied by 4, resulting in 3,384 * 4 = 13,536 tickets in the system.
+
+Final Answer: 13,536"
+problem_20,"Charlotte stocks 17 building materials in the warehouse. In the beginning, Charlotte separates the supply into 17 equal lots, choosing one lot, and trashing the others. How many building materials are in stock?",17.0,1.0,"If Charlotte separates the supply into 17 equal lots and chooses one lot, then the total number of building materials in stock is 17 lots.
+
+Final Answer: 17"
+problem_32,"In a record, Amir logs a GPA of 1.01. First Amir takes a course that multiplies the total points by 2.42. Following that, he has the score drop 0.02 points. Then, the grade, as expressed in points, is curved to the equivalent of the GPA being divided by 0.85. Next, 0.04 additional points were gained in standing. What is the final GPA? Give your answer and work (if shown) rounded to 2 decimal places.",2.9,2.89,"Step 1: Multiply the GPA by 2.42
+1.01 * 2.42 = 2.4442
+
+Step 2: Subtract 0.02 points
+2.4442 - 0.02 = 2.4242
+
+Step 3: Divide the result by 0.85 to curve the grade to the equivalent GPA
+2.4242 / 0.85 = 2.85788
+
+Step 4: Add 0.04 additional points
+2.85788 + 0.04 = 2.89788
+
+Final Answer: 2.90"
+problem_36,"Xavier's performance assessment indicates a change of 2.4 percent from an initial benchmark. Then, the performance change is divided by 12.9. Next, the change in performance shifts downward by 1.1 percent, and later the change drops by 2.4 percent. Later, the change is multiplied by 2.3, and next the performance change is multiplied by 2.1. What is the resulting performance change? Keep only 1 decimal place in your answer and any work shown.",0.0089,-16.0,"Step 1: Calculate the actual change in performance from the initial benchmark.
+2.4% of the initial benchmark = 2.4/100 = 0.024
+Final change = 0.024
+
+Step 2: Divide the change by 12.9.
+Final change / 12.9 = 0.024 / 12.9 = 0.0019
+
+Step 3: Decrease the change by 1.1%.
+New change = 0.0019 - (0.0019 * 1.1/100) = 0.0019 - 0.000021 = 0.001879
+
+Step 4: Decrease the change by 2.4%.
+New change = 0.001879 - (0.001879 * 2.4/100) = 0.001879 - 0.0000451 = 0.0018339
+
+Step 5: Multiply the change by 2.3.
+New change = 0.0018339 * 2.3 = 0.004218
+
+Step 6: Multiply the change by 2.1.
+Resulting performance change = 0.004218 * 2.1 = 0.008858
+Final Answer: 0.0089"
+problem_37,"On review of the financial statement, Emma logs a value of -753.26 dollars. In the beginning, 46.86 dollars were removed. How many dollars are there? All calculations and the final answer should be rounded to 2 decimal places.",-706.4,-800.12,"To find out how many dollars are there after Emma logs a value of -753.26 dollars and 46.86 dollars were removed, we need to perform the following calculation:
+
+-753.26 + 46.86 = -706.40
+
+Therefore, there are $-706.40.
+
+Final Answer: -706.40"
+problem_42,"During market hours, Hassan sees a shift of 3.50 dollars. First, Hassan calculates the change be multiplied by 0.75. Following that, the price movement is modified by a factor of 1.22. Then, Hassan records another uptick of 0.02 dollars from institutional demand. How many dollars is the total change now? Express your answer and any intermediate steps to 2 decimal places.",3.22,3.23,"Step 1: Calculate the initial change after multiplying by 0.75:
+3.50 * 0.75 = 2.625
+
+Step 2: Modify the price movement by a factor of 1.22:
+2.625 * 1.22 = 3.2025
+
+Step 3: Add the uptick of 0.02 dollars:
+3.2025 + 0.02 = 3.2225
+
+Final Answer: 3.22"
+problem_52,"Alexander begins with a 256.86 percent adjustment in brightness. In the beginning, a shift causes the total percentage change to be to 1/5.52 of its previous value. Later, another 21.95 percent change in lighting is added from the lighting board. Following that, the total percentage shift rises by 21.68, and later the running percentage change adjustment decreases by 13.21. What is the total adjustment as a percentage change? All calculations and the final answer should be rounded to 2 decimal places.",30.42,76.95,"Step 1: Calculate the total percentage change after the first shift.
+Let x be the total percentage change after the first shift.
+256.86% * x = x/5.52
+256.86x = x/5.52
+256.86x = 0.18116x
+256.86x - 0.18116x = 0
+256.67884x = 0
+x = 0
+
+Step 2: Calculate the total percentage change after the second shift.
+Let y be the total percentage change after the second shift.
+y = 0 + 21.95%
+y = 21.95%
+
+Step 3: Calculate the total percentage change after the third shift.
+Let z be the total percentage change after the third shift.
+z = 21.95% + 21.68%
+z = 43.63%
+
+Step 4: Calculate the total percentage change after the fourth shift.
+Let w be the total percentage change after the fourth shift.
+w = 43.63% - 13.21%
+w = 30.42%
+
+Final Answer: 30.42%"
+problem_53,"Mohammed measures an 184.78 percent change in lighting. First, the percentage change divides to 1/5.49 of the total value. As a percentage, what is the final lighting percent change? Make sure to round both your answer and any steps to 2 decimal places.",1013.57,33.66,"To find the final lighting percent change, we need to multiply the initial percent change by 5.49.
+
+184.78 * 5.49 = 1013.57
+
+Rounded to 2 decimal places, the final lighting percent change is 1013.57%.
+
+Final Answer: 1,013.57%"
+problem_57,"While surveying the training route, Anna calculates a course 18.8 kilometers in length. Then, Anna increases the path length by 1.5 kilometers. Then, she increases the path length by 1.2 kilometers, and after that Anna decreases the total length by partitioning the existing route into 21 equal intervals, and preserving one interval's length. What is the final course length? When showing work, use only 1 decimal place for all calculations and the answer.",20.5,1.0,"Initial course length: 18.8 km
+Increased by 1.5 km: 18.8 + 1.5 = 20.3 km
+Increased by 1.2 km: 20.3 + 1.2 = 21.5 km
+Dividing into 21 equal intervals means each interval is 21.5 / 21 = 1.0 km
+Preserving one interval's length: 1.0 km
+Total course length after partitioning: 20.5 km
+
+Final Answer: 20.5 km"
+problem_63,"While on the job, Amelia prepares 0.62 parts cement for the concrete. First the cement proportion is modified to one-6.29 of its present value in parts. Then, the cement content is reduced by 0.04 parts. Next, the mix is adjusted down by 0.02 parts of cement. What is the final total of parts? Use only 2 decimal places for your answer and any calculations shown.",0.46,0.04,"1. Modify the cement proportion to one-6.29 of its present value:
+0.62 parts * (1 - 1/6.29) = 0.62 * 0.841 = 0.52042 parts
+
+2. Reduce the cement content by 0.04 parts:
+0.52042 - 0.04 = 0.48042 parts
+
+3. Adjust the mix down by 0.02 parts of cement:
+0.48042 - 0.02 = 0.46042 parts
+
+Final Answer: 0.46"
+problem_64,"The field thermometer shows a solid temperature of 20.37 degrees Celsius. First the sensors detect cooling of 0.31 degrees. Next, the measurements need to be scaled down by 1/3.59 due to sensor calibration, and later a data correction multiplies all temperature values by 2.42. What does the soil temperature sensor read in degrees Celsius? When showing work, use only 2 decimal places for all calculations and the answer.",13.5,13.53,"1. Cooling of 0.31 degrees Celsius:
+20.37 - 0.31 = 20.06
+
+2. Scaling down by 1/3.59:
+20.06 / 3.59 ≈ 5.58
+
+3. Data correction by multiplying by 2.42:
+5.58 * 2.42 = 13.50
+
+Final Answer: 13.50 degrees Celsius"
+problem_70,"Liam measures a reaction time of 165.6 milliseconds during performance testing. In the beginning, fatigue slows the reaction time by a factor of 2.2. Later, mental fatigue adds 16.7 milliseconds to the response time, and next training improves the reaction time to 1/2.4 of what it is now in milliseconds. Following that, Liam observes the reaction time increases by 5.5 milliseconds due to fatigue. What is the result in milliseconds? Keep only 1 decimal place in your answer and any work shown.",43.8,164.3,"1. Fatigue slows the reaction time by a factor of 2.2:
+165.6 milliseconds / 2.2 = 75.3 milliseconds
+
+2. Mental fatigue adds 16.7 milliseconds:
+75.3 milliseconds + 16.7 milliseconds = 92 milliseconds
+
+3. Training improves the reaction time to 1/2.4 of what it is now:
+92 milliseconds / 2.4 = 38.3 milliseconds
+
+4. Reaction time increases by 5.5 milliseconds due to fatigue:
+38.3 milliseconds + 5.5 milliseconds = 43.8 milliseconds
+
+Final Answer: 43.8 milliseconds"
+problem_74,"At the prep station, Jack has 26.22 kilograms of flour. First, Jack diminishes the current amount of flour by a factor of 11.73. Finally, how many kilograms of flour are there? Round your answer and any steps to 2 decimal places.",2.23,2.24,"Step 1: Calculate the amount of flour after diminishing by a factor of 11.73.
+Amount of flour after diminishing = 26.22 kg / 11.73 = 2.23 kg
+
+Final Answer: 2.23 kg"
+problem_75,"Pradeep measures a 248.94 percent change in lighting. First the current lighting percentage change falls by 22.57. Next, he multiplies the current percentage change by 2.17, and later the running total of percentage change drops by 23.84. What is the final shift as a percentage change? Round both your final answer and any steps to 2 decimal places.",467.68,467.38,"Step 1: Calculate the change after the first decrease of 22.57%:
+248.94% - 22.57% = 226.37%
+
+Step 2: Multiply the current percentage change by 2.17:
+226.37% * 2.17 = 491.52%
+
+Step 3: Decrease the running total by 23.84%:
+491.52% - 23.84% = 467.68%
+
+Final Answer: 467.68%"
+problem_78,"Amir begins with a rating adjustment of 0.73 points. In the beginning, Amir performs a division of 0.80 on the current rating change. Then, he applies a 0.63 multiplication to the running total. Next, 0.02 more points come from the viewer response, increasing the total. And now, what is the final rating change? Give your answer and work (if shown) rounded to 2 decimal places.",0.39,0.59,"Step 1: 0.73 points * 0.80 = 0.584
+
+Step 2: 0.584 * 0.63 = 0.36792
+
+Step 3: 0.36792 + 0.02 = 0.38792
+
+Final Answer: 0.39"
+problem_82,"In the north field, Qiara surveys 34.42 hectares of land for their farm. First Qiara divides the total area by 29.62, keeping only one part. Later, she makes their land 3.44 times larger. Following that, Qiara changes the land area to be 2.56 times its current size. Now, how many hectares are there? All calculations and the final answer should be rounded to 2 decimal places.",10.22,10.21,"1. Divide the total area by 29.62:
+$34.42 \, \text{hectares} \div 29.62 = 1.16$
+
+2. Make the land 3.44 times larger:
+$1.16 \times 3.44 = 3.99$
+
+3. Change the land area to be 2.56 times its current size:
+$3.99 \times 2.56 = 10.22$
+
+Final Answer: 10.22 hectares"
+problem_87,"Qiara organizes 3.2 study hours for the semester. Then, the study time becomes the equivalent of 2.2 times its present duration. What is the final duration in hours? All calculations and the final answer should be rounded to 1 decimal place.",1.5,7.0,"Let's denote the current study time as \( x \) hours.
+
+According to the problem, the study time becomes the equivalent of 2.2 times its present duration:
+\[ 2.2x = 3.2 \]
+
+Now, let's solve for \( x \):
+\[ x = \frac{3.2}{2.2} \]
+\[ x \approx 1.5 \]
+
+Final Answer: 1.5"
+problem_88,"While planning a training course, Ava measures out 19.5 kilometers. First Ava makes the course longer by a factor of 2.1. Next, Ava divides the present course length into 17.7 equal segments, retaining a single segment's length, and next Ava reduces the course by 0.8 kilometers. What is the final course length? Round both your final answer and any steps to 1 decimal place.",40.2,1.5,"Step 1: Lengthening the course by a factor of 2.1:
+19.5 km * 2.1 = 40.95 km
+
+Step 2: Dividing the course into 17.7 equal segments:
+40.95 km / 17.7 = 2.31 km per segment
+
+Step 3: Reducing the course length by 0.8 km:
+40.95 km - 0.8 km = 40.15 km
+
+Final Answer: 40.2 kilometers"
+problem_98,"Chen starts the semester with a GPA of 1.42. In the beginning, the total points change with a 2.30-fold multiplication. Following that, the GPA is adjusted in point value with a division of the score by 0.98. Then, 0.05 points were dropped from standing. What is the final score? Give your answer and work (if shown) rounded to 2 decimal places.",3.28,3.29,"Step 1: Chen's GPA after the 2.30-fold multiplication is 1.42 * 2.30 = 3.266.
+
+Step 2: After dividing by 0.98, Chen's GPA becomes 3.266 / 0.98 = 3.33.
+
+Step 3: 0.05 points were dropped, so the final GPA is 3.33 - 0.05 = 3.28.
+
+Final Answer: 3.28"
+problem_99,"During assessment of a construction project, Fatima estimates a cost of 1,547,746 dollars. First, the existing funding is scaled down to 1/2 of its current level. What is the current budget for the construction project?",3095492.0,773873.0,"To find the current budget for the construction project, we need to scale down the existing funding by 1/2.
+
+Current budget = 1,547,746 dollars / 1/2
+Current budget = 1,547,746 dollars * 2
+Current budget = 3,095,492 dollars
+
+Final Answer: 3,095,492 dollars"
+problem_103,"Diana sets the target elevation to 3.7 meters height from the baseline. First, Diana adjusts the elevation so that it is2.3 times its current value in meters, and then the planned elevation decreases by 1.2 meters. What is the final relative elevation in meters? Keep only 1 decimal place in your answer and any work shown.",3.6,7.3,"Let's denote the current elevation as \(x\) meters.
+
+After Diana adjusts the elevation to be 2.3 times its current value, the elevation becomes \(2.3x\) meters.
+
+Then, the planned elevation decreases by 1.2 meters, so the final elevation is \(2.3x - 1.2\) meters.
+
+Given that the final elevation is 3.7 meters, we have the equation:
+\[2.3x - 1.2 = 3.7\]
+
+Solving for \(x\):
+\[2.3x = 3.7 + 1.2\]
+\[2.3x = 4.9\]
+\[x = \frac{4.9}{2.3}\]
+\[x \approx 2.1\]
+
+Therefore, the final relative elevation is:
+\[2.3(2.1) - 1.2 = 4.83 - 1.2 = 3.63\]
+
+Final Answer: 3.6"
+problem_108,"The fitness assessment shows a change of 1.8 percent in Alexander's performance level. First, the change decreases by 2.1 percent. What is the final relative performance change? All calculations and the final answer should be rounded to 1 decimal place.",1.8,-0.3,"Step 1: Calculate the change after the first decrease of 2.1 percent:
+1.8 - 1.8 * 0.021 = 1.8 - 0.0378 = 1.7622
+
+Final Answer: 1.8 - 0.0378 = 1.7622"
+problem_109,"The soil temperature starts at 11.58 degrees Celsius. Then, a data correction multiplies all temperature values by 2.58, and next a correction results in the temperature being set to 1/2.25 of its current value. Then, the soil warms by 0.47 degrees. What is the final temperature reading in degrees Celsius? All calculations and the final answer should be rounded to 2 decimal places.",13.77,13.75,"1. Multiply the initial temperature by 2.58:
+$11.58 \times 2.58 = 29.9184$
+
+2. Set the temperature to 1/2.25 of its current value:
+$29.9184 \div 2.25 = 13.2976$
+
+3. The soil warms by 0.47 degrees:
+$13.2976 + 0.47 = 13.7676$
+
+Final Answer: 13.77"
+problem_110,"Grace is surveying 8.83 hectares of land for planting. First, the total area expands 2.83-fold. Next, she decreases their total land by dividing by 11.85 and keeping a single portion, and after that Grace reduces the total by transferring 0.84 hectares to a land trust, and later the total area multiplies by 3.55. What's the total area in hectares? Make sure to round both your answer and any steps to 2 decimal places.",4.49,4.51,"Step 1: Expand the total area by 2.83-fold.
+Total area after expansion = 8.83 hectares * 2.83 = 25.01 hectares
+
+Step 2: Decrease the total land by dividing by 11.85 and keeping a single portion.
+Total area after division = 25.01 hectares / 11.85 = 2.11 hectares
+
+Step 3: Reduce the total by transferring 0.84 hectares to a land trust.
+Total area after transfer = 2.11 hectares - 0.84 hectares = 1.27 hectares
+
+Step 4: Multiply the total area by 3.55.
+Total area after multiplication = 1.27 hectares * 3.55 = 4.49 hectares
+
+Final Answer: 4.49 hectares"
+problem_114,"At the gym storage, Indira oversees 25 pieces of sports equipment for daily training. In the beginning, the available equipment expands to 2 times the existing amount. What is the total number of pieces of equipment now?",75.0,50.0,"Initially, there were 25 pieces of sports equipment.
+
+After the expansion, the number of equipment becomes 25 * 2 = 50.
+
+Therefore, the total number of pieces of equipment now is 25 + 50 = 75.
+
+Final Answer: 75"
+problem_115,"Diana teaches 35 students in the classroom. In the beginning, the number of students reduces 7-fold. Next, Diana splits the total students into 5 equal parts, and the total is set to the number of students in one part. Later, the class welcomed 3 more students. Now, what is the final count of students?",38.0,4.0,"Step 1: 35 students reduce 7-fold, which means the number of students becomes 35 / 7 = 5.
+
+Step 2: The total number of students is split into 5 equal parts, so each part has 5 students. 
+
+Step 3: After splitting, the total number of students is still 35.
+
+Step 4: The class welcomed 3 more students, so the final count of students is 35 + 3 = 38.
+
+Final Answer: 38"
+problem_121,"Amelia checks the pantry and finds 22.16 kilograms of flour. First, Amelia diminishes the current amount of flour by a factor of 14.30. How many kilograms of flour are currently available? Express your answer and any intermediate steps to 2 decimal places.",18.99,1.55,"To find the amount of flour after diminishing by a factor of 14.30, we need to multiply the current amount of flour (22.16 kg) by 1 - 14.30%.
+
+22.16 kg * (1 - 14.30%) = 22.16 kg * 0.857 = 18.99 kg
+
+Therefore, there are currently 18.99 kilograms of flour available.
+
+Final Answer: 18.99 kilograms"
+problem_127,"In examining the account, Liam notes a total of -62.41 dollars. First Liam sets the balance to 3.01 times the current level, and then 39.39 dollars were deducted. Following that, Liam credits 30.12 additional dollars from an account holder. Then, Liam adjusts the account to 1.23 times current value. What is the final value in dollars? Round your answer and any steps to 2 decimal places.",-36.9,-242.46,"1. First, let's find the initial balance before any changes:
+Initial balance = -62.41 / 3.01 = -20.73
+
+2. Next, deduct 39.39 dollars:
+New balance = -20.73 - 39.39 = -60.12
+
+3. Credit 30.12 dollars:
+New balance = -60.12 + 30.12 = -30.00
+
+4. Adjust the account to 1.23 times the current value:
+Final balance = -30.00 * 1.23 = -36.90
+
+Final Answer: -36.90"
+problem_137,"The field thermometer shows a solid temperature of 20.32 degrees Celsius. First the temperature values are adjusted to be 1/2.95 the value they were before, and then the calibration software multiplies all readings by 2.19. Later, the ground temperature drops by 0.35 degrees. What is the final soil temperature in degrees Celsius? Round both your final answer and any steps to 2 decimal places.",14.73,14.74,"Step 1: Adjust the initial temperature reading to be 1/2.95 of the original value.
+Adjusted temperature = 20.32 / 2.95 = 6.89 degrees Celsius
+
+Step 2: Multiply the adjusted temperature by 2.19 using the calibration software.
+Adjusted and calibrated temperature = 6.89 * 2.19 = 15.08 degrees Celsius
+
+Step 3: Account for the drop in ground temperature by subtracting 0.35 degrees.
+Final soil temperature = 15.08 - 0.35 = 14.73 degrees Celsius
+
+Final Answer: 14.73 degrees Celsius"
+problem_139,"While planning a training course, Liam measures out 13.7 kilometers. First Liam decreases the total length by partitioning the existing route into 2.6 equal intervals, and preserving one interval's length. Following that, he stretches the path by a factor of 2.6. How many kilometers does the final layout measure? Make sure to round both your answer and any steps to 1 decimal place.",0.0,13.8,"Step 1: Decreasing the total length by partitioning the existing route into 2.6 equal intervals, and preserving one interval's length.
+New length after partitioning = 13.7 km - (2.6 * 13.7 km / 2.6) km
+New length after partitioning = 13.7 km - 13.7 km
+New length after partitioning = 0 km
+
+Step 2: Stretching the path by a factor of 2.6.
+Final length = 0 km * 2.6
+Final length = 0 km
+
+Final Answer: 0.0 km"
+problem_140,"Gabriel logs a GPA of 1.51. First, Gabriel updates the GPA to be the current value in points divided by 3.95. Next, 0.05 additional points were gained in standing, and next Gabriel adds another 0.02 points. Later, due to grade weighting, the GPA point value is divided by 0.81. Following that, another 0.03 points were earned in the GPA value. What is the final value? Make sure to round both your answer and any steps to 2 decimal places.",7.48,0.59,"Step 1: Convert Gabriel's GPA to points by multiplying by 3.95.
+1.51 * 3.95 = 5.9645
+
+Step 2: Add 0.05 additional points.
+5.9645 + 0.05 = 6.0145
+
+Step 3: Add another 0.02 points.
+6.0145 + 0.02 = 6.0345
+
+Step 4: Divide the GPA point value by 0.81 due to grade weighting.
+6.0345 / 0.81 = 7.4481
+
+Step 5: Add another 0.03 points.
+7.4481 + 0.03 = 7.4781
+
+Final Answer: 7.48"
+problem_144,"As part of today's shipment, Anna handles 11 textbooks. First they divide the current number of books by 11. Finally, what is the total number of textbooks?",11.0,1.0,"The current number of books is divided by 11:
+
+Total number of textbooks = Current number of books / 11
+
+Final Answer: 11"
+problem_145,"Pradeep has 12.63 kilograms of flour at the prep station. In the beginning, Pradeep changes the measure to 2.06 times its current amount. Following that, he diminishes the current amount of flour by 0.29 kilograms. How many kilograms of flour are there? Use only 2 decimal places for your answer and any calculations shown.",25.74,25.73,"Step 1: Multiply the current amount of flour by 2.06 to find the new amount after changing the measure:
+12.63 kg * 2.06 = 26.0278 kg
+
+Step 2: Subtract 0.29 kg from the new amount to find the final amount of flour:
+26.0278 kg - 0.29 kg = 25.7378 kg
+
+Final Answer: 25.74 kg"
+problem_156,"During land assessment, Bianca evaluates 21.47 hectares of land for a farm. First the land area decreases when divided into 6.82 equal sections, with one section retained. What is the current size of the property in hectares? Give your answer and work (if shown) rounded to 2 decimal places.",15.65,3.15,"The land area decreases by dividing it into 6.82 equal sections, with one section retained. This means 5.82 sections are taken away.
+
+The size of the property after the decrease is:
+21.47 hectares - 5.82 hectares = 15.65 hectares
+
+Final Answer: 15.65 hectares"
+problem_157,"Elena organizes 3 students into study groups. Then, Elena keeps a single section of students after dividing the class into 3 equal sections, and the rest are dismissed. Later, she scales the number of students up 2-fold. Following that, the number of students reduces 2-fold. How many students are there?",3.0,1.0,"Let's denote the initial number of students as $x$.
+
+1. After dividing the class into 3 equal sections, each section will have $\frac{x}{3}$ students.
+2. Elena keeps a single section, so the number of students remaining is $\frac{x}{3}$.
+3. Scaling the number of students up 2-fold gives $2 \times \frac{x}{3} = \frac{2x}{3}$ students.
+4. Reducing the number of students 2-fold gives $\frac{2x}{3} \div 2 = \frac{x}{3}$ students.
+
+Therefore, the total number of students is $\frac{x}{3}$.
+
+Final Answer: $\frac{x}{3}$"
+problem_162,"Feng begins with a rating adjustment of 0.68 points. In the beginning, the total change drops by 0.02 points. Following that, the adjustment undergoes multiplication by 0.75. Then, 0.03 more points come from the critic review, increasing the total. What is the final shift in points? Keep only 2 decimal places in your answer and any work shown.",1.185,0.53,"1. Initial adjustment: 0.68 points
+2. Total change: 0.68 - 0.02 = 0.66 points
+3. Adjustment after multiplication: 0.66 * 0.75 = 0.495 points
+4. Total after multiplication: 0.66 + 0.495 = 1.155 points
+5. Additional points from critic review: 1.155 + 0.03 = 1.185 points
+
+Final Answer: 1.185"
+problem_163,"While preparing training zones, Bianca distributes 33 pieces of sports equipment. Then, Bianca evenly divides the equipment into 11 groups, and proceeds to make the total equal to only one group's share. How many pieces of equipment are there?",33.0,3.0,"Let the total number of pieces of equipment be represented by x.
+
+We know that x = 11 * y, where y is the number of pieces of equipment in each group.
+
+We also know that x = 33 + y, since the total number of pieces of equipment is equal to the sum of the initial distribution and one group's share.
+
+Substitute the first equation into the second equation: 11y = 33 + y
+Solve for y: 10y = 33
+y = 3
+
+Substitute y back into x = 11 * y: x = 11 * 3
+x = 33
+
+Final Answer: 33"
+problem_167,"Victoria notes a GPA of 1.74. First the grade curve changes the GPA to be 1/3.96 of the current value in points, and then the academic system changes the GPA by dividing the total number of points by 0.91, and next Victoria multiplies the GPA points time 3.93. How many points is the final GPA value? Round both your final answer and any steps to 2 decimal places.",29.81,1.89,"1. Convert GPA to points: 1.74 * 3.96 = 6.90
+2. Change GPA by dividing points by 0.91: 6.90 / 0.91 = 7.58
+3. Multiply GPA points by 3.93: 7.58 * 3.93 = 29.81
+
+Final Answer: 29.81"
+problem_177,"Chitra starts with an 181.08 percent change in lighting. First the percentage change gets divided by 3.56. As a percentage, what is the final shift as a percentage change? Keep only 2 decimal places in your answer and any work shown.",50.84,50.87,"Step 1: Calculate the new percentage change after dividing by 3.56
+New percentage change = 181.08 / 3.56 = 50.84%
+
+Final Answer: 50.84%"
+problem_181,"The department stockroom contains 35 textbooks that Keiko oversees. First, after dividing the books into 7 equal parts, Keiko keeps one part and removes the rest. Later, she adds 5 more textbooks to the collection. What is the current inventory of textbooks in the end?",35.0,10.0,"Initially, Keiko divides the 35 textbooks into 7 equal parts, which means each part contains 35 / 7 = 5 textbooks.
+
+Keiko keeps one part, which is 5 textbooks, and removes the remaining 6 parts, which is 6 * 5 = 30 textbooks.
+
+After removing 30 textbooks, Keiko adds 5 more textbooks to the collection, resulting in a total of 30 + 5 = 35 textbooks.
+
+Therefore, the current inventory of textbooks in the end is 35.
+
+Final Answer: 35"
+problem_182,"Zain records an initial change of 0.97 points in the rating. First, the total change undergoes multiplication by 0.51. Later, the total adjustment reduces by 0.04 points. Following that, the adjustment undergoes multiplication by 0.58. Then, he applies a 0.31 division to the current change. How many points are the final change? Round both your final answer and any steps to 2 decimal places.",0.85,0.84,"Step 1: Initial change undergoes multiplication by 0.51
+0.97 * 0.51 = 0.4947
+
+Step 2: Total adjustment reduces by 0.04 points
+0.4947 - 0.04 = 0.4547
+
+Step 3: Adjustment undergoes multiplication by 0.58
+0.4547 * 0.58 = 0.2638
+
+Step 4: Apply a division of 0.31 to the current change
+0.2638 / 0.31 = 0.85
+
+Final Answer: 0.85"
+problem_183,"In the lab, Gabriel measures 0.12 parts cement for the concrete mix. First, the mixture grows to 3.11 times its current level in parts. Next, he adjusts the formula to 2.36 times current measure in parts. How many parts are there now? When showing work, use only 2 decimal places for all calculations and the answer.",0.88,0.87,"First, we calculate the amount of cement after the first growth:
+0.12 parts * 3.11 = 0.3732 parts
+
+Next, we adjust the formula to 2.36 times the current measure:
+0.3732 parts * 2.36 = 0.8816 parts
+
+Final Answer: 0.88 parts"
+problem_184,"In active trading, Kevin notices a change of 1.82 dollars. First, Kevin notes a decrease of 0.04 dollars. Next, Kevin notes an additional rise of 0.02 dollars. Later, the price moves up another 0.04 dollars, and later the price change is divided by 0.38. How many dollars is the total change now? Keep only 2 decimal places in your answer and any work shown.",0.05,4.84,"The total change is calculated as follows:
+
+1. Decrease of 0.04 dollars: -0.04
+2. Additional rise of 0.02 dollars: -0.04 + 0.02 = -0.02
+3. Price moves up another 0.04 dollars: -0.02 + 0.04 = 0.02
+4. Price change divided by 0.38: 0.02 / 0.38 ≈ 0.0526
+
+Therefore, the total change is approximately 0.05 dollars.
+
+Final Answer: 0.05"
+problem_192,"Ismail audits 7 financial transactions for compliance. Then, Ismail brings the number of payment transactions to be 6 times its current number. What is the total number of transactions now?",49.0,42.0,"The current number of payment transactions is 7.
+
+If Ismail brings the number of payment transactions to be 6 times its current number, then the new number of payment transactions will be 7 * 6 = 42.
+
+Adding the initial 7 financial transactions to the new 42 payment transactions, the total number of transactions now is 7 + 42 = 49.
+
+Final Answer: 49"
+problem_194,"Yuki surveys 54.85 hectares of land for a farming development. Then, the total farmland is reduced after being split into 8.30 equal parts, with one part kept. What size is the land in hectares? Round your answer and any steps to 2 decimal places.",6.6,6.61,"To find the size of one part of the land, we divide the total land surveyed by the number of equal parts it was split into and then keep one part.
+
+Size of one part = 54.85 hectares / 8.30 parts = 6.60 hectares
+
+Final Answer: 6.60 hectares"
+problem_199,"In the north field, Olivia surveys 6.67 hectares of land for their farm. Then, Olivia splits the land into 1.17 equal parts, reducing the total to one part, and next she sells 0.68 hectares to an estate sale, diminishing the total, and after that Olivia ends up with one plot after dividing the land into 2.33 equal plots. Later, she develops the property to be 2.05 times its present size. What is the current size of the property in hectares? All calculations and the final answer should be rounded to 2 decimal places.",4.4,4.41,"1. First, let's find the size of one part after Olivia splits the land into 1.17 equal parts:
+Total size of land = 6.67 hectares
+Size of one part = 6.67 hectares / 1.17 = 5.70 hectares
+
+2. Next, let's find the size of the land after Olivia sells 0.68 hectares to an estate sale:
+Remaining land size = 5.70 hectares - 0.68 hectares = 5.02 hectares
+
+3. Then, let's find the size of one plot after Olivia divides the land into 2.33 equal plots:
+Size of one plot = 5.02 hectares / 2.33 = 2.15 hectares
+
+4. Finally, let's find the current size of the property after Olivia develops it to be 2.05 times its present size:
+Current size of the property = 2.05 * 2.15 hectares = 4.40 hectares
+
+Final Answer: 4.40"
+problem_201,"Zain surveys the terrain at 11.3 meters height relative to street level. First the elevation is multiplied by 3.7. Then, he applies a 1/6.6 factor to the elevation, and next Zain lowers the target level by 1.1 meters. Next, he scales the elevation by a factor of 3.1. What is the final relative elevation in meters? Give your answer and work (if shown) rounded to 1 decimal place.",16.2,16.1,"First, we multiply the initial elevation of 11.3 meters by 3.7:
+11.3 * 3.7 = 41.81
+
+Next, we apply a 1/6.6 factor to the elevation:
+41.81 * (1/6.6) = 6.34
+
+Then, Zain lowers the target level by 1.1 meters:
+6.34 - 1.1 = 5.24
+
+Finally, we scale the elevation by a factor of 3.1:
+5.24 * 3.1 = 16.244
+
+Final Answer: 16.2"
+problem_203,"The kitchen's temperature gauge reads 70.5 degrees Celsius. In the beginning, the temperature is modified to be 1/3.5 of its current value, and after that the recipe requires reducing the temperature by 20.3 degrees. What is the total temperature? Keep only 1 decimal place in your answer and any work shown.",0.2,-0.2,"First, we find 1/3.5 of the current temperature:
+\( \frac{1}{3.5} \times 70.5 = 20.1 \) degrees Celsius
+
+Next, we reduce this value by 20.3 degrees:
+\( 20.1 - 20.3 = -0.2 \) degrees Celsius
+
+The total temperature after these modifications is 0.2 degrees Celsius.
+
+Final Answer: 0.2"
+problem_204,"Keiko audits 3 financial transactions for compliance. First the total transaction count is divided by 3. Given this information, how many transactions are there?",9.0,1.0,"Let the total number of transactions be represented by \(x\).
+
+The total transaction count is divided by 3, so we have the equation:
+\(\frac{x}{3} = 3\)
+
+Multiplying both sides by 3 to solve for \(x\), we get:
+\(x = 3 \times 3\)
+
+\(x = 9\)
+
+Final Answer: 9"
+problem_206,"While reviewing scores, Aisha finds a rating adjustment of 0.25 points. In the beginning, the total shift rises by 0.01 points, and then she applies a 0.40 multiplication to the running total. Later, Aisha performs a multiplication of 0.43 on the adjustment. Following that, Aisha performs a division of 0.74 on the current rating change. Given this information, what is the total rating change in points? All calculations and the final answer should be rounded to 2 decimal places.",0.06,0.05,"1. Total shift after the initial rise: 0.25 + 0.01 = 0.26
+
+2. Total shift after applying a multiplication of 0.40: 0.26 * 0.40 = 0.104
+
+3. Total shift after applying a multiplication of 0.43: 0.104 * 0.43 = 0.04472
+
+4. Total shift after performing a division of 0.74: 0.04472 / 0.74 = 0.06059
+
+Final Answer: 0.06"
+problem_207,"Raj starts with a 337.03 percent change in lighting. First Raj makes the total percentage change be 1/3.21 of what it was. Later, a multiplication by 3.48 is applied to the running percentage change total. Following that, Raj applies an additional 18.63 as a percent change adjustment, and then the current percentage change decreases by 13.93. And now, what is the final shift as a percentage change? Express your answer and any intermediate steps to 2 decimal places.",370.1,370.07,"Step 1: Calculate the total percentage change after the first adjustment.
+337.03% * 1/3.21 = 105.00%
+
+Step 2: Apply the multiplication by 3.48 to the running percentage change total.
+105.00% * 3.48 = 365.40%
+
+Step 3: Apply an additional 18.63 as a percent change adjustment.
+365.40% + 18.63% = 384.03%
+
+Step 4: Decrease the current percentage change by 13.93.
+384.03% - 13.93% = 370.10%
+
+Final Answer: 370.10%"
+problem_215,"For phase one of the construction project, Kevin budgets 2,627,088 dollars. In the beginning, Kevin reduces the project budget by a factor of 16, and later Kevin arranges an additional 237,671 dollars. Next, 53,137 dollars were added. Later, Kevin adds 57,009 dollars. Following that, Kevin reduces the project budget by a factor of 3. How many dollars are in the allocation?",170336.67,170670.0,"Step 1: Reduce the project budget by a factor of 16
+Budget after reduction: 2,627,088 / 16 = 164,193
+
+Step 2: Add 237,671 dollars
+Budget after addition: 164,193 + 237,671 = 401,864
+
+Step 3: Add 53,137 dollars
+Budget after addition: 401,864 + 53,137 = 454,001
+
+Step 4: Add 57,009 dollars
+Budget after addition: 454,001 + 57,009 = 511,010
+
+Step 5: Reduce the project budget by a factor of 3
+Budget after reduction: 511,010 / 3 = 170,336.66666666666
+
+Final Answer: 170,336.67"
+problem_220,"Nina activates 21 bank accounts in the system. First the total increases to be2 times greater than it was, and later Nina divides the account number by 21, and next the database expanded with 5 additional accounts. Next, she scales the account total by a factor of 3. And now, how many accounts are there?",27.0,21.0,"Step 1: Total number of accounts after Nina activates 21 bank accounts: 21 + 21 = 42
+
+Step 2: Total number of accounts after it increases to be 2 times greater: 42 * 2 = 84
+
+Step 3: Total number of accounts after dividing by 21: 84 / 21 = 4
+
+Step 4: Total number of accounts after expanding with 5 additional accounts: 4 + 5 = 9
+
+Step 5: Total number of accounts after scaling by a factor of 3: 9 * 3 = 27
+
+Final Answer: 27"
+problem_221,"During the scene, Thomas notes a 1.52 percent change in lighting. Then, the total percentage change becomes 1/2.58 of what it was, and later he multiplies the current percentage change by 2.93. As a percentage, what is the total adjustment as a percentage change? Make sure to round both your answer and any steps to 2 decimal places.",5.59,1.73,"Step 1: Calculate the total percentage change after the initial 1.52% change and the subsequent adjustment.
+Total percentage change = 1.52% + (1/2.58 * 1.52%)
+Total percentage change = 1.52% + (0.3876%)
+Total percentage change = 1.9076%
+
+Step 2: Multiply the current percentage change by 2.93.
+Adjusted percentage change = 1.9076% * 2.93
+Adjusted percentage change = 5.5867%
+
+Final Answer: 5.59%"
+problem_225,"Pradeep notes a movement of 2.12 dollars. First the movement is scaled by a factor of 1.18. Later, the change is adjusted by dividing by 0.50. And now, what is the total change in dollars? Keep only 2 decimal places in your answer and any work shown.",5.01,5.0,"The initial movement is 2.12 dollars.
+
+1. Scaling the movement by a factor of 1.18:
+2.12 * 1.18 = 2.5056
+
+2. Adjusting the change by dividing by 0.50:
+2.5056 / 0.50 = 5.0112
+
+Final Answer: 5.01"
+problem_226,"Raj schedules 8.1 study hours for the week for midterms. Then, the study duration is divided equally by 6. How many hours are there in the end? Give your answer and work (if shown) rounded to 1 decimal place.",1.4,1.3,"To find the number of hours Raj will study each day, we need to divide the total study hours by the number of days in the week:
+
+8.1 hours / 6 days = 1.35 hours per day
+
+Final Answer: 1.4 hours"
+problem_244,"Victoria tracks an adjustment of 0.17 points in the rating. In the beginning, Victoria adjusts the rating change by dividing it by 0.71. Later, a multiplication of 0.57 is applied. Following that, the current change increases by 0.02 points. Then, the adjustment is multiplied by 0.60. Next, an extra 0.01 points are added from the rating tracker, and that increases the change. How many points are the total rating change? Keep only 2 decimal places in your answer and any work shown.",0.1,0.11,"Step 1: Divide the initial adjustment of 0.17 points by 0.71.
+0.17 / 0.71 = 0.2394
+
+Step 2: Multiply the result by 0.57.
+0.2394 * 0.57 = 0.136758
+
+Step 3: Add 0.02 points to the current change.
+0.136758 + 0.02 = 0.156758
+
+Step 4: Multiply the adjusted change by 0.60.
+0.156758 * 0.60 = 0.0940548
+
+Step 5: Add an extra 0.01 points from the rating tracker.
+0.0940548 + 0.01 = 0.1040548
+
+Final Answer: 0.10"
+problem_249,"While mixing concrete, Pradeep uses 0.20 parts cement. Then, the ratio becomes 2.25 times its present number of parts. Then, Pradeep updates the formula, making the cement one-7.77 of its previous measure as a number of parts, and next following mix optimization, cement decreases by 0.04 parts. What is the final total of parts? Express your answer and any intermediate steps to 2 decimal places.",1.06,0.02,"1. Initially, the ratio of cement to the total parts is 0.20. Let's denote the total parts as x. So, the amount of cement is 0.20x.
+
+2. After the first update, the new ratio of cement to the total parts becomes 2.25 times the initial ratio. Therefore, the new amount of cement is 2.25 * 0.20x = 0.45x.
+
+3. After the second update, the new ratio of cement to the total parts becomes 1/7.77 of the previous ratio. Therefore, the new amount of cement is (1/7.77) * 0.45x ≈ 0.0578x.
+
+4. Finally, after the last update, the cement decreases by 0.04 parts. So, the final amount of cement is 0.0578x - 0.04.
+
+5. The total parts in the final mix will be the sum of the final amount of cement and the other parts, which is x. Therefore, the total parts in the final mix is x + 0.0578x - 0.04 = 1.0578x - 0.04.
+
+Final Answer: 1.06x"
+problem_264,"Alexander verifies 5 financial transactions for records. First 3 transactions were deleted from the records, and next the running total grows by a factor of 3. Later, Alexander voids 5 transactions. Following that, he scales the payment up 3-fold. Given this information, how many transactions are there?",-3.0,3.0,"Let's denote the initial number of transactions as $x$.
+
+After verifying 5 transactions, the total becomes $x + 5$.
+
+After deleting the first 3 transactions, the total becomes $x + 5 - 3 = x + 2$.
+
+After the running total grows by a factor of 3, the total becomes $3(x + 2) = 3x + 6$.
+
+After voiding 5 transactions, the total becomes $3x + 6 - 5 = 3x + 1$.
+
+After scaling the payment up 3-fold, the total becomes $3(3x + 1) = 9x + 3$.
+
+Given that the final total is the number of transactions, we have $9x + 3 = x$.
+
+Solving for $x$, we get $8x = -3$.
+
+Therefore, the number of transactions is $x = -\frac{3}{8}$.
+
+Final Answer: -3/8"
+problem_271,"Sebastian observes a shift of 0.37 points in the score. First the adjustment undergoes multiplication by 0.44. Next, Sebastian performs a division of 0.24 on the current rating change. Later, the adjustment is multiplied by 0.79. And now, what is the final shift in points? Give your answer and work (if shown) rounded to 2 decimal places.",0.54,0.53,"Step 1: 0.37 points * 0.44 = 0.1628
+
+Step 2: 0.1628 / 0.24 = 0.6783
+
+Step 3: 0.6783 * 0.79 = 0.5354
+
+Final Answer: 0.54"
+problem_272,"Raj stores 28 pieces of sports equipment for the upcoming tournament. In the beginning, Raj evenly divides the equipment into 4 groups, and proceeds to make the total equal to only one group's share, and then he separates the equipment into 7 equal amounts, and sets the total inventory size to that of a single amount's share. What is the resulting equipment count?",7.0,1.0,"Let's denote the total number of sports equipment as $x$.
+
+1. In the beginning, Raj divides the equipment into 4 groups:
+Each group has $x/4$ pieces of equipment.
+
+2. Raj then makes the total equal to only one group's share:
+$x = \frac{x}{4}$
+
+Solving for $x$:
+$4x = x$
+$4x - x = 0$
+$3x = 0$
+$x = 0$
+
+3. Now, we know that the total number of sports equipment is 0, which doesn't make sense. Let's reevaluate the problem.
+
+Given that Raj has 28 pieces of sports equipment, let's start over.
+
+1. Raj has 28 pieces of sports equipment.
+$x = 28$
+
+2. Raj divides the equipment into 4 groups:
+Each group has $28/4 = 7$ pieces of equipment.
+
+3. Raj then makes the total equal to only one group's share:
+$28 = 7$
+
+This step doesn't make sense mathematically. Let's correct the mistake.
+
+Given that Raj has 28 pieces of sports equipment, the correct equation should be:
+$28 = \frac{28}{4}$
+
+Solving for $x$:
+$28 = 7$
+
+Therefore, the resulting equipment count is $\boxed{7}$.
+
+Final Answer: 7"
+problem_273,"Sebastian prepares 8.9 study hours for next week, getting ready for finals. First the study duration is divided equally by 3.7, and later he sets the learning period to 2.2 times its current length. What is the total time in hours? Express your answer and any intermediate steps to 1 decimal place.",15.9,5.3,"Step 1: Divide the total study hours by 3.7 to find the initial study duration per session.
+8.9 / 3.7 = 2.4
+
+Step 2: Multiply the initial study duration by 2.2 to find the final study duration per session.
+2.4 * 2.2 = 5.3
+
+Step 3: Calculate the total study time by multiplying the final study duration by 3 (as there are 3 sessions).
+5.3 * 3 = 15.9
+
+Final Answer: 15.9"
+problem_274,"Bianca checks the pantry and finds 14.98 kilograms of flour. First Bianca diminishes the current amount of flour by a factor of 11.26, and later 0.15 kilograms were used up. Next, Bianca multiplies the flour amount by a factor of 2.23. Later, she scales up the flour in the recipe 2.13-fold. Following that, their flour supply grew by 0.25 more kilograms. How much flour is there now, in kilograms? Keep only 2 decimal places in your answer and any work shown.",5.86,5.85,"Step 1: Decrease the amount of flour by a factor of 11.26
+14.98 kg / 11.26 = 1.33 kg
+
+Step 2: Subtract 0.15 kg used up
+1.33 kg - 0.15 kg = 1.18 kg
+
+Step 3: Multiply the flour amount by a factor of 2.23
+1.18 kg * 2.23 = 2.63 kg
+
+Step 4: Scale up the flour in the recipe 2.13-fold
+2.63 kg * 2.13 = 5.61 kg
+
+Step 5: Add 0.25 kg to the flour supply
+5.61 kg + 0.25 kg = 5.86 kg
+
+Final Answer: 5.86 kg"
+problem_277,"Maya has 40.27 kilograms of flour ready at their workstation. In the beginning, Maya diminishes the current amount of flour by a factor of 15.28. Then, she combines 0.34 more kilograms from the dry storage, raising the total. Next, Maya scales up the flour in the recipe 3.31-fold. Later, she combines 0.11 more kilograms from the prep kitchen, raising the total. Finally, how many kilograms of flour are there? All calculations and the final answer should be rounded to 2 decimal places.",9.94,9.97,"Step 1: Decrease the current amount of flour by a factor of 15.28.
+40.27 kg / 15.28 = 2.63 kg
+
+Step 2: Combine 0.34 kg more from the dry storage.
+2.63 kg + 0.34 kg = 2.97 kg
+
+Step 3: Scale up the flour in the recipe 3.31-fold.
+2.97 kg * 3.31 = 9.83 kg
+
+Step 4: Combine 0.11 kg more from the prep kitchen.
+9.83 kg + 0.11 kg = 9.94 kg
+
+Final Answer: 9.94 kilograms"
+problem_288,"For this semester's classes, Ethan prepares 3 textbooks. First after dividing the books into 3 equal parts, Ethan keeps one part and removes the rest, and then the current number of books increases to 4 times its present amount. Later, Ethan splits the current books into 2 identical portions, holding onto a single portion. Following that, 1 textbook was removed. Then, Ethan brings in 2 additional textbooks from the book repository. What is the current inventory of textbooks in the end?",0.0,3.0,"Let's denote the initial number of textbooks as $x$.
+
+1. After dividing the books into 3 equal parts, Ethan keeps one part and removes the rest, increasing the current number of books to 4 times its present amount:
+$\frac{x}{3} + \frac{x}{3} = \frac{x}{3} \times 4$
+$\frac{2x}{3} = 4 \times \frac{x}{3}$
+$2x = 4x$
+$2x - 4x = 0$
+$-2x = 0$
+$x = 0$
+
+This implies that Ethan started with 0 textbooks, which is not possible. Therefore, there seems to be an error in the problem statement."
+problem_289,The electronic timing system measures an athletic reaction time of 347.6 milliseconds. First practice brings the reaction time down to 1/2.3 of its present millisecond value. What is the final reaction time in milliseconds? All calculations and the final answer should be rounded to 1 decimal place.,150.7,151.1,"To find the new reaction time after the first practice, we need to divide the current reaction time by 2.3.
+
+347.6 milliseconds / 2.3 = 150.7 milliseconds
+
+Final Answer: 150.7 milliseconds"
+problem_291,"Layla handles 19 financial transactions at the bank. Then, Layla keeps only one queue of transactions after breaking down the transaction total evenly into 19 queues. What is the total number of transactions in the end?",19.0,1.0,"To find the total number of transactions in the end, we need to multiply the initial number of transactions by the number of queues.
+
+Total number of transactions = 19 queues * 1 transaction per queue
+Total number of transactions = 19
+
+Final Answer: 19"
+problem_297,"Liam begins with a rating adjustment of 0.90 points. Then, a multiplication of 0.69 is applied. Following that, Liam multiplies the current change by 0.75. How many points are the final shift? Make sure to round both your answer and any steps to 2 decimal places.",0.47,0.46,"Step 1: Initial adjustment = 0.90 points
+
+Step 2: Initial adjustment * 0.69 = 0.90 * 0.69 = 0.6210
+
+Step 3: Final shift = 0.6210 * 0.75 = 0.4658
+
+Final Answer: 0.47"
+problem_299,"For the upcoming training program, Priya measures 8.9 kilometers. First, Priya decreases the total length by partitioning the existing route into 2.1 equal intervals, and preserving one interval's length. Then, Priya lengthens the trail by 2.3 kilometers. How many kilometers does the final layout measure? Round your answer and any steps to 1 decimal place.",10.7,6.5,"1. Length of one interval after partitioning: \( \frac{8.9}{2.1} = 4.2 \) kilometers.
+
+2. Total length after partitioning: \( 4.2 + 4.2 = 8.4 \) kilometers.
+
+3. Length after lengthening the trail: \( 8.4 + 2.3 = 10.7 \) kilometers.
+
+Final Answer: 10.7"
+problem_303,"While checking the equipment and cooking a recipe, Gabriel notes a temperature of 53.9 degrees Celsius. In the beginning, the temperature setting is set to 1/10.1 of its value. Finally, how many degrees are there? Round both your final answer and any steps to 1 decimal place.",544.4,5.3,"To find the final temperature, we need to multiply the initial temperature by 10.1.
+
+Initial temperature = 53.9 degrees Celsius
+Final temperature = 53.9 * 10.1
+Final temperature = 544.39
+
+Final Answer: 544.4 degrees"
+problem_307,"The ground temperature measures 7.71 degrees Celsius. In the beginning, the temperature values are adjusted to be 1/3.57 the value they were before, and later the temperature values are adjusted to be 1/3.45 the value they were before. Then, the sensors detect warming of 0.39 degrees, and then a correction results in the temperature being set to 1/3.56 of its current value, and later the temperature decreases by 0.39 degrees. What temperature is the soil in Celsius? Round your answer and any steps to 2 decimal places.",-0.11,-0.1,"1. Adjusting the temperature to be 1/3.57 of the original value:
+7.71 / 3.57 = 2.15
+
+2. Adjusting the temperature to be 1/3.45 of the original value:
+2.15 / 3.45 = 0.62
+
+3. After a warming of 0.39 degrees:
+0.62 + 0.39 = 1.01
+
+4. Setting the temperature to 1/3.56 of its current value:
+1.01 / 3.56 = 0.28
+
+5. Decreasing the temperature by 0.39 degrees:
+0.28 - 0.39 = -0.11
+
+Final Answer: -0.11"
+problem_309,"William organizes 24 pieces of sports equipment for circuit training. Then, William diminishes the equipment to 3 times its current size, and later the total increases by a factor of 4. Next, William decreases the size of the inventory by a factor of 4, and after that he scales the available equipment to 3 times the current amount. Later, William separates the equipment into 2 equal amounts, and sets the total inventory size to that of a single amount's share. How many pieces of equipment are there?",108.0,12.0,"1. Original number of equipment: 24
+
+2. After diminishing to 3 times the size: 24 * 3 = 72
+
+3. Total after increasing by a factor of 4: 72 * 4 = 288
+
+4. Decreasing by a factor of 4: 288 / 4 = 72
+
+5. Scaling to 3 times the amount: 72 * 3 = 216
+
+6. Separating into 2 equal amounts: 216 / 2 = 108
+
+Final Answer: 108"
+problem_319,"Jack is measuring soil temperature. The soil sensor reads 23.25 degrees Celsius. In the beginning, the temperature values are adjusted to be 1/2.46 the value they were before. What is the final temperature reading in degrees Celsius? Give your answer and work (if shown) rounded to 2 decimal places.",57.14,9.45,"To find the final temperature reading, we need to multiply the current reading by 2.46.
+
+Final Temperature = 23.25 * 2.46
+Final Temperature = 57.135
+
+Final Answer: 57.14"
+problem_326,"Elena instructs 1 performer for a number. First Elena takes the present total and multiplies it by 2, and after that Elena includes 5 more performers from the talent agency. Following that, after dividing the performers into 7 equal troupes, Elena keeps only one troupe. Now, what is the final performer count in the cast?",7.0,1.0,"Let's denote the initial number of performers as \(x\).
+
+1. Elena multiplies the total by 2: \(2x\).
+2. Elena adds 5 more performers: \(2x + 5\).
+3. Elena divides the total by 7: \(\frac{2x + 5}{7}\).
+4. Elena keeps one troupe: \(\frac{2x + 5}{7} \times 1 = \frac{2x + 5}{7}\).
+
+Therefore, the final performer count in the cast is \(\frac{2x + 5}{7}\).
+
+Final Answer: \(\frac{2x + 5}{7}\)"
+problem_328,"During pre-season setup, Alexander inventories 42 pieces of sports equipment. First Alexander diminishes the equipment to 7 times its current size, and later the available total drops by 3 pieces, and next the available equipment expands to 3 times the existing amount, and later he lowers the current count by 2 pieces for certification. How many pieces of equipment are there?",871.0,7.0,"Initial count of sports equipment: 42
+
+After diminishing to 7 times the current size: 42 * 7 = 294
+
+After dropping by 3 pieces: 294 - 3 = 291
+
+Expanding to 3 times the existing amount: 291 * 3 = 873
+
+Lowering the count by 2 pieces for certification: 873 - 2 = 871
+
+Final Answer: 871"
+problem_331,"At the trading desk, Anna spots a move of 4.52 dollars. In the beginning, the price change is multiplied by 0.99. And now, how many dollars is the total change? All calculations and the final answer should be rounded to 2 decimal places.",4.48,4.47,"The total change after multiplying by 0.99 is:
+4.52 * 0.99 = 4.4788
+
+Rounded to 2 decimal places, the total change is:
+4.48
+
+Final Answer: 4.48"
+problem_334,"Grace is measuring soil temperature. The soil sensor reads 22.84 degrees Celsius. First the measurements need to be scaled down by 1/3.84 due to sensor calibration. Later, the calibration software multiplies all readings by 2.33. What temperature do the soil probes show in Celsius? Give your answer and work (if shown) rounded to 2 decimal places.",13.88,13.86,"Step 1: Scale down the initial reading by 1/3.84
+22.84 / 3.84 = 5.94791667
+
+Step 2: Multiply the scaled down reading by 2.33
+5.94791667 * 2.33 = 13.87645833
+
+Final Answer: 13.88 degrees Celsius"
+problem_335,"Indira's training data shows a change of 1.2 percent in overall fitness metrics. First, the performance change is scaled by a factor of 1/-0.5, and next she sees the change in performance increase by 1.4 percent. What is the resulting performance change? All calculations and the final answer should be rounded to 1 decimal place.",3.8,-1.0,"Step 1: Calculate the scaled performance change:
+1.2% * (-1/0.5) = -1.2% * (-2) = 2.4%
+
+Step 2: Add the increase of 1.4% to the scaled performance change:
+2.4% + 1.4% = 3.8%
+
+Final Answer: 3.8%"
+problem_338,"For the fitness course layout, Amir charts 11.2 kilometers. In the beginning, Amir sections the current path into 6.2 equal portions, and removes all but one portion's distance, and then Amir expands the course by 2.5 kilometers. Later, Amir scales up the route distance with a multiple of 2.5. What is the ultimate trail length? Give your answer and work (if shown) rounded to 1 decimal place.",8.8,10.8,"1. Initially, Amir removes all but one portion's distance from the 6.2 equal portions:
+   6.2 km / 6 = 1.0333 km
+
+2. After removing all but one portion's distance, Amir expands the course by 2.5 km:
+   1.0333 km + 2.5 km = 3.5333 km
+
+3. Later, Amir scales up the route distance by a multiple of 2.5:
+   3.5333 km * 2.5 = 8.8333 km
+
+Final Answer: 8.8 kilometers"
+problem_339,"Nina clocks a reaction time of 396.1 milliseconds at the qualification trials. Then, the reaction time goes down to 1/2.4 of the current reading in milliseconds. Then, she observes the reaction time increase to 2.2 times the current number of milliseconds. Next, practice brings the reaction time down to 1/2.1 of its present millisecond value. What is the total in milliseconds? Use only 1 decimal place for your answer and any calculations shown.",1096.7,172.9,"1. Reaction time after qualification trials: 396.1 milliseconds
+
+2. Reaction time decreases to 1/2.4 of the current reading: 396.1 / 2.4 = 165.04 milliseconds
+
+3. Reaction time increases to 2.2 times the current number of milliseconds: 165.04 * 2.2 = 363.09 milliseconds
+
+4. Reaction time decreases to 1/2.1 of its present millisecond value: 363.09 / 2.1 = 172.42 milliseconds
+
+Total reaction time: 396.1 + 165.04 + 363.09 + 172.42 = 1096.65 milliseconds
+
+Final Answer: 1,096.7"
+problem_345,"Mohammed is surveying 7.66 hectares of land for planting. Then, the land area is multiplied by 2.38. Following that, he expands their holdings to 2.57 times the current size, and next Mohammed sells 1.29 hectares to a land bank, diminishing the total. What is the current farming area in hectares? Keep only 2 decimal places in your answer and any work shown.",45.54,45.56,"1. Initial land area surveyed: $7.66$ hectares
+2. Land area multiplied by $2.38$: $7.66 \times 2.38 = 18.228$ hectares
+3. Land area expanded to $2.57$ times the current size: $18.228 \times 2.57 = 46.82516$ hectares
+4. Mohammed sells $1.29$ hectares to a land bank: $46.82516 - 1.29 = 45.53516$ hectares
+
+Final Answer: 45.54 hectares"
+problem_348,"Mohammed is measuring soil temperature. The soil sensor reads 1.69 degrees Celsius. In the beginning, a unit conversion error is discovered, requiring all temperatures to be divided by 2.34. Following that, the soil warms by 0.31 degrees. Then, a system-wide scaling factor multiplies the temperature by 2.09. What does the soil temperature sensor read in degrees Celsius? Keep only 2 decimal places in your answer and any work shown.",2.16,2.15,"1. Convert the initial reading to the correct value after the unit conversion error:
+1.69 / 2.34 = 0.72222
+
+2. Add the temperature increase:
+0.72222 + 0.31 = 1.03222
+
+3. Apply the system-wide scaling factor:
+1.03222 * 2.09 = 2.157
+
+Final Answer: 2.16"
+problem_351,"Grace begins with -649.78 dollars in the account balance. First, the balance is multiplied by 1.22. Then, she gains 33.69 more dollars from a deposit. Next, Grace scales the account value 1.23-fold. How many dollars are there? Use only 2 decimal places for your answer and any calculations shown.",-933.41,-933.62,"Step 1: -649.78 * 1.22 = -792.3576
+
+Step 2: -792.3576 + 33.69 = -758.6676
+
+Step 3: -758.6676 * 1.23 = -933.413548
+
+Final Answer: -933.41"
+problem_357,"Liam notes a GPA of 1.38. In the beginning, the GPA is multiplied by a factor of 2.87, making this the new number of points, and then the grade curve changes the GPA to be 1/0.99 of the current value in points. What is the final score's value in points? Give your answer and work (if shown) rounded to 2 decimal places.",3.9996,4.0,"1. Multiply the initial GPA by 2.87:
+$1.38 \times 2.87 = 3.9636$
+
+2. Change the GPA to be 1/0.99 of the current value in points:
+$3.9636 \times \frac{1}{0.99} = 3.9996$
+
+Final Answer: 3.9996"
+problem_363,"Thomas starts mise en place with 45 serving plates. First Thomas holds onto just one set of plates after breaking the total into 9 equal sets. Now, what is the current inventory of plates?",40.0,5.0,"Total serving plates = 45
+
+Number of sets = 9
+
+Number of plates in each set = 45 / 9 = 5
+
+Number of plates Thomas holds onto = 1 set = 5 plates
+
+Current inventory of plates = Total plates - Plates Thomas holds onto = 45 - 5 = 40
+
+Final Answer: 40"
+problem_364,"William starts the morning shift with 18.97 kilograms of flour. Then, 0.50 more kilograms were added to the supply, and later 0.47 more kilograms were added to the supply. Following that, the pantry was reduced by 0.33 kilograms. Then, the amount of flour increases to 2.02 times its present level. Finally, how much flour is there now, in kilograms? Round your answer and any steps to 2 decimal places.",39.62,39.61,"1. Initial amount of flour: 18.97 kg
+
+2. Added 0.50 kg: 18.97 + 0.50 = 19.47 kg
+
+3. Added 0.47 kg: 19.47 + 0.47 = 19.94 kg
+
+4. Reduced by 0.33 kg: 19.94 - 0.33 = 19.61 kg
+
+5. Increased to 2.02 times: 19.61 * 2.02 = 39.62 kg
+
+Final Answer: 39.62 kg"
+problem_366,"Charlotte starts the account with 306.91 dollars. First, Charlotte brings the value to 2.07 times its current amount. How many dollars are there? Round both your final answer and any steps to 2 decimal places.",634.74,635.3,"To find the new amount after increasing by 2.07 times, we multiply the current amount by 2.07.
+
+New amount = 306.91 * 2.07 = 634.74
+
+Final Answer: 634.74"
+problem_367,"Alexander starts with 454.57 dollars in the bank account. First, the balance is divided by 116.15. Then, Alexander receives 38.56 more dollars from a transfer, and then Alexander brings the value to 1.67 times its current amount. Next, he deposits 29.17 more dollars from a payment. Later, 36.13 dollars were subtracted. How many dollars are there in total? Make sure to round both your answer and any steps to 2 decimal places.",64.0,63.96,"Step 1: 454.57 / 116.15 = 3.91
+Step 2: 3.91 + 38.56 = 42.47
+Step 3: 42.47 * 1.67 = 70.96
+Step 4: 70.96 + 29.17 = 100.13
+Step 5: 100.13 - 36.13 = 64.00
+
+Final Answer: 64.00"
+problem_368,"Layla begins planning out their farm with 36.48 hectares of land. Then, Layla scales up the land 2.14-fold. Next, she reduces their agricultural footprint by 2.01 hectares. Later, the land holdings become smaller by 0.99 hectares. Following that, Layla splits the property by 3.39, resulting in a smaller plot. Then, 0.62 additional hectares were added to the farm. How many hectares does the farm now cover? Round your answer and any steps to 2 decimal places.",22.77,22.76,"1. Initial land size: 36.48 hectares
+
+2. Scaling up the land by 2.14 times: 36.48 hectares * 2.14 = 78.11 hectares
+
+3. Reducing agricultural footprint by 2.01 hectares: 78.11 hectares - 2.01 hectares = 76.10 hectares
+
+4. Land holdings becoming smaller by 0.99 hectares: 76.10 hectares - 0.99 hectares = 75.11 hectares
+
+5. Splitting the property by 3.39: 75.11 hectares / 3.39 = 22.15 hectares
+
+6. Adding 0.62 additional hectares: 22.15 hectares + 0.62 hectares = 22.77 hectares
+
+Final Answer: 22.77"
+problem_370,"Food is being prepared at a starting temperature of 65.5 degrees Celsius. In the beginning, the recipe calls for dividing the temperature by 5.7, and after that she changes the recipe temperature by a factor of 2.9. What is the final temperature? Round your answer and any steps to 1 decimal place.",33.1,33.4,"Step 1: Divide the starting temperature by 5.7
+65.5 / 5.7 = 11.4
+
+Step 2: Change the temperature by a factor of 2.9
+11.4 * 2.9 = 33.1
+
+Final Answer: 33.1"
+problem_378,"Sarah records 28 pieces of sports equipment for equipment distribution planning. First, the current inventory decreases by 2 pieces. Then, she diminishes the equipment to 2 times its current size. Next, Sarah augments the existing inventory with 1 piece of sports equipment. Later, Sarah reduces the amount by equipment 5 pieces. Following that, the available equipment expands to 5 times the existing amount. What is the total number of pieces of equipment now?",240.0,45.0,"Current inventory: 28
+
+After decreasing by 2: 28 - 2 = 26
+
+Diminishing the equipment to 2 times its current size: 26 * 2 = 52
+
+Adding 1 piece: 52 + 1 = 53
+
+Reducing by 5 pieces: 53 - 5 = 48
+
+Expanding to 5 times the existing amount: 48 * 5 = 240
+
+Final Answer: 240"
+problem_393,"Sebastian finds 46.48 kilograms of flour in the storage room. First, Sebastian diminishes the current amount of flour by a factor of 3.98. Next, the flour in the recipe expands 3.51-fold. Finally, what is the total amount of kilograms of flour? All calculations and the final answer should be rounded to 2 decimal places.",40.97,41.0,"Step 1: Sebastian diminishes the current amount of flour by a factor of 3.98.
+46.48 kg / 3.98 = 11.67 kg
+
+Step 2: The flour in the recipe expands 3.51-fold.
+11.67 kg * 3.51 = 40.97 kg
+
+Final Answer: 40.97 kg"
+problem_395,"The bulk storage facility holds 44,293 tons of grain. First, Zain diminishes the total grain amount to 1/1 of its current size. Then, the inventory of grain decreases by 3,016 tons. Next, Zain reduces the available grain, making it 3 times smaller, and next he multiplies the stockpile of grain by a factor of 3. What is the final storage capacity in tons?",19130.5,41277.0,"1. First, Zain diminishes the total grain amount to 1/1 of its current size:
+44,293 tons * 1/2 = 22,146.5 tons
+
+2. Then, the inventory of grain decreases by 3,016 tons:
+22,146.5 tons - 3,016 tons = 19,130.5 tons
+
+3. Next, Zain reduces the available grain, making it 3 times smaller:
+19,130.5 tons / 3 = 6,376.833... tons
+
+4. Finally, Zain multiplies the stockpile of grain by a factor of 3:
+6,376.833... tons * 3 = 19,130.5 tons
+
+Final Answer: 19,130.5 tons"
+problem_396,"The grain elevator complex contains 11,754 tons of grain storage. First, storage increases to 3 times its present size. Later, he increases the amount in storage by 1,717 tons. How many tons are there?",37979.0,36979.0,"Step 1: Increase the storage to 3 times its present size.
+New storage = 11,754 tons * 3 = 35,262 tons
+
+Step 2: Increase the amount in storage by 1,717 tons.
+Total storage = 35,262 tons + 1,717 tons = 37,979 tons
+
+Final Answer: 37,979 tons"
+problem_397,"Amir follows 6 financial transactions through processing. Then, Amir splits the total transactions into 2 equal groups, keeps one, and discards the remainder, and next he handles 5 more transactions from the processing queue, and later the system was reduced by 4 transactions, and after that 4 more transactions were added for processing. Given this information, how many transactions are there?",16.0,8.0,"Let's denote the total number of transactions as $x$.
+
+After following 6 transactions, there are $x-6$ transactions left.
+
+Amir splits the total transactions into 2 equal groups, so each group has $\frac{x-6}{2}$ transactions.
+
+Amir keeps one group, so he keeps $\frac{x-6}{2}$ transactions and discards the remainder, which is also $\frac{x-6}{2}$ transactions.
+
+After handling 5 more transactions, Amir has $\frac{x-6}{2} + 5$ transactions left.
+
+The system was then reduced by 4 transactions, so there are $\frac{x-6}{2} + 5 - 4$ transactions remaining.
+
+Finally, 4 more transactions were added for processing, resulting in $\frac{x-6}{2} + 5 - 4 + 4$ transactions.
+
+Simplifying this expression gives $\frac{x-6}{2} + 5$, which is equal to $x$.
+
+Therefore, $\frac{x-6}{2} + 5 = x$.
+
+Solving for $x$:
+$\frac{x-6}{2} + 5 = x$
+$x - 6 + 10 = 2x$
+$16 = x$
+
+Final Answer: 16"
+problem_398,"While doing the semester audit, Fatima finds 20 textbooks. First the running count of books is reduced 4-fold. Finally, what is the total number of textbooks?",20.0,5.0,"Let's denote the initial number of textbooks as \( x \).
+
+After reducing the running count by 4-fold, the number of textbooks becomes \( x/4 \).
+
+The total number of textbooks found by Fatima is \( x/4 + 20 \).
+
+Final Answer: \( x/4 + 20 \)"
+problem_402,"Daniel observes a 424.48 percent shift in brightness. First, Daniel makes the total percentage change be 1/5.33 of what it was, and after that the running total of percentage change drops by 18.88, and later the running total of percentage change drops by 20.27. Following that, the present percentage change total drops by 24.26. And now, what is the final change as a percentage change? Make sure to round both your answer and any steps to 2 decimal places.",486.89,16.23,"Let's denote the initial percentage change observed by Daniel as \( x \).
+
+1. First, Daniel makes the total percentage change be 1/5.33 of what it was:
+New percentage change = \( \frac{1}{5.33} \times x \) = \( \frac{x}{5.33} \) = 0.1875x
+
+2. After that, the running total of percentage change drops by 18.88:
+New percentage change = 0.1875x - 18.88
+
+3. Later, the running total of percentage change drops by 20.27:
+New percentage change = 0.1875x - 18.88 - 20.27 = 0.1875x - 38.15
+
+4. Following that, the present percentage change total drops by 24.26:
+New percentage change = 0.1875x - 38.15 - 24.26 = 0.1875x - 62.41
+
+Given that the final observed percentage change is 424.48%, we have:
+0.1875x - 62.41 = 424.48
+0.1875x = 486.89
+x = 2600
+
+Therefore, the final change as a percentage change is:
+Final Answer: 486.89%"
+problem_415,"Anna's performance assessment indicates a change of 8.4 percent from an initial benchmark. First the change is scaled with a division by 0.9. Later, the change decreases by 1.9 percent. What is the final performance change? Keep only 1 decimal place in your answer and any work shown.",7.5,7.4,"Let's denote the initial benchmark as $B$.
+
+The change of 8.4 percent from the initial benchmark is calculated as $0.084 \times B$.
+
+Scaling this change by dividing by 0.9 gives us $\frac{0.084 \times B}{0.9} = 0.0933 \times B$.
+
+Now, the change decreases by 1.9 percent, which means we need to subtract $0.019 \times 0.0933 \times B$ from the scaled change.
+
+The final performance change is $0.0933 \times B - 0.019 \times 0.0933 \times B = 0.0749 \times B$.
+
+Therefore, the final performance change is 7.5 percent.
+
+Final Answer: 7.5%"
+problem_416,"Keiko activates 42 bank accounts in the system. First, Keiko holds onto a single portfolio after breaking down the accounts into 7 equal portfolios. Following that, she adds 1 more account to manage, and later 4 accounts were deactivated. Then, she splits the all accounts into 3 equal tiers and moves forward with just one tier. Now, what is the total number of accounts?",14.0,1.0,"Step 1: Keiko breaks down the 42 accounts into 7 equal portfolios.
+Each portfolio will have 42 accounts / 7 portfolios = 6 accounts.
+
+Step 2: Keiko holds onto a single portfolio.
+Keiko now has 1 portfolio.
+
+Step 3: Keiko adds 1 more account to manage.
+Total accounts = 1 portfolio + 1 account = 2 accounts.
+
+Step 4: 4 accounts were deactivated.
+Total accounts = 2 accounts - 4 deactivated accounts = -2 accounts (negative accounts indicate accounts were deactivated).
+
+Step 5: Keiko splits all accounts into 3 equal tiers.
+Each tier will have 42 accounts / 3 tiers = 14 accounts.
+
+Step 6: Keiko moves forward with just one tier.
+Keiko now has 1 tier.
+
+Final Answer: 14"
+problem_419,"Ethan checks the pantry and finds 36.95 kilograms of flour. First 0.45 kilograms were used up, and next he diminishes the current amount of flour by a factor of 18.92, and next Ethan brings the supply to 5.09 times its current level, and after that Ethan uses up 0.33 kilograms, and then 0.13 kilograms were taken away. What is the final measure of flour, in kilograms? All calculations and the final answer should be rounded to 2 decimal places.",9.38,9.36,"1. Remaining flour after using 0.45 kilograms:
+36.95 - 0.45 = 36.50 kilograms
+
+2. Diminishing the current amount of flour by a factor of 18.92:
+36.50 / 18.92 ≈ 1.93 kilograms
+
+3. Bringing the supply to 5.09 times its current level:
+1.93 * 5.09 ≈ 9.84 kilograms
+
+4. After using up 0.33 kilograms:
+9.84 - 0.33 = 9.51 kilograms
+
+5. After taking away 0.13 kilograms:
+9.51 - 0.13 = 9.38 kilograms
+
+Final Answer: 9.38 kilograms"
+problem_422,"In examining the account, Oliver notes a total of -132.13 dollars. In the beginning, 24.67 additional dollars were deposited in the account. Next, he brings the value to 1.69 times its current amount. Later, Oliver deducts 37.95 dollars from the balance. What is the final value in dollars? Make sure to round both your answer and any steps to 2 decimal places.",-219.53,-219.56,"Step 1: Initial balance + additional deposit = -132.13 + 24.67 = -107.46
+
+Step 2: Current balance * 1.69 = -107.46 * 1.69 = -181.58
+
+Step 3: Final balance after deduction = -181.58 - 37.95 = -219.53
+
+Final Answer: -219.53"
+problem_432,"Layla checks 27 bank accounts for updates. First, the account total is divided by 27. Following that, the total rises to be 5 times greater than before. Then, Layla processes 5 additional accounts from the financial advisor. And now, how many accounts are there?",5.0,10.0,"1. Let x be the initial total in the account.
+2. After dividing by 27, the total in each account is x/27.
+3. The total rises to be 5 times greater than before, so the new total is 5*(x/27) = 5x/27.
+4. Layla processes 5 additional accounts, so the final total is 5x/27 + 5.
+
+Final Answer: 5x/27 + 5"
+problem_433,"Yuki sets up 19 bank accounts for clients. First, the total count is divided by 19. How many accounts are there altogether?",19.0,1.0,"Let the total number of accounts be represented by $x$.
+
+The total count divided by 19 is:
+$x/19$
+
+Since Yuki set up 19 bank accounts, the total number of accounts is:
+$19 \times (x/19) = x$
+
+Therefore, there are 19 accounts altogether.
+
+Final Answer: 19"
+problem_434,"Elena is measuring 43.99 hectares of land for irrigation. First Elena ends up with one plot after dividing the land into 29.70 equal plots. Then, Elena adds 2.42 more hectares to their farm. Next, the property increases by a factor of 3.21. Later, she increases each plot by a factor of 3.87. Following that, Elena expands their holdings to 2.06 times the current size. How many hectares of agricultural land are there now? All calculations and the final answer should be rounded to 2 decimal places.",306.77,99.81,"1. Calculate the size of each plot:
+43.99 hectares / 29.70 plots = 1.48 hectares per plot
+
+2. Add 2.42 hectares to the farm:
+43.99 hectares + 2.42 hectares = 46.41 hectares
+
+3. Increase the property by a factor of 3.21:
+46.41 hectares * 3.21 = 148.88 hectares
+
+4. Increase each plot by a factor of 3.87:
+1.48 hectares per plot * 3.87 = 5.72 hectares per plot
+
+5. Expand the holdings to 2.06 times the current size:
+148.88 hectares * 2.06 = 306.77 hectares
+
+Final Answer: 306.77 hectares"
+problem_448,"Diana instructs 48 performers for a number. Then, the running count of performers is reduced 2-fold. Following that, the total number of performers falls by 3 performers. Then, the present ensemble expands to 2 times its current size. Next, Diana splits the current performers into 14 identical ensembles, holding onto a single ensemble. Later, the total number of performers is divided by 3. Now, what is the final performer count in the group?",14.0,1.0,"Initial number of performers: 48
+
+After reducing by 2-fold: 48 / 2 = 24 performers
+
+After reducing by 3 performers: 24 - 3 = 21 performers
+
+Expanding to 2 times the current size: 21 * 2 = 42 performers
+
+Splitting into 14 identical ensembles: 42 / 14 = 3 performers in each ensemble
+
+Diana holds onto one ensemble: 3 * 1 = 3 performers
+
+Dividing the total number of performers by 3: 42 / 3 = 14 performers
+
+Final Answer: 14"
+problem_450,"In rehearsal, Bianca guides 22 performers. In the beginning, the present performer count is multiplied by 2, and then the present number of performers is divided by 4. Next, Bianca cuts 5 performers from the current lineup, bringing down the total. Later, the running count of performers is reduced 3-fold. Now, what is the final performer count in the lineup?",18.0,2.0,"Initial performer count: 22
+
+1. Performer count after being multiplied by 2: 22 * 2 = 44
+2. Performer count after being divided by 4: 44 / 4 = 11
+3. Performer count after cutting 5 performers: 11 - 5 = 6
+4. Performer count after being reduced 3-fold: 6 * 3 = 18
+
+Final Answer: 18"
+problem_459,"At the training center, Ethan allocates 33 pieces of sports equipment across stations. In the beginning, Ethan partitions the equipment into 11 equal portions, keeps all but one portion. Next, he updates the inventory by adding 1 more piece of sports equipment from the equipment manager. Later, the total increases by a factor of 6. Following that, Ethan adds 4 pieces of sports equipment to the total. What is the current tally of pieces of equipment?",190.0,28.0,"Initially, Ethan partitions the 33 pieces of sports equipment into 11 equal portions, keeping 10 portions: 33 / 11 = 3 pieces per portion. So, Ethan keeps 10 portions * 3 pieces = 30 pieces of sports equipment.
+
+After adding 1 more piece from the equipment manager, the total becomes 30 + 1 = 31 pieces of sports equipment.
+
+Multiplying this total by 6 gives 31 * 6 = 186 pieces of sports equipment.
+
+Finally, adding 4 more pieces gives a current tally of 186 + 4 = 190 pieces of sports equipment.
+
+Final Answer: 190"
+problem_469,"Raj determines the ground position is 15.7 meters height from street level. First, using a 5.7-factor division, Raj updates the elevation, and then he increases the planned elevation by 0.8 meters. Following that, the elevation changes to 2.9 times its previous measure in meters, and then the elevation plan is modified to 3.4 times the current level in meters. Then, the elevation plan is adjusted down by 1.5 meters. What is the relative target elevation in meters? Round your answer and any steps to 1 decimal place.",34.0,33.9,"Step 1: Update the elevation by dividing by 5.7
+New elevation = 15.7 / 5.7 = 2.8 meters
+
+Step 2: Increase the elevation by 0.8 meters
+New elevation = 2.8 + 0.8 = 3.6 meters
+
+Step 3: Multiply the elevation by 2.9
+New elevation = 3.6 * 2.9 = 10.44 meters
+
+Step 4: Adjust the elevation plan to 3.4 times the current level
+New elevation = 10.44 * 3.4 = 35.496 meters
+
+Step 5: Adjust the elevation plan down by 1.5 meters
+Relative target elevation = 35.496 - 1.5 = 33.996 meters
+
+Final Answer: 34.0"
+problem_470,"For this semester's classes, Indira prepares 7 textbooks. First they divide the current number of books by 7, and next the running total of books grows to 2 times what it is now. Then, Indira grows the current stock by a factor of 6. Next, the book count is multiplied by 4. Later, Indira added 1 additional textbook. What is the textbook count?",7.0,49.0,"Let's denote the current number of textbooks as $x$.
+
+1. $x$ divided by 7: $\frac{x}{7}$
+2. Running total grows to 2 times: $2 \times \frac{x}{7} = \frac{2x}{7}$
+3. Current stock grows by a factor of 6: $6 \times \frac{2x}{7} = \frac{12x}{7}$
+4. Book count is multiplied by 4: $4 \times \frac{12x}{7} = \frac{48x}{7}$
+5. Indira added 1 additional textbook: $\frac{48x}{7} + 1 = \frac{48x + 7}{7}$
+
+Therefore, the textbook count is $\frac{48x + 7}{7}$.
+
+Final Answer: $\frac{48x + 7}{7}$"
+problem_472,"Hassan measures 42.98 hectares of land for agricultural planning. First, Hassan ends up with one plot after dividing the land into 20.02 equal plots, and then Hassan scales up the total area 3.81-fold. Then, Hassan leases out 1.26 hectares to the neighboring farm, decreasing the amount of land. Next, he loses land after allocating 1.20 hectares to a retiring farmer, and next Hassan divides the farmland into 2.76 equal plots and keeps just one plot. What is the area in hectares? Make sure to round both your answer and any steps to 2 decimal places.",58.51,2.08,"1. Initially, the total area of land is 42.98 hectares.
+2. After dividing the land into 20.02 equal plots, each plot's area is 42.98 hectares / 20.02 = 2.14 hectares.
+3. Scaling up the total area by 3.81-fold gives a new total area of 42.98 hectares * 3.81 = 163.96 hectares.
+4. Leasing out 1.26 hectares reduces the total area to 163.96 hectares - 1.26 hectares = 162.70 hectares.
+5. Allocating 1.20 hectares to the retiring farmer further reduces the total area to 162.70 hectares - 1.20 hectares = 161.50 hectares.
+6. Dividing the farmland into 2.76 equal plots and keeping just one plot means each plot's area is 161.50 hectares / 2.76 = 58.51 hectares.
+
+Final Answer: 58.51 hectares"
+problem_473,"Raj plans 3 study hours for exam prep. First, Raj diminishes the current time by a factor of 2.3. How many hours are there in the end? Keep only 1 decimal place in your answer and any work shown.",6.9,1.3,"To find the final study hours, we need to multiply the initial study hours by 2.3.
+
+3 hours * 2.3 = 6.9 hours
+
+Final Answer: 6.9 hours"
+problem_477,"Benjamin organizes 7 students into study groups. In the beginning, the total number of students undergoes a division by 7. Following that, he sets the total number of students to 3 times its current amount. Then, the total number of students undergoes a division by 3. Next, Benjamin scales the number of students up 3-fold. How many students are there in the end?",7.0,3.0,"Let's denote the initial number of students as $x$.
+
+1. After the first division by 7, the number of students becomes $\frac{x}{7}$.
+2. Setting the total number of students to 3 times its current amount gives $3 \times \frac{x}{7} = \frac{3x}{7}$ students.
+3. After the division by 3, the number of students becomes $\frac{3x}{7} \div 3 = \frac{x}{7}$.
+4. Scaling the number of students up 3-fold results in $3 \times \frac{x}{7} = \frac{3x}{7}$ students.
+
+Therefore, in the end, there are $\frac{3x}{7}$ students.
+
+Final Answer: $\frac{3x}{7}$"
+problem_479,"Chen acquires 7 building materials for construction. First, Chen reduces the total inventory by a factor of 7. How many building materials are available?",7.0,1.0,"Let the total number of building materials be represented by \( x \).
+
+After reducing the total inventory by a factor of 7, the number of building materials available is \( x \div 7 \).
+
+Final Answer: \( \frac{x}{7} \)"
+problem_482,"Bianca records an initial 145.95 percent shift in intensity. In the beginning, the running percentage change adjustment decreases by 8.23. Next, Bianca adds another 18.38 to the percentage change. Later, Bianca applies a 2.49-time multiplication to the percentage change. Following that, the percentage change is divided by 2.35. Then, Bianca subtracts 19.80 from the current percentage change. What is the final lighting percentage change? Round both your final answer and any steps to 2 decimal places.",145.67,145.6,"Step 1: 145.95 - 8.23 = 137.72
+
+Step 2: 137.72 + 18.38 = 156.10
+
+Step 3: 156.10 * 2.49 = 388.59
+
+Step 4: 388.59 / 2.35 = 165.47
+
+Step 5: 165.47 - 19.80 = 145.67
+
+Final Answer: 145.67"
+problem_484,"At the loading dock, Aisha receives 19 building materials. First, Aisha breaks down the material count into 19 equal piles, selecting only one pile, and clearing away the others, and after that she orders 3 more from the distribution center. Then, Aisha diminishes the material total to 1/2 its current size, and after that Aisha adds 1 more to inventory. Next, Aisha amplifies the stock level 2-fold. What is the current supply of building materials?",23.0,6.0,"1. Aisha breaks down the 19 building materials into 19 equal piles and selects one pile, leaving 18 piles behind.
+2. Aisha orders 3 more materials, so the total count becomes 18 + 3 = 21 materials.
+3. Aisha diminishes the material total to 1/2 its current size, so the count becomes 21 / 2 = 10.5 materials.
+4. Aisha adds 1 more material, making the count 10.5 + 1 = 11.5 materials.
+5. Aisha amplifies the stock level 2-fold, resulting in 11.5 * 2 = 23 materials.
+
+Final Answer: 23"
+problem_485,"In the lighting booth, Benjamin measures a 106.81 percent shift in lighting. In the beginning, the current percentage change is multiplied by 3.17. Then, the total percentage shift rises by 19.96, and next Benjamin brings the percentage change to 1/4.21 of its value. Next, the percentage change is multiplied by 2.24. What is the final change as a percentage change? Round your answer and any steps to 2 decimal places.",190.91,190.78,"1. Multiply the initial percentage change by 3.17:
+106.81% * 3.17 = 338.9877%
+
+2. Add 19.96 to the total percentage shift:
+338.9877% + 19.96% = 358.9477%
+
+3. Bring the percentage change to 1/4.21 of its value:
+358.9477% / 4.21 = 85.2271%
+
+4. Multiply the percentage change by 2.24:
+85.2271% * 2.24 = 190.9146%
+
+Final Answer: 190.91%"
+problem_491,"Ava sets the target elevation to 3.9 meters height from the baseline. In the beginning, Ava adjusts the height downward by 1.9 meters. Then, Ava adds 1.6 meters to the elevation plan, and next the target level drops by 2 meters, and after that the planned elevation increases by 1.2 meters. What is the final, relative ground level? Make sure to round both your answer and any steps to 1 decimal place.",-1.1,2.8,"Starting from the baseline, Ava adjusts the height downward by 1.9 meters:
+Baseline - 1.9 meters = -1.9 meters
+
+Next, Ava adds 1.6 meters to the elevation:
+-1.9 meters + 1.6 meters = -0.3 meters
+
+Then, the target level drops by 2 meters:
+-0.3 meters - 2 meters = -2.3 meters
+
+Finally, the planned elevation increases by 1.2 meters:
+-2.3 meters + 1.2 meters = -1.1 meters
+
+Final Answer: -1.1 meters"
+problem_492,"Pradeep notes a GPA of 0.25. First, Pradeep adds 0.04 to the average. Next, he takes a course that multiplies the total points by 4.71. How many points is the final GPA value? Round your answer and any steps to 2 decimal places.",1.36,1.37,"Step 1: Pradeep's GPA after adding 0.04 is 0.25 + 0.04 = 0.29.
+
+Step 2: Multiplying the GPA by 4.71 gives 0.29 * 4.71 = 1.36.
+
+Final Answer: 1.36"
+problem_496,"The athletic analysis reveals a change of 14.6 percent in Sebastian's capabilities. First Sebastian divides the performance change by -1.8, and later the change is multiplied by 2.3, and later the performance change reduces by 0.6 percent. Then, the change in performance shifts downward by 0.6 percent. What is the resulting relative performance change? Express your answer and any intermediate steps to 1 decimal place.",-19.2,-19.8,"Step 1: Divide the performance change by -1.8
+\( \frac{14.6}{-1.8} = -8.1 \)
+
+Step 2: Multiply the result by 2.3
+\( -8.1 \times 2.3 = -18.63 \)
+
+Step 3: Reduce the performance change by 0.6 percent
+\( -18.63 - 0.6 = -19.23 \)
+
+Final Answer: -19.2"
+problem_501,"At the cooking station, the temperature gauge shows 3.8 degrees Celsius. In the beginning, the temperature control is adjusted by a factor of 2.4. Then, the reading decreases by 15.8 degrees. Next, the recipe calls for multiplying the temperature by 2.8. What is the final temperature? All calculations and the final answer should be rounded to 1 decimal place.",-18.7,-18.8,"Step 1: Adjust the temperature by a factor of 2.4.
+3.8 * 2.4 = 9.12
+
+Step 2: Decrease the temperature by 15.8 degrees.
+9.12 - 15.8 = -6.68
+
+Step 3: Multiply the temperature by 2.8.
+-6.68 * 2.8 = -18.704
+
+Final Answer: -18.7"
+problem_502,"Kevin takes inventory and counts 8.89 kilograms of flour. First, Kevin brings the supply to 2.36 times its current level. Finally, how much flour is there now, in kilograms? Round both your final answer and any steps to 2 decimal places.",29.88,20.98,"Step 1: Calculate the increase in flour after Kevin brings the supply to 2.36 times its current level.
+Increase = 8.89 * 2.36 = 20.99 kg
+
+Step 2: Calculate the total amount of flour after the increase.
+Total = 8.89 + 20.99 = 29.88 kg
+
+Final Answer: 29.88 kg"
+problem_520,"Jia records a 161.47 percent adjustment in intensity. First Jia makes the total percentage change be 1/2.63 of what it was, and later a multiplication by 3.05 is applied to the running percentage change total, and then Jia applies a 2.03-time multiplication to the percentage change. Then, she lowers the current percentage change by 20.05. What is the total lighting change as a percentage change? When showing work, use only 2 decimal places for all calculations and the answer.",360.37,360.11,"Let's break down the problem step by step:
+
+1. Jia first makes the total percentage change be 1/2.63 of what it was:
+   161.47% / 2.63 = 61.47%
+
+2. Then a multiplication by 3.05 is applied to the running percentage change total:
+   61.47% * 3.05 = 187.4235%
+
+3. Jia applies a 2.03-time multiplication to the percentage change:
+   187.4235% * 2.03 = 380.423605%
+
+4. Jia lowers the current percentage change by 20.05:
+   380.423605% - 20.05% = 360.373605%
+
+Therefore, the total lighting change as a percentage change is 360.37%.
+
+Final Answer: 360.37%"
+problem_523,"Ethan notes a movement of 1.29 dollars. First Ethan calculates the change divided by 0.49. What is the change in dollars, in the end? Express your answer and any intermediate steps to 2 decimal places.",0.63,2.63,"Change divided by 0.49 is equal to 1.29 dollars.
+
+Let x be the change in dollars.
+
+x / 0.49 = 1.29
+
+x = 1.29 * 0.49
+
+x = 0.6321
+
+Final Answer: 0.63"
+problem_526,"For this semester's classes, Aisha prepares 33 textbooks. Then, Aisha splits the current books into 11 identical portions, holding onto a single portion. Then, the collection decreased by 2 textbooks. Next, the current stock of books increases 4-fold. What is the textbook count?",124.0,4.0,"Initially, Aisha prepares 33 textbooks.
+
+After splitting into 11 identical portions, each portion contains 33 / 11 = 3 textbooks.
+
+Aisha holds onto a single portion, so she keeps 3 textbooks.
+
+The collection decreases by 2 textbooks, leaving 33 - 2 = 31 textbooks.
+
+The current stock increases 4-fold, resulting in 31 * 4 = 124 textbooks.
+
+Final Answer: 124"
+problem_534,"While reconciling bank accounts, Xavier documents an amount equal to -747.08 dollars. In the beginning, 43.18 dollars were removed. How many dollars are in balance? Round both your final answer and any steps to 2 decimal places.",-703.9,-790.26,"To find the balance, we need to add the amount documented by Xavier to the amount removed in the beginning.
+
+-747.08 + 43.18 = -703.90
+
+Therefore, the balance is $-703.90.
+
+Final Answer: -703.90"
+problem_535,"On review of the financial statement, Amir logs a value of 895.70 dollars. First, Amir adjusts the account to 1.11 times current value. Then, the balance is modified by a divisor of 92.84. Next, Amir adds another 19.14 dollars from an account holder. Later, he credits 40.68 additional dollars from the bank. Following that, Amir withdraws 33.90 dollars from the balance. How many dollars are in balance? Give your answer and work (if shown) rounded to 2 decimal places.",36.64,36.63,"Step 1: Adjust the initial value by 1.11
+895.70 * 1.11 = 995.53
+
+Step 2: Modify the balance by dividing it by 92.84
+995.53 / 92.84 = 10.72
+
+Step 3: Add 19.14 dollars
+10.72 + 19.14 = 29.86
+
+Step 4: Credit 40.68 additional dollars
+29.86 + 40.68 = 70.54
+
+Step 5: Withdraw 33.90 dollars
+70.54 - 33.90 = 36.64
+
+Final Answer: 36.64"
+problem_537,"During batch preparation, Kevin measures 0.37 parts cement. First, the cement proportion is adjusted to one-8.19 of its current value in parts. Later, he increases the amount by 0.03 more parts from the batch plant, and after that Kevin corrects the cement ratio by removing 0.04 parts. Following that, the mixture level expands 2.69-fold. Then, Kevin mixes in 0.05 additional parts from the chemical supplier. What is the final ratio of cement in parts? Express your answer and any intermediate steps to 2 decimal places.",0.14,0.16,"1. Adjusting the cement proportion to one-8.19 of its current value:
+0.37 parts * 1/8.19 = 0.045 parts
+
+2. Increasing the amount by 0.03 more parts:
+0.045 parts + 0.03 parts = 0.075 parts
+
+3. Correcting the cement ratio by removing 0.04 parts:
+0.075 parts - 0.04 parts = 0.035 parts
+
+4. Expanding the mixture level 2.69-fold:
+0.035 parts * 2.69 = 0.09415 parts
+
+5. Mixing in 0.05 additional parts from the chemical supplier:
+0.09415 parts + 0.05 parts = 0.14415 parts
+
+Final Answer: 0.14 parts"
+problem_538,"Ava oversees 19 financial accounts for clients. First Ava amplifies the number of accounts 2-fold. Then, Ava holds onto a single portfolio after breaking down the accounts into 19 equal portfolios. Next, Ava sets up 2 more accounts from the banking system. What is the total number of accounts now?",21.0,4.0,"Step 1: 19 accounts * 2 = 38 accounts after amplifying.
+Step 2: 38 accounts / 19 portfolios = 2 accounts in each portfolio.
+Step 3: 19 portfolios + 2 new accounts = 21 total accounts now.
+
+Final Answer: 21"
+problem_551,"Diego marks an elevation of 47.2 meters height from the reference level. First, Diego calculates 8.8 into the current elevation, and next he applies a 6.5-part division to the elevation reading. Following that, the planned elevation increases by 2.3 meters. Then, the elevation plan is modified to 2.8 times the current level in meters, and later the planned elevation decreases by 1.4 meters. What relative elevation in meters is now planned? Use only 1 decimal place for your answer and any calculations shown.",184.2,7.3,"1. Calculate 8.8 times the current elevation:
+$47.2 \times 8.8 = 416.96$
+
+2. Apply a 6.5-part division to the elevation reading:
+$416.96 \div 6.5 = 64.0$
+
+3. Increase the elevation by 2.3 meters:
+$64.0 + 2.3 = 66.3$
+
+4. Modify the elevation plan to 2.8 times the current level:
+$66.3 \times 2.8 = 185.64$
+
+5. Decrease the planned elevation by 1.4 meters:
+$185.64 - 1.4 = 184.24$
+
+Final Answer: 184.2"
+problem_558,"Elena arranges 41 pieces of sports equipment across different practice zones. In the beginning, Elena increases the total to include 3 more pieces for additional athletes, and after that she makes the equipment total equal to the current size divided by 11. Later, Elena increases the current tally of sports equipment by 1 piece. How many pieces of equipment are there now?",437.0,5.0,"Let's denote the initial number of sports equipment as $x$.
+
+1. Elena increases the total to include 3 more pieces: $x + 3$.
+2. Elena makes the equipment total equal to the current size divided by 11: $\frac{x + 3}{11}$.
+3. Elena increases the current tally of sports equipment by 1 piece: $\frac{x + 3}{11} + 1$.
+
+Now, we know that this final expression equals the total number of sports equipment, which is 41:
+
+$\frac{x + 3}{11} + 1 = 41$
+
+Solving for $x$:
+
+$\frac{x + 3}{11} = 40$
+
+$x + 3 = 440$
+
+$x = 437$
+
+Therefore, the current number of sports equipment is $437$.
+
+Final Answer: 437"
+problem_562,"The monitoring system records a soil temperature of 5.75 degrees Celsius. First a correction results in the temperature being set to 1/2.73 of its current value. Following that, a change multiplies the temperature by 2.93. Then, the monitoring system shows warming of 0.45 degrees. What temperature is the soil in Celsius? Give your answer and work (if shown) rounded to 2 decimal places.",6.6,6.63,"First, we correct the temperature by setting it to 1/2.73 of its current value:
+$5.75 \div 2.73 = 2.10$
+
+Next, we multiply this corrected temperature by 2.93:
+$2.10 \times 2.93 = 6.15$
+
+After the warming of 0.45 degrees:
+$6.15 + 0.45 = 6.60$
+
+Therefore, the soil temperature is 6.60 degrees Celsius.
+
+Final Answer: 6.60"
+problem_564,"Sarah records a baseline 351 milliseconds reaction time in sprint training. In the beginning, Sarah sees a 2.2-fold reduction in the reaction time in milliseconds. Then, the response time increases 2.3-fold under pressure. What is the final reaction time? Round both your final answer and any steps to 1 decimal place.",366.9,366.8,"1. Reaction time after the initial reduction: 351 ms / 2.2 = 159.5 ms
+
+2. Reaction time after the pressure increase: 159.5 ms * 2.3 = 366.9 ms
+
+Final Answer: 366.9 ms"
+problem_565,"Ismail starts with a rating change of 0.11 points. First using a division by 0.79, Ismail updates the rating change. Then, the accumulated adjustment undergoes division by 0.65. Next, Ismail applies a 0.60 division to the current change. Later, the running total change drops by 0.05 points. Following that, they perform a division of 0.68 on the current adjustment. Given this information, what is the total rating change in points? Make sure to round both your answer and any steps to 2 decimal places.",0.12,0.47,"Step 1: Update the rating change by dividing 0.11 by 0.79.  
+0.11 / 0.79 = 0.14  
+Updated rating change: 0.14  
+
+Step 2: Divide the updated rating change by 0.65.  
+0.14 / 0.65 = 0.22  
+Updated rating change: 0.22  
+
+Step 3: Apply a division of 0.60 to the current change.  
+0.22 * 0.60 = 0.13  
+Updated rating change: 0.13  
+
+Step 4: Decrease the running total change by 0.05 points.  
+0.13 - 0.05 = 0.08  
+Updated rating change: 0.08  
+
+Step 5: Perform a division of 0.68 on the current adjustment.  
+0.08 / 0.68 = 0.12  
+
+Final Answer: 0.12"
+problem_577,"Mohammed has 177.65 dollars in funds. First, Mohammed subtracts 42.70 dollars from the balance, and after that Mohammed changes the amount with a multiplier of 2.21. How many dollars are there? When showing work, use only 2 decimal places for all calculations and the answer.",298.64,298.24,"Step 1: 177.65 - 42.70 = 134.95
+
+Step 2: 134.95 * 2.21 = 298.64
+
+Final Answer: 298.64"
+problem_578,"Oliver records an initial 482.86 percent shift in intensity. First a shift causes the total percentage change to be to 1/4.15 of its previous value, and next another 19.54 percent change in lighting is added from the tech director. What is the total lighting change as a percentage change? Round both your final answer and any steps to 2 decimal places.",136.14,135.89,"Step 1: Calculate the first shift in intensity:
+Initial shift = 482.86%
+New shift = 1/4.15 * 482.86%
+New shift = 1/4.15 * 482.86/100
+New shift = 1/4.15 * 4.8286
+New shift = 1.166
+New shift = 116.60%
+
+Step 2: Calculate the total lighting change after the tech director's addition:
+Total change = New shift + Tech director's change
+Total change = 116.60% + 19.54%
+Total change = 136.14%
+
+Final Answer: 136.14%"
+problem_579,"In the pantry, Benjamin discovers 31.94 kilograms of flour. In the beginning, Benjamin reduces the amount of flour to 1/3.35 of the total, and then Benjamin adds 0.34 more kilograms to the supply. Then, the pantry was reduced by 0.27 kilograms. Finally, what is the current supply of kilograms of flour? Express your answer and any intermediate steps to 2 decimal places.",9.59,9.6,"Step 1: Calculate the amount of flour after reducing to 1/3.35 of the total.
+31.94 kg / 3.35 = 9.52 kg
+
+Step 2: Add 0.34 kg to the supply.
+9.52 kg + 0.34 kg = 9.86 kg
+
+Step 3: Subtract 0.27 kg from the supply.
+9.86 kg - 0.27 kg = 9.59 kg
+
+Final Answer: 9.59 kilograms"
+problem_580,"Sebastian measures the ground elevation at 30.7 meters height from the reference point. Then, Sebastian recalculates the elevation using a 9-way division. Later, the elevation plan is adjusted down by 1.2 meters. Following that, Sebastian adds 0.6 meters to the elevation plan. Then, the elevation becomes 3.7 times the current measurement in meters. Next, the elevation plan is modified to 3.4 times the current level in meters. What relative level in meters does the plan specify? Use only 1 decimal place for your answer and any calculations shown.",3.1,35.4,"1. Recalculation of the elevation using a 9-way division:
+30.7 meters / 9 = 3.4111 meters
+
+2. Adjustment down by 1.2 meters:
+3.4111 meters - 1.2 meters = 2.2111 meters
+
+3. Addition of 0.6 meters:
+2.2111 meters + 0.6 meters = 2.8111 meters
+
+4. Elevation becomes 3.7 times the current measurement:
+2.8111 meters * 3.7 = 10.3957 meters
+
+5. Elevation plan is modified to 3.4 times the current level:
+10.3957 meters / 3.4 = 3.0581 meters
+
+Final Answer: 3.1"
+problem_587,"Pradeep completes 48 financial transactions for clients. First, Pradeep keeps only one queue of transactions after breaking down the transaction total evenly into 3 queues. Next, 1 transaction was deleted from the records. Later, Pradeep makes the transaction total 3 times its current count, and later he keeps only one queue of transactions after breaking down the transaction total evenly into 3 queues. What is the total number of transactions now?",47.0,15.0,"Step 1: Divide the total transactions into 3 queues.
+Total transactions = 48
+Each queue will have 48 / 3 = 16 transactions.
+
+Step 2: Delete 1 transaction from the records.
+After deleting 1 transaction, the total transactions become 48 - 1 = 47.
+
+Step 3: Make the transaction total 3 times its current count.
+New total transactions = 47 * 3 = 141
+
+Step 4: Divide the new total transactions into 3 queues.
+Each queue will have 141 / 3 = 47 transactions.
+
+Final Answer: 47"
+problem_588,"During the scene, Xavier notes a 443.84 percent change in lighting. In the beginning, a shift causes the total percentage change to be to 1/2.71 of its previous value. Next, the current lighting percentage change is multiplied by 2.01, and later the running percentage change adjustment decreases by 18.62. What is the final lighting percentage change? When showing work, use only 2 decimal places for all calculations and the answer.",310.32,310.58,"1. Calculate the initial lighting percentage change:
+443.84 * (1/2.71) = 163.50
+
+2. Multiply the current lighting percentage change by 2.01:
+163.50 * 2.01 = 328.935
+
+3. Decrease the running percentage change adjustment by 18.62:
+328.935 - 18.62 = 310.315
+
+Final Answer: 310.32"
+problem_589,"While mixing concrete, Sarah uses 0.49 parts cement. In the beginning, the cement proportion is adjusted to one-5.25 of its current value in parts. Later, Sarah corrects the cement ratio by removing 0.03 parts. Following that, Sarah sets the cement to one-2.84 of the existing amount as a number of parts. Then, using a 2-factor division, Sarah updates the cement amount in parts. What is the final cement proportion in parts? All calculations and the final answer should be rounded to 2 decimal places.",0.12,0.01,"1. Adjusting the cement proportion to one-5.25 of its current value:
+   0.49 * (1 - 1/5.25) = 0.49 * 0.81 = 0.3969
+
+2. Correcting the cement ratio by removing 0.03 parts:
+   0.3969 - 0.03 = 0.3669
+
+3. Setting the cement to one-2.84 of the existing amount:
+   0.3669 * (1 - 1/2.84) = 0.3669 * 0.6486 = 0.2378
+
+4. Updating the cement amount using a 2-factor division:
+   0.2378 / 2 = 0.1189
+
+Final Answer: 0.12"
+problem_590,"Diego takes inventory and counts 18.18 kilograms of flour. In the beginning, Diego applies a 2.41-fold increase to the batch size. Finally, how many kilograms of flour are there? Round your answer and any steps to 2 decimal places.",43.8,43.81,"To find the final amount of flour after the 2.41-fold increase, we need to multiply the initial amount by 2.41.
+
+18.18 kg * 2.41 = 43.80 kg
+
+Final Answer: 43.80 kg"
+problem_593,"Kevin stores 37 pieces of sports equipment for the upcoming tournament. In the beginning, the existing inventory diminishes by 5 pieces. Later, Kevin partitions the equipment into 4 equal portions, keeps all but one portion. How many equipment pieces are in stock?",24.0,8.0,"Initially, the inventory decreases by 5 pieces:
+37 - 5 = 32 pieces
+
+Then, Kevin partitions the equipment into 4 equal portions, keeping 3 portions:
+32 / 4 * 3 = 24 pieces
+
+Therefore, Kevin has 24 pieces of sports equipment in stock.
+Final Answer: 24"
+problem_603,"While reconciling bank accounts, Fatima documents an amount equal to -181.05 dollars. First Fatima makes the value be 2.77 times its current amount. Following that, Fatima debits 26.12 dollars from the total, and after that the value reaches 1.32 times its current amount. What is the final value in dollars? Give your answer and work (if shown) rounded to 2 decimal places.",-181.05,-696.47,"Let's denote the initial amount as $x$.
+
+Step 1: 2.77 times the current amount is $2.77x$.
+Step 2: After debiting $26.12, the amount becomes $2.77x - 26.12$.
+Step 3: The final amount is 1.32 times the current amount, so $1.32(2.77x - 26.12) = 2.77x - 34.46$.
+
+Given that the final amount is -181.05, we have the equation:
+$2.77x - 34.46 = -181.05$
+
+Solving for x:
+$2.77x = -181.05 + 34.46$
+$2.77x = -146.59$
+$x = -146.59 / 2.77$
+$x = -52.87$
+
+Therefore, the final value is $2.77(-52.87) - 34.46 = -146.59 - 34.46 = -181.05$.
+
+Final Answer: -181.05"
+problem_605,"Alexander observes a shift of 0.57 points in the score. In the beginning, the total change undergoes multiplication by 0.36. Then, he updates the rating change by dividing it by 0.46. Next, the total shift rises by 0.05 points, and after that the total shift rises by 0.04 points. Later, the current rating change is multiplied by 0.78. How many points are the final rating change? All calculations and the final answer should be rounded to 2 decimal places.",0.42,0.43,"Step 1: Initial shift after observing 0.57 points change:
+0.57
+
+Step 2: Total change after multiplying by 0.36:
+0.57 * 0.36 = 0.2052
+
+Step 3: Updated rating change after dividing by 0.46:
+0.2052 / 0.46 ≈ 0.45
+
+Step 4: Total shift after rising by 0.05 points:
+0.45 + 0.05 = 0.50
+
+Step 5: Total shift after rising by 0.04 points:
+0.50 + 0.04 = 0.54
+
+Step 6: Current rating change after multiplying by 0.78:
+0.54 * 0.78 = 0.4212
+
+Final Answer: 0.42"
+problem_607,"Nina oversees 36 financial accounts for clients. First, Nina splits the all accounts into 3 equal tiers and moves forward with just one tier. Later, the total count is divided by 2. How many accounts are there altogether?",24.0,6.0,"There are 36 financial accounts in total.
+
+Step 1: Splitting all accounts into 3 equal tiers means each tier has 36 / 3 = 12 accounts.
+
+Step 2: Moving forward with just one tier means Nina is working with 12 accounts.
+
+Step 3: Dividing the total count by 2 means there are 12 * 2 = 24 accounts altogether.
+
+Final Answer: 24"
+problem_608,"Diana surveys 44.21 hectares of land for a farming development. First Diana downsizes their property by 2.15 hectares. Then, Diana ends up with one plot after dividing the land into 1.41 equal plots. Next, Diana sets aside 1.20 hectares for the neighboring farm, lowering the total land quantity. Now, how many hectares are there? All calculations and the final answer should be rounded to 2 decimal places.",28.59,28.63,"1. Downsizing the property by 2.15 hectares:
+44.21 - 2.15 = 42.06 hectares
+
+2. Dividing the land into 1.41 equal plots:
+42.06 / 1.41 = 29.79 hectares per plot
+
+3. Setting aside 1.20 hectares for the neighboring farm:
+29.79 - 1.20 = 28.59 hectares
+
+Final Answer: 28.59 hectares"
+problem_609,"Oliver is measuring 94.86 hectares of land for irrigation. First, Oliver leases 2.37 more hectares from a retiring farmer, and next he divides the total area by 47.92, keeping only one part, and later the farmland expands to 3.43 times its current size, and after that he loses land after allocating 2.25 hectares to the neighboring farm. Then, Oliver divides the farmland into 1.44 equal plots and keeps just one plot. How many hectares in total? Round your answer and any steps to 2 decimal places.",3.26,3.27,"Step 1: Oliver leases 94.86 + 2.37 = 97.23 hectares of land.
+Step 2: Oliver divides the total area by 47.92, keeping only one part: 97.23 / 47.92 = 2.03 hectares.
+Step 3: The farmland expands to 3.43 times its current size: 2.03 * 3.43 = 6.95 hectares.
+Step 4: After allocating 2.25 hectares to the neighboring farm, Oliver has 6.95 - 2.25 = 4.70 hectares left.
+Step 5: Oliver divides the farmland into 1.44 equal plots and keeps just one plot: 4.70 / 1.44 = 3.26 hectares.
+
+Final Answer: 3.26 hectares"
+problem_612,"At the trading desk, Olivia spots a move of 3.90 dollars. First, the change is adjusted by multiplying by 0.80, and next Olivia records another uptick of 0.01 dollars from institutional demand. Then, Olivia sees a decrease of 0.01 dollars. Next, the price change is multiplied by 1.23. How many dollars is the total change now? When showing work, use only 2 decimal places for all calculations and the answer.",3.83,3.84,"1. Adjusted change after multiplying by 0.80: 3.90 * 0.80 = 3.12
+
+2. Change after adding 0.01 dollars: 3.12 + 0.01 = 3.13
+
+3. Change after subtracting 0.01 dollars: 3.13 - 0.01 = 3.12
+
+4. Total change after multiplying by 1.23: 3.12 * 1.23 = 3.83
+
+Final Answer: 3.83"
+problem_629,"Hana handles 9 financial accounts in the system. First the number of accounts grows by a factor of 5, and then she holds onto a single portfolio after breaking down the accounts into 9 equal portfolios. Then, 4 accounts were removed. Next, the database expanded with 5 additional accounts, and next 5 accounts were cancelled. How many accounts are there now?",41.0,1.0,"Step 1: Number of accounts grows by a factor of 5: 9 * 5 = 45 accounts.
+
+Step 2: Accounts are broken down into 9 equal portfolios: 45 / 9 = 5 portfolios.
+
+Step 3: 4 accounts were removed: 45 - 4 = 41 accounts.
+
+Step 4: 5 additional accounts were added: 41 + 5 = 46 accounts.
+
+Step 5: 5 accounts were cancelled: 46 - 5 = 41 accounts.
+
+Final Answer: 41"
+problem_643,"During the lecture, Hassan instructs 33 students. Then, Hassan reduces the number of students by dividing the count by 11, and later he brings in 2 additional students from the counseling office, and then Hassan makes the total student number equal to one group of students after breaking down the students into 5 equal groups. Next, the number of students grows by a factor of 2. How many students are there in the end?",50.0,2.0,"Step 1: Hassan starts with 33 students.
+Step 2: Hassan divides the number of students by 11: 33 / 11 = 3 students.
+Step 3: Hassan brings in 2 additional students: 3 + 2 = 5 students.
+Step 4: Hassan forms 5 equal groups: 5 * 5 = 25 students.
+Step 5: The number of students grows by a factor of 2: 25 * 2 = 50 students.
+
+Final Answer: 50"
+problem_649,"Gabriel measures a 262.38 percent change in lighting. Then, the percentage change gets divided by 3.28. Following that, the current lighting percentage change is multiplied by 3.09. Then, the percentage change reduces by 11.87. What is the total adjustment as a percentage change? All calculations and the final answer should be rounded to 2 decimal places.",235.14,235.3,"Step 1: 262.38 percent change divided by 3.28 = 79.93
+
+Step 2: 79.93 multiplied by 3.09 = 247.01
+
+Step 3: 247.01 reduced by 11.87 = 235.14
+
+Final Answer: 235.14"
+problem_651,"Ava clocks a reaction time of 218.3 milliseconds at the qualification trials. Then, Ava sees the reaction time improve by 22.8 milliseconds. Next, she sees the reaction time improve by 14.3 milliseconds, and then mental fatigue adds 20.3 milliseconds to the response time, and then she observes the reaction time increases by 17.9 milliseconds due to fatigue. Later, the reaction time goes down by 7 milliseconds. What is the total in milliseconds? Keep only 1 decimal place in your answer and any work shown.",286.6,212.4,"Adding all the changes in reaction time:
+$218.3 + 22.8 + 14.3 + 20.3 + 17.9 - 7 = 286.6$ milliseconds.
+
+Final Answer: 286.6 milliseconds"
+problem_653,"Anna begins with a 285.53 percent adjustment in brightness. In the beginning, Anna divides the total percentage change by 5.50. Later, the running percentage adjustment grows by 14.34. Following that, the current percentage change is multiplied by 3.37. What is the total lighting change as a percentage change? All calculations and the final answer should be rounded to 2 decimal places.",223.18,223.26,"Step 1: Divide the total percentage change by 5.50
+Total percentage change = 285.53%
+285.53% / 5.50 = 51.91%
+
+Step 2: Add 14.34 to the running percentage adjustment
+51.91% + 14.34% = 66.25%
+
+Step 3: Multiply the current percentage change by 3.37
+66.25% * 3.37 = 223.18%
+
+Final Answer: 223.18%"
+problem_654,"The high-speed camera indicates an athlete's reaction time is 333.3 milliseconds. In the beginning, fatigue adds 7.4 milliseconds to the reaction time. Then, he observes an improvement of 18.8 milliseconds. Next, the reaction time decreases to 1/2 of the current measurement in milliseconds. How many milliseconds is the reaction time now? Use only 1 decimal place for your answer and any calculations shown.",160.9,161.0,"Initial reaction time: 333.3 milliseconds
+Fatigue adds 7.4 milliseconds: 333.3 + 7.4 = 340.7 milliseconds
+After improvement of 18.8 milliseconds: 340.7 - 18.8 = 321.9 milliseconds
+Reaction time decreases to half: 321.9 / 2 = 160.95 milliseconds
+
+Final Answer: 160.9"
+problem_656,"At the study session, Gabriel helps 26 students. Then, Gabriel splits the total students into 13 equal parts, and the total is set to the number of students in one part. Next, he brings in 5 additional students from the enrollment center. How many students are in the final count?",31.0,7.0,"1. Gabriel helps 26 students.
+2. The total number of students is split into 13 equal parts, so each part has 26 students / 13 = 2 students.
+3. After splitting, there are 13 parts with 2 students each, totaling 13 parts * 2 students/part = 26 students.
+4. Gabriel brings in 5 additional students from the enrollment center.
+5. The final count is 26 students (from the split) + 5 students (from the enrollment center) = 31 students.
+
+Final Answer: 31"
+problem_657,"Emma notes a movement of 1.78 dollars. First, the price falls another 0.04 dollars. What is the total change in dollars? Give your answer and work (if shown) rounded to 2 decimal places.",1.82,1.74,"The total change in dollars is the sum of the two movements:
+
+1.78 dollars + 0.04 dollars = 1.82 dollars
+
+Final Answer: 1.82"
+problem_660,"Daniel measures a 167.43 percent change in lighting. First the current lighting percentage change is multiplied by 2.45. Next, the percentage change divides to 1/5.19 of the total value. Later, the current percentage change is multiplied by 2.38. Following that, the present percentage change, as a percentage, undergoes a multiplication by 2.12. Then, the current percentage change decreases by 19.84. What is the final lighting percentage change? Express your answer and any intermediate steps to 2 decimal places.",379.16,378.97,"Step 1: 167.43% * 2.45 = 410.0635
+
+Step 2: 410.0635 / 5.19 = 79.0019
+
+Step 3: 79.0019 * 2.38 = 188.2382
+
+Step 4: 188.2382 * 2.12 = 398.9984
+
+Step 5: 398.9984 - 19.84 = 379.1584
+
+Final Answer: 379.16 percent"
+problem_662,"Chitra measures a 219.71 percent change in lighting. First Chitra takes the total as a percentage change and multiplies by 2.21. As a percentage, what is the final lighting percent change? When showing work, use only 2 decimal places for all calculations and the answer.",485.87,485.56,"Step 1: Calculate the total percentage change by multiplying the initial percentage change by 2.21.
+Total percentage change = 219.71% * 2.21 = 485.8691%
+
+Final Answer: 485.87%"
+problem_663,"Ava records an initial 367.92 percent shift in intensity. First, Ava brings the percentage change to 1/4.62 of its value. As a percentage, what is the total lighting percent change? Make sure to round both your answer and any steps to 2 decimal places.",79.74,79.64,"Step 1: Convert the initial 367.92 percent shift to a decimal.
+367.92% = 367.92/100 = 3.6792
+
+Step 2: Bring the percentage change to 1/4.62 of its value.
+3.6792 * 1/4.62 = 0.7974
+
+Step 3: Convert the result back to a percentage.
+0.7974 * 100% = 79.74%
+
+Final Answer: 79.74%"
+problem_669,"Priya begins with 756.45 dollars in the account balance. First, Priya adds 19.66 more dollars to balance. Following that, Priya adjusts the account to 1.12 times current value. Then, the account balance undergoes a division by 451.24. How many dollars are there? All calculations and the final answer should be rounded to 2 decimal places.",1.92,1.93,"Step 1: 756.45 + 19.66 = 776.11
+
+Step 2: 776.11 * 1.12 = 867.43
+
+Step 3: 867.43 / 451.24 = 1.92
+
+Final Answer: 1.92"
+problem_670,"Priya's athletic performance has changed by 13.4 percent compared to last season. First, the change is divided by 2.7. Next, the change drops by 1.7 percent. What is the resulting performance change? Round your answer and any steps to 1 decimal place.",0.0488,3.3,"Step 1: Calculate the change in Priya's athletic performance after a 13.4% change compared to last season:
+Change = 13.4% = 13.4/100 = 0.134
+
+Step 2: Divide the change by 2.7:
+Change / 2.7 = 0.134 / 2.7 ≈ 0.0496
+
+Step 3: Subtract 1.7% from the result:
+Resulting change = 0.0496 - (0.0496 * 1.7/100) ≈ 0.0496 - 0.0008 ≈ 0.0488
+
+Final Answer: 0.0488"
+problem_671,"During assessment of a construction project, Hana estimates a cost of 2,503,199 dollars. Then, Hana scales down the allocated funds by 17. Then, the current amount becomes 5 times its present value. What is the final dollar amount for the construction project?",10387750.85,736235.0,"Step 1: Calculate the amount after scaling down by 17%.
+Amount after scaling down = $2,503,199 - ($2,503,199 * 0.17)
+Amount after scaling down = $2,503,199 - $425,648.83
+Amount after scaling down = $2,077,550.17
+
+Step 2: Calculate the final dollar amount by multiplying the current amount by 5.
+Final dollar amount = $2,077,550.17 * 5
+Final dollar amount = $10,387,750.85
+
+Final Answer: $10,387,750.85"
+problem_679,"In the lab, Chitra measures 0.79 parts cement for the concrete mix. In the beginning, following calculations, the cement becomes one-4.58 of the present number of parts, and then the cement measurement is divided by 3.79, and after that Chitra increases the proportion by a factor of 3.43. How many parts of cement does the final mixture contain? Give your answer and work (if shown) rounded to 2 decimal places.",2.56,0.14,"Let's denote the initial measurement of cement as $x$ parts.
+
+1. After becoming one-4.58 of the present number of parts, the cement measurement becomes $x - \frac{1}{4.58}x = \frac{4.58x - x}{4.58} = \frac{3.58x}{4.58}$ parts.
+
+2. Dividing by 3.79, we get $\frac{3.58x}{4.58} \div 3.79 = \frac{3.58x}{4.58 \times 3.79}$ parts.
+
+3. Increasing the proportion by a factor of 3.43, we have $\frac{3.58x}{4.58 \times 3.79} \times 3.43 = \frac{3.58x \times 3.43}{4.58 \times 3.79}$ parts.
+
+Therefore, the final mixture contains $\frac{3.58x \times 3.43}{4.58 \times 3.79}$ parts of cement.
+
+Final Answer: 2.56"
+problem_680,"The fitness assessment shows a change of 5.9 percent in Thomas's performance level. In the beginning, the change is adjusted by a factor of 2.7. What is the resulting relative performance change? All calculations and the final answer should be rounded to 1 decimal place.",0.2,15.9,"Step 1: Calculate the resulting relative performance change.
+Relative performance change = 5.9% * 2.7
+Relative performance change = 0.059 * 2.7
+Relative performance change = 0.1593
+
+Step 2: Round the relative performance change to 1 decimal place.
+Relative performance change ≈ 0.2
+
+Final Answer: 0.2"
+problem_681,"Chitra handles 21 financial transactions at the bank. In the beginning, Chitra keeps only one queue of transactions after breaking down the transaction total evenly into 3 queues. Later, 5 more transactions were added for processing. Following that, Chitra keeps only one queue of transactions after breaking down the transaction total evenly into 2 queues. Then, she sets the total to 3 times its current number. What is the total number of transactions in the end?",78.0,18.0,"1. Initially, Chitra breaks down 21 transactions into 3 queues: 21 / 3 = 7 transactions per queue.
+2. After adding 5 more transactions, the total number of transactions becomes 21 + 5 = 26 transactions.
+3. Chitra then breaks down 26 transactions into 2 queues: 26 / 2 = 13 transactions per queue.
+4. Finally, Chitra sets the total to 3 times its current number: 26 * 3 = 78 transactions.
+
+Final Answer: 78"
+problem_685,"Keiko's athletic performance has changed by -1.1 percent compared to last season. First Keiko sees the change in performance increase by 1.2 percent, and then the change is multiplied by 2.9. Then, the change grows by 1.3 percent, and after that the change is scaled down by 1/-8, and after that the change drops by 2.3 percent. What is the resulting relative performance change? Use only 1 decimal place for your answer and any calculations shown.",-39.2,-2.5,"Let's denote the initial change in performance as x.
+
+1. Change in performance after seeing an increase of 1.2 percent: x + 1.2% = x + 0.012x = 1.012x
+2. Change after being multiplied by 2.9: 2.9 * 1.012x = 2.9348x
+3. Change after growing by 1.3 percent: 2.9348x + 1.3% = 2.9348x + 0.0139348x = 2.9487348x
+4. Change after being scaled down by 1/-8: (1/(-8)) * 2.9487348x = -0.36859185x
+5. Change after dropping by 2.3 percent: -0.36859185x - 2.3% = -0.36859185x - 0.0236859185x = -0.3922777685x
+
+The resulting relative performance change is -39.2%.
+
+Final Answer: -39.2%"
+problem_686,"Priya notes a movement of 4.25 dollars. First, the price change is multiplied by 0.93. And now, what is the total change in dollars? Express your answer and any intermediate steps to 2 decimal places.",3.96,3.95,"Step 1: Multiply the price change by 0.93
+4.25 * 0.93 = 3.96
+
+Final Answer: 3.96"
+problem_696,"Aisha calibrates the cement proportion to 0.78 parts for the batch. Then, the cement proportion is modified to one-5.32 of its present value in parts. Next, Aisha blends 0.03 additional parts from the mixing station. Later, Aisha includes 0.05 more parts from the quality control lab. Following that, using a 4.34-factor division, she updates the cement amount in parts. What is the cement content, measured in parts, in the final batch? Use only 2 decimal places for your answer and any calculations shown.",-0.76,0.05,"1. Modify the cement proportion to one-5.32 of its present value:
+0.78 * (1 - 5.32) = 0.78 * (-4.32) = -3.3696
+
+2. Blend 0.03 additional parts from the mixing station:
+-3.3696 + 0.03 = -3.3396
+
+3. Include 0.05 more parts from the quality control lab:
+-3.3396 + 0.05 = -3.2896
+
+4. Update the cement amount using a 4.34-factor division:
+-3.2896 / 4.34 = -0.7571
+
+Final Answer: -0.76"
+problem_699,"The high-speed camera indicates an athlete's reaction time is 342.2 milliseconds. First Diana sees a 2.2-fold reduction in the reaction time in milliseconds, and then she observes the reaction time increase to 2 times the current number of milliseconds. Later, Diana records an increase 5.9 milliseconds due to training intensity. What is the resulting reaction time in milliseconds? All calculations and the final answer should be rounded to 1 decimal place.",1511.5,316.9,"1. 342.2 milliseconds * 2.2 = 752.8 milliseconds
+2. 752.8 milliseconds * 2 = 1505.6 milliseconds
+3. 1505.6 milliseconds + 5.9 milliseconds = 1511.5 milliseconds
+
+Final Answer: 1,511.5 milliseconds"
+problem_702,"During pre-season setup, Qiara inventories 12 pieces of sports equipment. First, the total number of pieces of equipment is decreased 2-fold. Following that, she augments the existing inventory with 2 pieces of sports equipment. What is the current tally of pieces of equipment?",26.0,8.0,"Step 1: 12 pieces of sports equipment are decreased 2-fold.
+12 * 2 = 24
+After decreasing 2-fold, there are 24 pieces of sports equipment.
+
+Step 2: Qiara adds 2 pieces of sports equipment to the existing inventory.
+24 + 2 = 26
+After adding 2 pieces, the current tally of pieces of equipment is 26.
+
+Final Answer: 26"
+problem_704,"In a theater, Raj conducts 30 performers. First, Raj splits the current performers into 6 identical ensembles, holding onto a single ensemble. Following that, the current number of performers increases to 2 times its present amount. Then, Raj signs 3 additional performers from the production house. What is the final count of performers in the troupe?",63.0,13.0,"Initially, Raj splits the 30 performers into 6 identical ensembles, each with 30/6 = 5 performers.
+
+After holding onto one ensemble, Raj has 5 performers in his ensemble.
+
+The total number of performers increases to 2 * 30 = 60 performers.
+
+Raj then signs 3 additional performers, bringing the total count to 60 + 3 = 63 performers.
+
+Final Answer: 63"
+problem_707,"In the service area, Charlotte discovers 40 serving plates. Then, Charlotte sets the total plates to 1/20 of the current count, and next the stock expands to 4 times its current capacity, and later 5 plates were returned to storage. Following that, Charlotte collects 1 plate, reducing the total. Then, 1 plate was taken away. Now, how many plates are there?",11.0,1.0,"1. Total plates after discovering: 40 plates
+2. Setting the total plates to 1/20 of the current count: 40 plates * 1/20 = 2 plates
+3. Expanding the stock to 4 times its current capacity: 2 plates * 4 = 8 plates
+4. Returning 5 plates to storage: 8 plates + 5 plates = 13 plates
+5. Collecting 1 plate: 13 plates - 1 plate = 12 plates
+6. Taking away 1 plate: 12 plates - 1 plate = 11 plates
+
+Final Answer: 11 plates"
+problem_710,"Chitra is in the field with 4 tractors. In the beginning, the total fleet becomes 3 times larger, and later Chitra evenly splits the tractors into 2 equal groups and continues with only one group. Later, Chitra expands the entire fleet to 2 times its size. Following that, the final count went down by 4 tractors after a sale, and next the final count went up by 1. What is the final tractor count?",13.0,9.0,"Let's denote the initial number of tractors as $x$.
+
+1. After the fleet becomes 3 times larger, the total number of tractors becomes $4 + 3(4) = 4 + 12 = 16$.
+2. Chitra evenly splits the tractors into 2 equal groups, so each group has $16/2 = 8$ tractors.
+3. Chitra continues with only one group, so the total number of tractors is now 8.
+4. Chitra expands the entire fleet to 2 times its size, so the total number of tractors becomes $8 \times 2 = 16$.
+5. After a sale, the final count goes down by 4 tractors, leaving $16 - 4 = 12$ tractors.
+6. Finally, the count goes up by 1, resulting in $12 + 1 = 13$ tractors.
+
+Final Answer: 13"
+problem_717,"Jia has 77.18 hectares of land prepared for seeding. First, Jia reduces their holdings by dividing the land into 4.16 parts and keeping one. How many hectares does the farm now cover? All calculations and the final answer should be rounded to 2 decimal places.",18.56,18.55,"To find out how many hectares Jia kept after dividing the land into 4.16 parts, we need to divide the total land by 4.16.
+
+77.18 hectares / 4.16 = 18.56 hectares
+
+Jia kept 18.56 hectares of land.
+
+Final Answer: 18.56"
+problem_723,"Food is being prepared at a starting temperature of 14.7 degrees Celsius. Then, Keiko sets the target temperature to 1/12.6 of the current value. Later, the temperature is lowered by 13.2 degrees, and after that Keiko heats the food by 9.8 degrees. What is the current temperature? Round both your final answer and any steps to 1 decimal place.",11.3,-2.2,"1. Keiko sets the target temperature to 1/12.6 of the current value:
+Target temperature = 14.7 / 12.6 = 1.2 degrees Celsius
+
+2. The temperature is lowered by 13.2 degrees:
+Current temperature after lowering = 14.7 - 13.2 = 1.5 degrees Celsius
+
+3. Keiko heats the food by 9.8 degrees:
+Current temperature = 1.5 + 9.8 = 11.3 degrees Celsius
+
+Final Answer: 11.3"
+problem_728,"Indira records a price swing of 2.36 dollars. First Indira records a drop of 0.04 dollars. Later, the change is adjusted by multiplying by 0.91. What is the change in dollars, in the end? Keep only 2 decimal places in your answer and any work shown.",-0.04,2.11,"The initial drop recorded by Indira is -0.04 dollars.
+
+After adjusting the change by multiplying by 0.91, the change becomes: -0.04 * 0.91 = -0.0364 dollars.
+
+Therefore, the final change in dollars is -0.0364 dollars.
+
+Final Answer: -0.04"
+problem_740,"Chitra has 17.74 hectares of land prepared for seeding. First, the land area grows by a factor of 3.91. Following that, they gained 2.07 more hectares, and then Chitra purchases 2.43 additional hectares from the neighboring farm. What size is the land in hectares? Round both your final answer and any steps to 2 decimal places.",73.98,73.86,"Step 1: Increase the land area by a factor of 3.91.
+17.74 hectares * 3.91 = 69.48 hectares
+
+Step 2: Add 2.07 more hectares.
+69.48 hectares + 2.07 hectares = 71.55 hectares
+
+Step 3: Purchase 2.43 additional hectares from the neighboring farm.
+71.55 hectares + 2.43 hectares = 73.98 hectares
+
+Final Answer: 73.98 hectares"
+problem_742,"In the plate storage, Sarah finds 51 serving plates. First, the plate count is divided by 3. Following that, she holds onto just one set of plates after breaking the total into 17 equal sets. Finally, how many plates are there?",17.0,1.0,"Step 1: 51 plates divided by 3 = 17 plates per set.
+
+Step 2: 17 sets of plates, keeping only one set = 1 set of 17 plates.
+
+Final Answer: 17 plates."
+problem_745,"In the concrete formula, Ava begins with 0.29 parts cement. First, the cement proportion is adjusted to one-6.39 of its current value in parts, and then the cement ratio is lowered by 0.02 parts. How many parts are in the mixture? Make sure to round both your answer and any steps to 2 decimal places.",0.22,0.03,"Step 1: Adjust the cement proportion to one-6.39 of its current value.
+0.29 parts * (1 - 1/6.39) = 0.29 * 0.843 = 0.24447
+
+Step 2: Lower the cement ratio by 0.02 parts.
+0.24447 - 0.02 = 0.22447
+
+Final Answer: 0.22 parts"
+problem_748,"Aisha begins dinner service prep with 4.59 kilograms of flour. Then, the amount of flour is divided by 3.13, and later Aisha sets the quantity to 3.84 times its present amount. What is the final measure of flour, in kilograms? Keep only 2 decimal places in your answer and any work shown.",5.62,5.64,"Step 1: Divide the initial amount of flour by 3.13
+4.59 kg / 3.13 = 1.465648854961832
+
+Step 2: Multiply the result by 3.84
+1.465648854961832 * 3.84 = 5.624
+
+Final Answer: 5.62 kilograms"
+problem_760,"During assessment of a construction project, Fatima estimates a cost of 1,603,386 dollars. Then, using a factor of 9, Fatima scales down the project budget. Later, Fatima removes 63,932 dollars. Finally, how much money is allocated for the construction project?",114221.33,114222.0,"Step 1: Scaling down the project budget by a factor of 9:
+1,603,386 / 9 = 178,153.33
+
+Step 2: Removing 63,932 dollars:
+178,153.33 - 63,932 = 114,221.33
+
+Final Answer: 114,221.33"
+problem_763,"Mohammed begins dinner service prep with 25.11 kilograms of flour. In the beginning, Mohammed splits the total flour into 19.69 equal parts and keeps just one part. Next, he brings the supply to 4.73 times its current level. Later, the amount of flour is divided by 5.86. Following that, Mohammed increases the quantity of flour by a factor of 4.57. Then, Mohammed takes away 0.48 kilograms. How much flour is there now, in kilograms? Round your answer and any steps to 2 decimal places.",4.18,4.23,"Step 1: Mohammed keeps 1 part out of 19.69 parts of the flour.
+Amount of flour Mohammed keeps = 25.11 kg / 19.69 = 1.27 kg
+
+Step 2: Mohammed brings the supply to 4.73 times its current level.
+New amount of flour = 1.27 kg * 4.73 = 6.00 kg
+
+Step 3: The amount of flour is divided by 5.86.
+New amount of flour = 6.00 kg / 5.86 ≈ 1.02 kg
+
+Step 4: Mohammed increases the quantity of flour by a factor of 4.57.
+New amount of flour = 1.02 kg * 4.57 ≈ 4.66 kg
+
+Step 5: Mohammed takes away 0.48 kilograms.
+Final amount of flour = 4.66 kg - 0.48 kg = 4.18 kg
+
+Final Answer: 4.18 kg"
+problem_766,"The electronic timing system measures an athletic reaction time of 182.3 milliseconds. In the beginning, fatigue adds 20.3 milliseconds to the reaction time. Following that, practice decreases reaction time by 18.5 milliseconds. Then, testing shows reaction time slowed to 2.1 times the current millisecond value, and then the athlete's time drops to 1/2.5 of the current reading in milliseconds. Next, Daniel sees the reaction time increase to 2.2 times the current number of milliseconds. How many milliseconds is the reaction time now? All calculations and the final answer should be rounded to 1 decimal place.",340.8,340.1,"1. Initial reaction time: 182.3 milliseconds
+2. Fatigue adds 20.3 milliseconds: 182.3 + 20.3 = 202.6 milliseconds
+3. Practice decreases reaction time by 18.5 milliseconds: 202.6 - 18.5 = 184.1 milliseconds
+4. Reaction time slowed to 2.1 times the current millisecond value: 184.1 * 2.1 = 387.2 milliseconds
+5. Athlete's time drops to 1/2.5 of the current reading: 387.2 / 2.5 = 154.9 milliseconds
+6. Daniel sees the reaction time increase to 2.2 times the current number of milliseconds: 154.9 * 2.2 = 340.8 milliseconds
+
+Final Answer: 340.8"
+problem_769,"At the box office, Oliver starts with 3,171 tickets available. First Oliver takes 1/3 of the current ticket total, and after that he multiplies the available tickets by 3. Later, Oliver releases 33 additional tickets from the contingency block. How many tickets are available?",6375.0,3204.0,"1. Oliver takes 1/3 of the current ticket total:
+3,171 tickets * 1/3 = 1,057 tickets taken by Oliver
+
+2. After Oliver takes the tickets, the remaining tickets are:
+3,171 tickets - 1,057 tickets = 2,114 tickets
+
+3. Oliver multiplies the available tickets by 3:
+2,114 tickets * 3 = 6,342 tickets
+
+4. Oliver releases 33 additional tickets from the contingency block:
+6,342 tickets + 33 tickets = 6,375 tickets available
+
+Final Answer: 6,375"
+problem_770,"Zain starts with a 481.96 percent change in lighting. Then, the percentage change reduces by 20.81. Next, Zain uses a division by 3.13 on the percentage change. What is the total adjustment as a percentage change? Express your answer and any intermediate steps to 2 decimal places.",147.29,147.33,"Step 1: Reduce the initial percentage change by 20.81 percent.
+
+481.96 - 20.81 = 461.15
+
+Step 2: Divide the adjusted percentage change by 3.13.
+
+461.15 / 3.13 ≈ 147.29
+
+Final Answer: 147.29 percent"
+problem_771,"While processing, Olivia updates 7 financial accounts. In the beginning, Olivia divides the account number by 7. Later, they opened 5 more accounts, increasing the total. Following that, the portfolio decreased by 5 accounts. What is the total number of accounts now?",7.0,1.0,"Initially, Olivia divides the account number by 7. Let's denote the initial number of accounts as $x$.
+
+So, the initial number of accounts is $x/7$.
+
+After opening 5 more accounts, the total number of accounts becomes $x/7 + 5$.
+
+Then, the portfolio decreased by 5 accounts, making the total number of accounts $x/7 + 5 - 5 = x/7$.
+
+Therefore, the total number of accounts now is the same as the initial number of accounts, which is $x$.
+
+Final Answer: $x$"
+problem_790,"Bianca starts with 0.61 parts cement in the concrete mix. First the cement content becomes one-7.79 of what it was. Following that, Bianca includes 0.01 more parts from the quality control lab. Then, Bianca introduces 0.03 extra parts from the chemical supplier. Next, the cement proportion is modified to one-8.27 of its present value in parts. What is the resulting cement content in parts? Express your answer and any intermediate steps to 2 decimal places.",0.5,0.01,"1. After the first modification, the cement content becomes 0.61 * (1 - 1/7.79) = 0.61 * (1 - 0.1284) = 0.61 * 0.8716 = 0.5315 parts.
+
+2. Adding 0.01 parts from the quality control lab, the new cement content is 0.5315 + 0.01 = 0.5415 parts.
+
+3. Including 0.03 extra parts from the chemical supplier, the updated cement content is 0.5415 + 0.03 = 0.5715 parts.
+
+4. Finally, modifying the cement proportion to one-8.27 of its present value, the resulting cement content is 0.5715 * (1 - 1/8.27) = 0.5715 * 0.8791 = 0.5024 parts.
+
+Final Answer: 0.50"
+problem_792,"Victoria observes 13 financial transactions for patterns. First, Victoria sets the total to 2 times its current number. How many transactions remain?",13.0,26.0,"Initially, Victoria observes 13 financial transactions.
+
+After setting the total to 2 times its current number, the new total becomes 13 * 2 = 26.
+
+Therefore, the number of transactions that remain is 26 - 13 = 13.
+
+Final Answer: 13"
+problem_793,"Jack takes inventory and counts 80 serving plates. In the beginning, the plate count is diminished by a factor of 20, and after that he splits the total plates into 2 equal parts and keeps only one. How many plates are in service?",30.0,2.0,"Step 1: 80 plates are diminished by a factor of 20, leaving 80 - 20 = 60 plates.
+
+Step 2: Jack splits the 60 plates into 2 equal parts, so each part has 60 / 2 = 30 plates.
+
+Step 3: Jack keeps only one part, which means he keeps 30 plates.
+
+Final Answer: 30 plates"
+problem_796,"Hassan's performance assessment indicates a change of 0.8 percent from an initial benchmark. First the change gains an additional 1.7 percent in performance improvement. Next, the change is multiplied by 2.9. Later, the performance change is divided by -5.8. Following that, the change is multiplied by 3, and after that the performance change reduces by 1.5 percent. What is the resulting relative performance change? Express your answer and any intermediate steps to 1 decimal place.",-5.3,-5.4,"1. Initial change from benchmark: 0.8%  
+2. Additional performance improvement: 0.8% + 1.7% = 2.5%  
+3. Change multiplied by 2.9: 2.5% * 2.9 = 7.25%  
+4. Change divided by -5.8: 7.25% / -5.8 = -1.25%  
+5. Change multiplied by 3: -1.25% * 3 = -3.75%  
+6. Performance change reduces by 1.5%: -3.75% - 1.5% = -5.25%  
+
+Final Answer: -5.3%"
+problem_798,"Ismail organizes 6.5 study hours for the semester. In the beginning, Ismail divides the study time by 2.3, and next the study duration grows by a factor of 3.4. Later, 1.6 hours were cut. Following that, he reduces the amount of time by 1.6 hours. What is the final time in hours? Keep only 1 decimal place in your answer and any work shown.",6.4,6.3,"Step 1: Divide the total study time by 2.3
+6.5 / 2.3 = 2.8261
+
+Step 2: Multiply the result by 3.4
+2.8261 * 3.4 = 9.6107
+
+Step 3: Subtract 1.6 hours
+9.6107 - 1.6 = 8.0107
+
+Step 4: Reduce the time by another 1.6 hours
+8.0107 - 1.6 = 6.4107
+
+Final Answer: 6.4"
+problem_801,"Grace is surveying 18.43 hectares of land for planting. In the beginning, Grace reduces their holdings by dividing the land into 2.44 parts and keeping one. Later, Grace obtains 2.49 more hectares from a land bank. Following that, Grace leases 0.79 more hectares from a retiring farmer. Then, the land area grows by a factor of 3.62, and next the farmland expands to 2.53 times its current size. How many hectares in total? Round your answer and any steps to 2 decimal places.",99.08,99.18,"1. Grace starts with 18.43 hectares of land.
+2. Grace divides the land into 2.44 parts and keeps one part, which is 18.43 / 2.44 = 7.54 hectares.
+3. Grace obtains 2.49 more hectares from a land bank, making the total land area 7.54 + 2.49 = 10.03 hectares.
+4. Grace leases 0.79 more hectares from a retiring farmer, increasing the total land area to 10.03 + 0.79 = 10.82 hectares.
+5. The land area grows by a factor of 3.62, resulting in 10.82 * 3.62 = 39.17 hectares.
+6. The farmland then expands to 2.53 times its current size, giving a total of 39.17 * 2.53 = 99.08 hectares.
+
+Final Answer: 99.08"
+problem_804,"Victoria starts the account with 538.19 dollars. Then, Victoria makes the value be 1.34 times its current amount. Following that, the balance becomes 1.30 times its current value. How many dollars are there in total? When showing work, use only 2 decimal places for all calculations and the answer.",937.38,937.52,"1. First, we find 1.34 times the initial amount:
+538.19 * 1.34 = 721.06
+
+2. Next, we find 1.30 times the amount from step 1:
+721.06 * 1.30 = 937.38
+
+Final Answer: 937.38"
+problem_812,"In examining the account, Chen notes a total of -585.53 dollars. In the beginning, the account changes to 1.54 times the current level, and then Chen reduces the total by 12.98 dollars. Then, another 42.94 dollars were credited to the funds. How many dollars are in balance? Give your answer and work (if shown) rounded to 2 decimal places.",-871.46,-871.76,"1. Initial total: -585.53 dollars
+2. Account changes to 1.54 times the current level: -585.53 * 1.54 = -901.4162
+3. Chen reduces the total by 12.98 dollars: -901.4162 - 12.98 = -914.3962
+4. Another 42.94 dollars were credited: -914.3962 + 42.94 = -871.4562
+
+Final Answer: -871.46"
+problem_814,"During review, Yuki checks 2 financial transactions. First, Yuki scales the payment up 4-fold. Later, he adds 5 more transactions to process, and next Yuki enters 1 additional transaction from the merchant service. Following that, Yuki deletes 1 transaction. Then, Yuki enters 3 additional transactions from the clearing house. How many transactions are there in the end?",9.0,16.0,"Initially, Yuki has 1 transaction.
+
+After scaling up the payment 4-fold, Yuki still has 1 transaction.
+
+Adding 5 more transactions gives Yuki a total of 1 + 5 = 6 transactions.
+
+Entering 1 additional transaction from the merchant service brings the total to 6 + 1 = 7 transactions.
+
+Deleting 1 transaction leaves Yuki with 7 - 1 = 6 transactions.
+
+Finally, entering 3 additional transactions from the clearing house results in a total of 6 + 3 = 9 transactions.
+
+Final Answer: 9"
+problem_822,"In the kitchen, the temperature reads 27.3 degrees Celsius. First the recipe now needs to be set at 1/6.6 of the temperature. Next, the temperature naturally rises by 13 degrees. Later, the temperature is changed by a factor of 2.4. What is the total temperature? Give your answer and work (if shown) rounded to 1 decimal place.",41.1,41.0,"First, calculate 1/6.6 of the initial temperature:
+1/6.6 * 27.3 = 4.1364
+
+Next, add the natural rise of 13 degrees:
+4.1364 + 13 = 17.1364
+
+Finally, multiply by the factor of 2.4:
+17.1364 * 2.4 = 41.1274
+
+Final Answer: 41.1"
+problem_824,"Chen measures a 35.64 percent change in lighting. First, Chen multiplies the current percentage change by 3.03, and next he reduces the total percentage change by 10.04. Then, the current percentage change increases by 15.25. What is the final lighting percentage change? When showing work, use only 2 decimal places for all calculations and the answer.",113.32,113.2,"Step 1: 35.64% * 3.03 = 108.1092
+
+Step 2: 108.1092 - 10.04 = 98.0692
+
+Step 3: 98.0692 + 15.25 = 113.3192
+
+Final Answer: 113.32 percent"
+problem_827,"Elena calibrates the cement proportion to 0.97 parts for the batch. First the cement proportion changes to 1/4.35 of the present amount. Then, the batch increases to 2.56 times amount it is now in parts. How many parts of cement are present in the adjusted mixture? Round your answer and any steps to 2 decimal places.",0.57,0.56,"1. First, the cement proportion changes to 1/4.35 of the present amount:
+0.97 parts * 1/4.35 = 0.22356 parts
+
+2. Then, the batch increases to 2.56 times the amount it is now:
+0.22356 parts * 2.56 = 0.57252 parts
+
+Final Answer: 0.57 parts"
+problem_829,"While on the job, Jack prepares 0.97 parts cement for the concrete. Then, Jack sets the cement to one-6.36 of the existing amount as a number of parts. How many parts are there now? When showing work, use only 2 decimal places for all calculations and the answer.",0.03,0.15,"To find the new amount of cement, we need to multiply the existing amount by 1 - 0.97 = 0.03.
+
+0.97 * 0.03 = 0.0291
+
+So, the new amount of cement is 0.0291 parts.
+
+Final Answer: 0.03 parts"
+problem_832,"In the lighting booth, Ethan measures a 231.04 percent shift in lighting. First, the total percentage change is multiplied by 2.05. Next, he increases the percent change in intensity by 24.45 more, and later the percentage change gets divided by 3.40. Later, the total percentage shift rises by 17.79. As a percentage, what is the total adjustment as a percentage change? All calculations and the final answer should be rounded to 2 decimal places.",164.31,164.28,"Step 1: Multiply the total percentage change by 2.05
+231.04% * 2.05 = 473.732%
+
+Step 2: Increase the percent change by 24.45 more
+473.732% + 24.45 = 498.182%
+
+Step 3: Divide the percentage change by 3.40
+498.182% / 3.40 = 146.52%
+
+Step 4: Increase the total percentage shift by 17.79
+146.52% + 17.79 = 164.31%
+
+Final Answer: 164.31%"
+problem_836,"Ava forecasts 2,552,102 dollars for costs related to a construction project. Then, Ava scales down the allocated funds by 7. How many dollars are in the allocation?",2370878.86,364586.0,"To find the scaled-down allocation, we need to multiply the original forecasted amount by 1 - 7/100 = 0.93.
+
+Scaled-down allocation = 2,552,102 * 0.93 = 2,370,878.86
+
+Final Answer: 2,370,878.86"
+problem_838,"In a warehouse, Elena manages 3 building materials. In the beginning, Elena adds 2 more to inventory. Later, the inventory decreased by 2 building materials, and after that Elena amplifies the stock level 3-fold. How many building materials are available?",3.0,9.0,"Let's denote the initial number of building materials as \( x \).
+
+1. Elena adds 2 more building materials to the inventory: \( x + 2 \).
+2. The inventory decreased by 2 building materials: \( x + 2 - 2 = x \).
+3. Elena amplifies the stock level 3-fold: \( 3x \).
+
+Therefore, the total number of building materials available is \( 3x \).
+
+Final Answer: 3x"
+problem_840,"Yuki measures a 63.60 percent change in lighting. First the current lighting percentage change falls by 21.63. Later, he brings the percentage change to 1/5.29 of its value. Following that, a multiplication by 2.11 is applied to the running percentage change total. Then, the current lighting percentage change is multiplied by 2.84, and later Yuki applies an additional 12.77 as a percent change adjustment. And now, what is the final lighting percentage change? Make sure to round both your answer and any steps to 2 decimal places.",60.34,60.28,"Step 1: 63.60 percent change falls by 21.63 percent  
+New percentage change = 63.60 - 21.63 = 41.97  
+
+Step 2: Yuki brings the percentage change to 1/5.29 of its value  
+New percentage change = 41.97 / 5.29 ≈ 7.93  
+
+Step 3: Multiplication by 2.11 is applied to the running percentage change total  
+New percentage change = 7.93 * 2.11 ≈ 16.74  
+
+Step 4: Current lighting percentage change is multiplied by 2.84  
+New percentage change = 16.74 * 2.84 ≈ 47.57  
+
+Step 5: Yuki applies an additional 12.77 as a percent change adjustment  
+Final lighting percentage change = 47.57 + 12.77 = 60.34  
+
+Final Answer: 60.34"
+problem_841,"Charlotte starts with a 206.06 percent change in lighting. Then, Charlotte applies a 2.09-time multiplication to the percentage change. As a percentage, what is the final lighting percent change? When showing work, use only 2 decimal places for all calculations and the answer.",430.79,430.67,"First, we calculate the new percentage change after applying the multiplication factor:
+
+206.06 * 2.09 = 430.7854
+
+Therefore, the final lighting percent change is 430.79%.
+
+Final Answer: 430.79%"
+problem_843,"Ismail arranges 3,175,415 dollars in financing for a construction project. First, Ismail scales down the allocated funds by 5. Then, he adds 148,775 dollars. Finally, how much money is allocated for the construction project?",3165419.25,783858.0,"Step 1: Scaling down the allocated funds by 5%:
+5% of 3,175,415 dollars = 0.05 * 3,175,415 = 158,770.75 dollars
+
+New amount after scaling down = 3,175,415 - 158,770.75 = 3,016,644.25 dollars
+
+Step 2: Adding 148,775 dollars:
+Total amount after adding = 3,016,644.25 + 148,775 = 3,165,419.25 dollars
+
+Final Answer: 3,165,419.25"
+problem_854,"During market hours, Sarah sees a shift of 2.95 dollars. First, Sarah loses 0.03 dollars. Then, she calculates the change be multiplied by 1.58. What is the total change in dollars now? Use only 2 decimal places for your answer and any calculations shown.",4.62,4.61,"First, Sarah loses 0.03 dollars:
+2.95 - 0.03 = 2.92
+
+Next, she calculates the change to be multiplied by 1.58:
+2.92 * 1.58 = 4.6156
+
+Therefore, the total change in dollars now is 4.62.
+Final Answer: 4.62"
+problem_855,"For approval of a construction project, Sebastian submits a budget estimate of 4,214,034 dollars. First, the existing funding is scaled down to 1/33 of its current level. Finally, how much money is allocated for the construction project?",127764.36,127698.0,"Step 1: Calculate 1/33 of the existing funding.
+1/33 * 4,214,034 = 127,764.36
+
+Final Answer: 127,764.36"
+problem_857,"For this semester's classes, Jia prepares 50 textbooks. First, 4 textbooks were removed, and next after dividing the books into 23 equal parts, Jia keeps one part and removes the rest. How many textbooks are there in the end?",44.0,2.0,"Initially, Jia prepares 50 textbooks.
+
+After removing 4 textbooks, she is left with 50 - 4 = 46 textbooks.
+
+Next, she divides the 46 textbooks into 23 equal parts. Each part will have 46 / 23 = 2 textbooks.
+
+Jia keeps one part, which is 2 textbooks, and removes the rest, which is 46 - 2 = 44 textbooks.
+
+Final Answer: 44"
+problem_858,"In the site assessment, Sarah notes 5.4 meters from ground level. In the beginning, Sarah applies a 9-part division to the elevation reading. Next, she lowers the target level by 2.5 meters. What relative level in meters does the plan specify? Round your answer and any steps to 1 decimal place.",2.9,-1.9,"1. Calculate the relative level after the 9-part division:
+5.4 meters / 9 = 0.6 meters per part
+
+2. Calculate the lowered target level:
+5.4 meters - 2.5 meters = 2.9 meters
+
+Final Answer: 2.9"
+problem_859,"The soil readings display 2.69 degrees Celsius. Then, the calibration software multiplies all readings by 2.81. Next, the temperature rises by 0.20 degrees. Later, a sensor calibration adjustment multiplies all readings by 2.09. Following that, the temperature sensor is recalibrated, adjusting all readings to 1/2.40 of their current value. Then, the probes measure a decrease of 0.48 degrees. How many degrees Celsius is the soil temperature now? When showing work, use only 2 decimal places for all calculations and the answer.",6.27,6.28,"Initial temperature reading: 2.69 degrees Celsius
+
+After multiplying by 2.81: 2.69 * 2.81 = 7.56
+
+After temperature rise of 0.20 degrees: 7.56 + 0.20 = 7.76
+
+After sensor calibration adjustment (multiplying by 2.09): 7.76 * 2.09 = 16.20
+
+After recalibration to 1/2.40 of current value: 16.20 / 2.40 = 6.75
+
+After temperature decrease of 0.48 degrees: 6.75 - 0.48 = 6.27
+
+Final Answer: 6.27 degrees Celsius"
+problem_860,"Jack assesses 49.17 hectares of land for crop rotation. First Jack increases each plot by a factor of 2.02, and then he incorporates 0.65 additional hectares from the neighboring farm. How big is the land now in hectares? Express your answer and any intermediate steps to 2 decimal places.",99.96,99.97,"Step 1: Increase each plot by a factor of 2.02
+49.17 hectares * 2.02 = 99.3134 hectares
+
+Step 2: Incorporate 0.65 additional hectares
+99.3134 hectares + 0.65 hectares = 99.9634 hectares
+
+Final Answer: 99.96 hectares"
+problem_868,"During the scene, Liam notes an 8.19 percent change in lighting. First Liam applies a 2.63-time multiplication to the percentage change, and then the current percentage change is multiplied by 2.48. Next, Liam multiplies the current percentage change by 2.36. Later, the total percentage change is multiplied by 2.19. Following that, the total percentage shift rises by 12.61. And now, what is the final lighting percentage change? Give your answer and work (if shown) rounded to 2 decimal places.",288.8,288.7,"Let's denote the initial lighting change as $x$.
+
+1. Applying a 2.63-time multiplication to the percentage change:
+$2.63 \times 8.19\% = 21.5597\%$
+
+2. Multiplying the current percentage change by 2.48:
+$21.5597\% \times 2.48 = 53.4485\%$
+
+3. Multiplying the current percentage change by 2.36:
+$53.4485\% \times 2.36 = 126.0866\%$
+
+4. Multiplying the total percentage change by 2.19:
+$126.0866\% \times 2.19 = 276.1916\%$
+
+5. Increasing the total percentage shift by 12.61:
+$276.1916\% + 12.61\% = 288.8016\%$
+
+Final Answer: 288.80%"
+problem_870,"At closing time, Raj finalizes 1 financial transaction. In the beginning, the tally of transactions reaches 4 times its current total. Then, he voids 2 transactions. Next, Raj increases the total by a factor of 3. Later, Raj eliminates 4 transactions. What is the total number of transactions now?",-3.0,2.0,"Let's denote the initial number of transactions as \(x\).
+
+1. In the beginning, the tally of transactions reaches 4 times its current total:
+\(x + 1 = 4x\)
+\(1 = 4x - x\)
+\(1 = 3x\)
+\(x = \frac{1}{3}\)
+
+2. Raj voids 2 transactions:
+\(x - 2 = \frac{1}{3} - 2\)
+\(x = \frac{1}{3} - 2\)
+\(x = -\frac{5}{3}\)
+
+Since the number of transactions cannot be negative, there seems to be an error in the calculations. Let's correct it.
+
+3. Raj increases the total by a factor of 3:
+\(3(x - 2) = 3(\frac{1}{3} - 2)\)
+\(3x - 6 = 1 - 6\)
+\(3x = -5\)
+\(x = -\frac{5}{3}\)
+
+Again, this result is negative, which is not possible. Let's correct the calculation.
+
+4. Later, Raj eliminates 4 transactions:
+\(3x - 4 = 3(-\frac{5}{3}) - 4\)
+\(3x - 4 = -5 - 4\)
+\(3x = -9\)
+\(x = -3\)
+
+Therefore, the total number of transactions now is \(x = -3\).
+
+Final Answer: -3"
+problem_874,"Amelia trains 11 performers for an act. In the beginning, the current performer count is reduced by dividing it by 11. Then, 3 additional performers were added to the troupe. What is the size of the group?",88.0,4.0,"Let's denote the initial number of performers as $x$.
+
+After reducing the current performer count by dividing it by 11, the new count is $\frac{x}{11}$.
+
+Adding 3 additional performers, the total count becomes $\frac{x}{11} + 3$.
+
+We are given that this total count is equal to 11 performers:
+$\frac{x}{11} + 3 = 11$
+
+Subtracting 3 from both sides gives:
+$\frac{x}{11} = 8$
+
+Multiplying both sides by 11 gives:
+$x = 88$
+
+Therefore, the size of the group is 88 performers.
+
+Final Answer: 88"
+problem_876,"Maya starts with 26.12 dollars in the bank account. First 48.90 dollars were deducted, and next Maya removes 27.34 dollars from the total. Following that, Maya adjusts the account to 2.33 times current value. Then, the value undergoes multiplication by 2.33. Next, Maya accepts 26.84 additional dollars from a transfer. What is the final value in dollars? Give your answer and work (if shown) rounded to 2 decimal places.",245.85,-245.26,"Initial amount = $26.12
+
+After deducting $48.90: $26.12 - $48.90 = -$22.78
+
+After removing $27.34 from the total: -$22.78 - $27.34 = -$50.12
+
+Adjusting the account to 2.33 times the current value: 2.33 * (-$50.12) = -$116.96
+
+Multiplying by 2.33: 2.33 * (-$116.96) = -$272.69
+
+Adding $26.84 from a transfer: -$272.69 + $26.84 = -$245.85
+
+Final Answer: -$245.85"
+problem_889,"At the branch, Bianca handles 39 accounts. First, Bianca holds onto a single portfolio after breaking down the accounts into 3 equal portfolios. Now, what is the total number of accounts?",39.0,13.0,"To find the total number of accounts, we first need to determine how many accounts are in each portfolio after breaking down the 39 accounts into 3 equal portfolios.
+
+39 accounts divided by 3 portfolios gives us:
+39 / 3 = 13 accounts per portfolio
+
+Now, Bianca holds onto a single portfolio, so the total number of accounts is:
+13 accounts per portfolio * 3 portfolios = 39 accounts
+
+Final Answer: 39"
+problem_898,"Anna has 63.74 hectares of land ready for cultivation. First the land area decreases when divided into 16.14 equal sections, with one section retained. Then, she reduces their agricultural footprint by 1.93 hectares. Next, the total area grew with 2.27 additional hectares. How many hectares does the farm now cover? Use only 2 decimal places for your answer and any calculations shown.",60.13,4.29,"Step 1: Divide the land into 16.14 equal sections, with one section retained.
+63.74 hectares / 16.14 = 3.95 hectares per section
+63.74 hectares - 3.95 hectares = 59.79 hectares remaining
+
+Step 2: Reduce the agricultural footprint by 1.93 hectares.
+59.79 hectares - 1.93 hectares = 57.86 hectares remaining
+
+Step 3: The total area grew with 2.27 additional hectares.
+57.86 hectares + 2.27 hectares = 60.13 hectares
+
+Final Answer: 60.13 hectares"
+problem_901,"Aisha observes 17 financial transactions for patterns. First Aisha keeps only one batch of transactions after breaking down the transactions into 17 equal batches. Then, she registers 1 extra transaction from the payment system. Next, Aisha divides the transactions by 2. Supply the total number of transactions.?",9.0,1.0,"Step 1: 17 equal batches of transactions means Aisha keeps 1 batch, which is 1/17 of the total transactions.
+Step 2: Aisha registers 1 extra transaction, so the total number of transactions in 17 batches is 17 * 1 + 1 = 18.
+Step 3: Dividing the total transactions by 2 gives us the final answer.
+Final Answer: 9"
+problem_905,"While planning coursework, Olivia assigns 4.6 study hours. First, Olivia splits the current total hours into 4.4 equal parts and keeps a single part. How many hours are there now? Give your answer and work (if shown) rounded to 1 decimal place.",5.8,1.0,"To find the total number of hours after splitting into 4.4 equal parts and keeping one part, we can set up the equation:
+
+Let x be the total number of hours.
+After splitting into 4.4 equal parts, Olivia keeps one part, which is 4.6 hours.
+So, the remaining 3.4 parts equal x - 4.6 hours.
+
+Each part is 4.4 parts, so we can write the equation:
+4.4 * (x - 4.6) = x
+
+Expanding the left side:
+4.4x - 19.84 = x
+
+Rearranging the equation:
+4.4x - x = 19.84
+3.4x = 19.84
+
+Dividing by 3.4 to solve for x:
+x = 19.84 / 3.4
+x ≈ 5.8
+
+Therefore, there are approximately 5.8 hours now.
+Final Answer: 5.8"
+problem_906,"In the lighting booth, Victoria measures a 267.48 percent shift in lighting. In the beginning, a shift causes the total percentage change to be to 1/3.81 of its previous value. And now, what is the final shift as a percentage change? Keep only 2 decimal places in your answer and any work shown.",-95.4,70.2,"Let's denote the initial lighting shift as $x$ percent.
+
+Given that the total percentage change is 1/3.81 of its previous value, we have:
+
+$x + 267.48 = \frac{1}{3.81}x$
+
+Multiplying both sides by 3.81 to clear the fraction:
+
+$3.81x + 3.81 \times 267.48 = x$
+
+$3.81x + 1019.1088 = x$
+
+Subtracting $3.81x$ from both sides:
+
+$1019.1088 = -2.81x$
+
+Dividing by $-2.81$ to solve for $x$:
+
+$x = \frac{1019.1088}{-2.81}$
+
+$x \approx -362.88$
+
+Therefore, the final shift as a percentage change is $-362.88 + 267.48 = -95.40$ percent.
+
+Final Answer: -95.40"
+problem_911,"Diana measures a change of 0.31 points in the rating. First, Diana multiplies the current change by 0.41. Next, she adjusts the rating change by dividing it by 0.53. Later, Diana reduces the running change total by 0.05 points. Following that, she lowers the current adjustment by 0.02 points. Then, a multiplication of 0.53 is applied. How many points are the final rating change? Make sure to round both your answer and any steps to 2 decimal places.",0.09,0.1,"Step 1: Multiply the current change by 0.41
+0.31 * 0.41 = 0.1271
+
+Step 2: Adjust the rating change by dividing it by 0.53
+0.1271 / 0.53 = 0.2398
+
+Step 3: Reduce the running change total by 0.05 points
+0.2398 - 0.05 = 0.1898
+
+Step 4: Lower the current adjustment by 0.02 points
+0.1898 - 0.02 = 0.1698
+
+Step 5: Multiply by 0.53
+0.1698 * 0.53 = 0.0900
+
+Final Answer: 0.09"
+problem_912,"Amelia checks the pantry and finds 23.18 kilograms of flour. In the beginning, Amelia changes the measure to 2.03 times its current amount, and then Amelia splits the total flour into 26.96 equal parts and keeps just one part. Finally, how much flour is there now, in kilograms? Round both your final answer and any steps to 2 decimal places.",1.74,1.75,"Step 1: Amelia changes the measure of flour to 2.03 times its current amount.
+New amount of flour = 23.18 kg * 2.03 = 46.98 kg
+
+Step 2: Amelia splits the total flour into 26.96 equal parts and keeps just one part.
+Amount of flour Amelia keeps = 46.98 kg / 26.96 = 1.74 kg
+
+Final Answer: 1.74 kg"
+problem_917,"Jack has 36.20 hectares of land prepared for seeding. First Jack breaks up the property into 32.13 sections, holding onto only one section. Following that, the land is split by 1.02, leaving he with just one portion. Then, Jack makes each section 3.69 times larger, and next the property expanded with 1.28 more hectares, and later 1.74 hectares were sold from their property. What is the final area in hectares? Make sure to round both your answer and any steps to 2 decimal places.",3.62,3.64,"Step 1: Jack breaks up the 36.20 hectares of land into 32.13 sections, holding onto only one section.
+Each section size = 36.20 hectares / 32.13 sections = 1.1256 hectares
+Remaining land after keeping one section = 1.1256 hectares
+
+Step 2: The land is split by 1.02, leaving Jack with just one portion.
+Remaining land after splitting = 1.1256 hectares / 1.02 = 1.1047 hectares
+
+Step 3: Jack makes each section 3.69 times larger.
+New section size = 1.1047 hectares * 3.69 = 4.0772 hectares
+
+Step 4: The property expanded with 1.28 more hectares.
+Total land area after expansion = 4.0772 hectares + 1.28 hectares = 5.3572 hectares
+
+Step 5: 1.74 hectares were sold from the property.
+Final land area = 5.3572 hectares - 1.74 hectares = 3.6172 hectares
+
+Final Answer: 3.62 hectares"
+problem_919,"Indira completes 7 financial transactions for clients. In the beginning, Indira splits the total transactions into 7 equal groups, keeps one, and discards the remainder. How many transactions are there?",56.0,1.0,"Let the total number of transactions be represented by $x$. 
+
+When Indira splits the total transactions into 7 equal groups, she keeps one group and discards the remainder. This means that the total number of transactions is divisible by 7.
+
+So, we can write the equation: $x = 7n$, where $n$ is an integer representing the number of transactions in each group.
+
+Since Indira keeps one group, the total number of transactions is $x = 7n + n = 8n$.
+
+Since we know that $x$ is divisible by 7, we can conclude that $8n$ is divisible by 7. The smallest positive integer $n$ that satisfies this condition is $n = 7$.
+
+Therefore, the total number of transactions is $x = 8 \times 7 = 56$.
+
+Final Answer: 56"
+problem_922,"While mapping the exercise route, Qiara records 5.8 kilometers. First, Qiara decreases the total length by partitioning the existing route into 5.2 equal intervals, and preserving one interval's length. Next, Qiara multiplies the route length by 3.4. How long is the finished course? Round your answer and any steps to 1 decimal place.",16.0,3.7,"1. Length of one interval after partitioning: \( \frac{5.8}{5.2} \)  
+\( \frac{5.8}{5.2} = 1.1154 \)  
+Rounded to 1 decimal place: 1.1
+
+2. Total length after partitioning: \( 5.8 - 1.1 = 4.7 \)
+
+3. Length of the finished course: \( 4.7 \times 3.4 = 15.98 \)  
+Rounded to 1 decimal place: 16.0
+
+Final Answer: 16.0"
+problem_923,"Raj's athletic performance has changed by -1.4 percent compared to last season. First, the change is multiplied by 2.6. Following that, the change is multiplied by 2.1, and later the performance change is multiplied by 2.2, and next the change grows by 1 percent. Then, the change gains an additional 2 percent in performance improvement. What is the final relative performance change? Give your answer and work (if shown) rounded to 1 decimal place.",-13.8,-13.7,"Let's denote the initial performance change as -1.4%.
+
+Step 1: Multiply the initial change by 2.6
+-1.4% * 2.6 = -3.64%
+
+Step 2: Multiply the result by 2.1
+-3.64% * 2.1 = -7.644%
+
+Step 3: Multiply the result by 2.2
+-7.644% * 2.2 = -16.8176%
+
+Step 4: Increase the result by 1%
+-16.8176% + 1% = -15.8176%
+
+Step 5: Increase the result by an additional 2%
+-15.8176% + 2% = -13.8176%
+
+Final Answer: -13.8%"
+problem_924,"Jia measures a reaction time of 188.3 milliseconds during performance testing. Then, the reaction time goes up by a factor of 2.1. What is the result in milliseconds? Round your answer and any steps to 1 decimal place.",395.7,395.4,"To find the new reaction time after increasing by a factor of 2.1, we multiply the original time by 2.1.
+
+New reaction time = 188.3 milliseconds * 2.1 = 395.7 milliseconds
+
+Final Answer: 395.7 milliseconds"
+problem_927,"Maya leads 5 students in discussion. Then, Maya divides the student count by 5, and later the enrollment total reaches 3 times its current tally of students. Then, the class grew by 2 more students, and after that she makes the total student number equal to one group of students after breaking down the students into 5 equal groups. Next, the number of students grows by a factor of 3. What is the resulting number of students?",75.0,3.0,"Step 1: Maya leads 5 students in discussion.
+Total students = 5
+
+Step 2: Maya divides the student count by 5.
+Total students = 5 / 5 = 1
+
+Step 3: The enrollment total reaches 3 times its current tally of students.
+Total students = 1 * 3 = 3
+
+Step 4: The class grew by 2 more students.
+Total students = 3 + 2 = 5
+
+Step 5: After that, she makes the total student number equal to one group of students after breaking down the students into 5 equal groups.
+Total students = 5 * 5 = 25
+
+Step 6: The number of students grows by a factor of 3.
+Total students = 25 * 3 = 75
+
+Final Answer: 75"
+problem_932,"In the lab, Indira measures 0.64 parts cement for the concrete mix. In the beginning, the cement proportion changes to 1/5.21 of the present amount. Then, she changes the batch to 3.65 times its current amount in parts. Next, Indira introduces 0.01 extra parts from the batch plant. How many parts of cement does the final mixture contain? Round both your final answer and any steps to 2 decimal places.",0.46,0.45,"Step 1: Change the cement proportion to 1/5.21 of the present amount.
+0.64 parts * (1/5.21) = 0.1228 parts
+
+Step 2: Change the batch to 3.65 times its current amount.
+0.1228 parts * 3.65 = 0.4482 parts
+
+Step 3: Add 0.01 extra parts from the batch plant.
+0.4482 parts + 0.01 parts = 0.4582 parts
+
+Final Answer: 0.46 parts"
+problem_935,"While preparing training zones, Charlotte distributes 35 pieces of sports equipment. In the beginning, Charlotte makes the equipment total equal to the current size divided by 7. Then, she scales the available equipment to 6 times the current amount. How many equipment pieces are in stock?",1470.0,30.0,"Step 1: Charlotte distributes 35 pieces of sports equipment in the beginning.
+
+Step 2: Let x be the current size of the equipment. According to the problem, the equipment total equals x/7 in the beginning.
+
+Step 3: In the beginning, x/7 = 35.
+
+Step 4: Solving for x, we get x = 7 * 35 = 245.
+
+Step 5: Charlotte scales the available equipment to 6 times the current amount, which is 6 * 245 = 1470 pieces.
+
+Final Answer: 1,470"
+problem_937,"The athletic analysis reveals a change of 2.1 percent in Pradeep's capabilities. Then, the change is divided by -2.8. What is the resulting performance change? All calculations and the final answer should be rounded to 1 decimal place.",-0.0075,-0.8,"Step 1: Calculate the performance change in decimal form.
+2.1 percent = 0.021
+
+Step 2: Divide the performance change by -2.8.
+0.021 / -2.8 = -0.0075
+
+Final Answer: -0.0075"
+problem_946,"Nina sets the target elevation to 10.3 meters height from the baseline. Then, Nina performs a 3.4-part division on the elevation, and later Nina recalculates the elevation as 3.3 times its present value in meters. What is the final, relative ground level? Express your answer and any intermediate steps to 1 decimal place.",10.0,9.9,"1. Calculate the elevation after the 3.4-part division:
+10.3 meters / 3.4 = 3.0294 meters
+
+2. Recalculate the elevation as 3.3 times its present value:
+3.0294 meters * 3.3 = 10.0002 meters
+
+Final Answer: 10.0 meters"
+problem_947,"Chen observes a 246.22 percent shift in brightness. First Chen uses a division by 2.37 on the percentage change. Next, he adds another 18.16 to the percentage change. Later, another 5.95 percent change in lighting is added from the lighting board. As a percentage, what is the final change as a percentage change? Give your answer and work (if shown) rounded to 2 decimal places.",128.09,128.0,"Step 1: Divide the initial percentage change by 2.37  
+$246.22\% \div 2.37 = 103.98\%$
+
+Step 2: Add 18.16 to the result  
+$103.98\% + 18.16\% = 122.14\%$
+
+Step 3: Add another 5.95 percent change  
+$122.14\% + 5.95\% = 128.09\%$
+
+Final Answer: 128.09%"
+problem_948,"The venue allocates Bianca 1,235 tickets to manage. First, a 1/5 fraction of the current total becomes the new amount. Following that, Bianca increases the venue ticket count 3-fold. How many tickets are available?",2964.0,741.0,"1. Calculate 1/5 of 1,235:
+1,235 * 1/5 = 247
+
+2. Subtract 247 from the original total:
+1,235 - 247 = 988
+
+3. Triple the new total:
+988 * 3 = 2,964
+
+Final Answer: 2,964"
+problem_955,"Anna arranges 8 pieces of sports equipment across different practice zones. Then, Anna evenly divides the equipment into 8 groups, and proceeds to make the total equal to only one group's share. Following that, she updates the inventory by adding 3 more pieces of sports equipment from the sports center. What is the total number of pieces of equipment now?",3.0,4.0,"Let's denote the total number of pieces of sports equipment initially as $T$.
+
+After evenly dividing the equipment into 8 groups, each group will have $\frac{T}{8}$ pieces of equipment.
+
+Given that the total is equal to only one group's share, we have the equation:
+$T = \frac{T}{8}$
+
+Multiplying both sides by 8 to clear the fraction, we get:
+$8T = T$
+
+Subtracting T from both sides, we have:
+$8T - T = 0$
+$7T = 0$
+
+Dividing by 7, we find:
+$T = 0$
+
+This means that initially, there were 0 pieces of sports equipment. 
+
+After adding 3 more pieces of sports equipment, the total number of pieces of equipment now is:
+$0 + 3 = 3$
+
+Final Answer: 3"
+problem_956,"The soil temperature starts at 21.06 degrees Celsius. First, the measurements need to be scaled down by 1/2.67 due to sensor calibration. Next, the temperature is multiplied by 2.89 due to a calibration error. What is the final soil temperature in degrees Celsius? Make sure to round both your answer and any steps to 2 decimal places.",22.78,22.8,"Step 1: Scale down the initial temperature by 1/2.67
+21.06 / 2.67 ≈ 7.88
+
+Step 2: Multiply the scaled temperature by 2.89
+7.88 * 2.89 ≈ 22.78
+
+Final Answer: 22.78 degrees Celsius"
+problem_959,"The athletic analysis reveals a change of 8.1 percent in Chen's capabilities. Then, the change is divided by 4.5. What is the final relative performance change? Round both your final answer and any steps to 1 decimal place.",0.018,1.8,"Step 1: Calculate the absolute change in Chen's capabilities:
+Absolute change = 8.1% of Chen's capabilities
+Absolute change = 8.1/100 * Chen's capabilities
+Absolute change = 0.081 * Chen's capabilities
+
+Absolute change = 0.081 * Chen's capabilities
+
+Step 2: Divide the absolute change by 4.5:
+Relative performance change = Absolute change / 4.5
+Relative performance change = (0.081 * Chen's capabilities) / 4.5
+Relative performance change = 0.018 * Chen's capabilities
+
+Relative performance change = 0.018 * Chen's capabilities
+
+Final Answer: 0.018 * Chen's capabilities"
+problem_969,Raj calibrates the cement proportion to 0.04 parts for the batch. First Raj adjusts the cement to one-2.96 of its current amount. What is the resulting cement content in parts? Round your answer and any steps to 2 decimal places.,-1.92,0.01,"First, we need to find 1-2.96 of the current amount of cement:
+1 - 2.96 = -1.96
+
+Next, we add this result to the original proportion of cement (0.04 parts):
+0.04 + (-1.96) = -1.92
+
+Therefore, the resulting cement content is -1.92 parts.
+
+Final Answer: -1.92"
+problem_970,"William records a -24.88 percent adjustment in intensity. Then, the current lighting percentage change falls by 12.39, and next William applies an additional 19.61 as a percent change adjustment. Later, a multiplication by 2.39 is applied to the running percentage change total, and after that the running percentage adjustment grows by 18.66. Following that, William applies an additional 15.18 as a percent change adjustment. What is the final change as a percentage change? Make sure to round both your answer and any steps to 2 decimal places.",2.07,-8.37,"Step 1: Apply the first adjustment of -24.88% to the initial intensity.
+New intensity = Initial intensity * (1 + (-24.88/100))
+New intensity = Initial intensity * 0.7512
+
+Step 2: Apply the second adjustment of -12.39% to the intensity after the first adjustment.
+Intensity after second adjustment = New intensity * (1 + (-12.39/100))
+Intensity after second adjustment = New intensity * 0.8761
+
+Step 3: Apply the third adjustment of 19.61% to the intensity after the second adjustment.
+Intensity after third adjustment = Intensity after second adjustment * (1 + 19.61/100)
+Intensity after third adjustment = Intensity after second adjustment * 1.1961
+
+Step 4: Multiply the running total by 2.39.
+Intensity after multiplication = Intensity after third adjustment * 2.39
+
+Step 5: Apply the fifth adjustment of 18.66% to the intensity after the multiplication.
+Intensity after fifth adjustment = Intensity after multiplication * (1 + 18.66/100)
+
+Step 6: Apply the sixth adjustment of 15.18% to the intensity after the fifth adjustment.
+Intensity after sixth adjustment = Intensity after fifth adjustment * (1 + 15.18/100)
+
+Final Answer: 2.07"
+problem_974,"Mohammed records a baseline 379.4 milliseconds reaction time in sprint training. First, Mohammed sees the reaction time reduces to 1/2 of its current millisecond value. Later, the reaction time drops by 18 milliseconds. Following that, the response time increases 2.1-fold under pressure. Then, Mohammed observes the reaction time increases by 16.3 milliseconds due to fatigue. What is the resulting reaction time in milliseconds? Round your answer and any steps to 1 decimal place.",377.0,376.9,"1. Reaction time reduces to 1/2 of its current value:
+\(379.4 \, \text{ms} \times \frac{1}{2} = 189.7 \, \text{ms}\)
+
+2. Reaction time drops by 18 milliseconds:
+\(189.7 \, \text{ms} - 18 \, \text{ms} = 171.7 \, \text{ms}\)
+
+3. Response time increases 2.1-fold under pressure:
+\(171.7 \, \text{ms} \times 2.1 = 360.7 \, \text{ms}\)
+
+4. Reaction time increases by 16.3 milliseconds due to fatigue:
+\(360.7 \, \text{ms} + 16.3 \, \text{ms} = 377.0 \, \text{ms}\)
+
+Final Answer: 377.0 milliseconds"
+problem_975,"While monitoring, Gabriel tracks 19 financial transactions. Then, Gabriel divides the transactions by 19. Later, he accepts 2 additional transactions from the merchant service. Following that, Gabriel records 4 more transactions from the clearing house. Then, the volume of transactions expands to 6 times its current level. How many transactions remain?",150.0,42.0,"Initially, Gabriel tracks 19 financial transactions.
+
+After dividing the transactions by 19, he still has 1 transaction per division.
+
+Adding 2 additional transactions from the merchant service, Gabriel now has 19 + 2 = 21 transactions.
+
+Recording 4 more transactions from the clearing house, Gabriel now has 21 + 4 = 25 transactions.
+
+Expanding the volume of transactions to 6 times its current level, Gabriel now has 25 * 6 = 150 transactions.
+
+Therefore, Gabriel has 150 transactions in total.
+
+Final Answer: 150"
+problem_981,"In the system at the bank, Olivia enters a value of 119.31 dollars. Then, the value reaches 2.41 times its current amount, and next the funds are divided by 407.49. Later, Olivia subtracts 19.92 dollars from the balance, and later she withdraws 17.06 dollars from the balance. How many dollars are there in total? Use only 2 decimal places for your answer and any calculations shown.",36.27,-36.27,"1. Initial amount: $119.31
+
+2. After reaching 2.41 times the current amount: $119.31 * 2.41 = $287.5071
+
+3. After dividing by 407.49: $287.5071 / 407.49 = $0.7063
+
+4. After subtracting $19.92: $0.7063 - $19.92 = -$19.2137
+
+5. After withdrawing $17.06: -$19.2137 - $17.06 = -$36.2737
+
+Final Answer: -$36.27"
+problem_982,"While reconciling bank accounts, Zara documents an amount equal to 594.97 dollars. First Zara reduces the total by 45.58 dollars, and then the value reaches 1.24 times its current amount. Later, Zara sets the balance to 1.31 times the current level, and next 1/463.75 of the current balance is calculated, and that becomes the new balance. How many dollars are in balance? Keep only 2 decimal places in your answer and any work shown.",0.1602,1.92,"Let's denote the initial amount as $x$.
+
+After reducing by $45.58, the amount becomes $x - 45.58$.
+
+Then, the value becomes $1.24(x - 45.58) = 1.24x - 1.24(45.58)$.
+
+After setting the balance to 1.31 times the current level, the amount becomes $1.31(1.24x - 1.24(45.58))$.
+
+Next, 1/463.75 of the current balance is calculated, so the new balance is $\frac{1}{463.75} \times 1.31(1.24x - 1.24(45.58))$.
+
+Now, we can simplify this expression to find the final balance.
+
+$1.31(1.24x - 1.24(45.58)) = 1.31(1.24x - 56.5792) = 1.6244x - 74.308752$
+
+$\frac{1}{463.75} \times (1.6244x - 74.308752) = \frac{1.6244x - 74.308752}{463.75}$
+
+Final Answer: $0.0035x - 0.1602$"
+problem_985,"Diego begins bakery prep with 29.59 kilograms of flour. Then, the amount of flour is divided by 6.13. Then, he splits the total flour into 3.27 equal parts and keeps just one part. Finally, how much flour is there now, in kilograms? Keep only 2 decimal places in your answer and any work shown.",1.47,1.48,"Step 1: Divide the initial amount of flour by 6.13
+29.59 kg / 6.13 = 4.82 kg
+
+Step 2: Split the total flour into 3.27 equal parts
+4.82 kg / 3.27 = 1.47 kg
+
+Final Answer: 1.47 kg"
+problem_989,"Benjamin notes a GPA of 0.54. First, Benjamin changes their GPA to be equal to the current score in points times 2.17. What is the final GPA? Make sure to round both your answer and any steps to 2 decimal places.",0.54,1.17,"First, we need to calculate Benjamin's current score in points:
+Current score = 0.54 / 2.17 = 0.2488
+
+Next, we need to convert the current score back to GPA:
+Final GPA = 0.2488 * 2.17 = 0.54
+
+Final Answer: 0.54"
+problem_993,"Oliver manages 46 accounts at the bank. First Oliver holds onto a single portfolio after breaking down the accounts into 23 equal portfolios. Now, what is the total number of accounts?",46.0,2.0,"To find the total number of accounts, we first need to calculate how many accounts are in each portfolio.
+
+Number of accounts in each portfolio = Total accounts / Number of portfolios
+Number of accounts in each portfolio = 46 / 23
+Number of accounts in each portfolio = 2
+
+Now, to find the total number of accounts, we multiply the number of accounts in each portfolio by the number of portfolios.
+
+Total number of accounts = Number of accounts in each portfolio * Number of portfolios
+Total number of accounts = 2 * 23
+Total number of accounts = 46
+
+Final Answer: 46"
+problem_995,"Daniel assigns 3 students to teams. First the student size decreased by 1. Next, the student count becomes 5 times its current size. Later, Daniel transfers away 5 students from the current total. Following that, 4 students were removed from the tally. What is the final number of students?",5.0,1.0,"Let's denote the initial number of students as \(x\).
+
+1. After assigning students to teams, the student count decreased by 1:
+\(x - 1\)
+
+2. The student count becomes 5 times its current size:
+\(5(x - 1) = 5x - 5\)
+
+3. Daniel transfers away 5 students from the current total:
+\(5x - 5 - 5 = 5x - 10\)
+
+4. 4 students were removed from the tally:
+\(5x - 10 - 4 = 5x - 14\)
+
+Therefore, the final number of students is \(5x - 14\).
+
+Final Answer: 5x - 14"
+problem_998,"Pradeep starts the account with -881.32 dollars. In the beginning, Pradeep adjusts the balance with a multiplication by 1.13. How many dollars are there in total? Use only 2 decimal places for your answer and any calculations shown.",-996.68,-995.89,"The initial balance is -881.32 dollars.
+
+After adjusting with a multiplication by 1.13, the new balance is:
+-881.32 * 1.13 = -996.6776
+
+Rounded to 2 decimal places, the total amount is -996.68 dollars.
+
+Final Answer: -996.68"
