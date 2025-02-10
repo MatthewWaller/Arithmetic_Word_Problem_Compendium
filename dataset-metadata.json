@@ -1,0 +1,33 @@
+{
+  "title": "Arithmetic Word Problem Compendium",
+  "id": "arithmetic-word-problem-compendium",
+  "subtitle": "A comprehensive collection of mathematically verified word problems for LLM training",
+  "description": "# About this Dataset\n\nThe Arithmetic Word Problem Compendium (AWPC) is a carefully curated collection of mathematically verified word problems designed for training and evaluating Large Language Models (LLMs) in mathematical reasoning tasks. The dataset contains 2,000 problems split between training and evaluation sets, each featuring multi-step reasoning problems in real-world contexts.\n\n## What's Included\n\n- 1,000 training problems\n- 1,000 evaluation problems\n- Detailed step-by-step solutions\n- Difficulty ratings\n- Problem categories\n\n## Use Cases\n\n- Training LLMs for mathematical reasoning\n- Evaluating AI models' problem-solving capabilities\n- Educational applications\n- Research in mathematical reasoning and AI\n\n## File Descriptions\n\n- `sample_train.jsonl`: Training dataset\n- `sample_eval.jsonl`: Evaluation dataset\n- `README.md`: Detailed documentation\n- `LICENSE`: MIT License\n",
+  "keywords": [
+    "education",
+    "mathematics",
+    "machine learning",
+    "natural language processing",
+    "problem solving"
+  ],
+  "licenses": [
+    {
+      "name": "MIT"
+    }
+  ],
+  "resources": [
+    {
+      "path": "sample_train.jsonl",
+      "description": "Training dataset containing 1,000 problems with solutions"
+    },
+    {
+      "path": "sample_eval.jsonl",
+      "description": "Evaluation dataset containing 1,000 problems with solutions"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Matthew Waller"
+    }
+  ]
+} 
