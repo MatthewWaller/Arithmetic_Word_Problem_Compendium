@@ -1,11 +1,11 @@
-Summary
-Model Type,o3-mini
-Total Problems,1000
-Successful,952
-Failed,48
-Accuracy,95.20%
-
-Failed Problems
+Summary,,,,
+Model Type,o3-mini,,,
+Total Problems,1000,,,
+Successful,958,,,
+Failed,42,,,
+Accuracy,95.8%,,,
+,,,,
+Failed Problems,,,,
 Problem ID,Question,Predicted Answer,Actual Answer,Model Response
 problem_36,"In the pantry, Daniel discovers 26.20 kilograms of flour. First, the amount increased by 0.36 more kilograms, and later he reduces the amount of flour to 1/4.20 of the total, and later the flour amount becomes 2.18 times its current size. How many kilograms of flour are there now? Express your answer and any intermediate steps to 2 decimal places.",13.79,13.78,"Step 1: Daniel starts with 26.20 kg of flour and adds 0.36 kg.
   26.20 + 0.36 = 26.56 kg
@@ -86,38 +86,6 @@ Step 3: Later, the current inventory grows to 5 times its size. New total = 5 ×
 Step 4: Finally, the equipment is changed (multiplied) to 5 times its current size. New total = 25 × 5 = 125.
 
 Final Answer: 125"
-problem_192,"Alexander's performance assessment indicates a percentage change of -9.2 points from an initial benchmark. In the beginning, the change is divided by -1.3, and then he notes that the new change in points becomes the equivalent of dividing the current change in points by -9.4. Then, the change decreases by 0.6 points. Next, the performance change is divided by 12. What is the final performance change? Round your answer and any steps to 1 decimal place.",0.1,-0.1,"Step 1: Start with an initial change of –9.2 points and divide by –1.3.
-  Calculation: –9.2 / –1.3 = 7.1 (rounded to 1 decimal place)
-
-Step 2: Divide the current change by –9.4.
-  Calculation: 7.1 / –9.4 = –0.8 (rounded to 1 decimal place)
-
-Step 3: Decrease the change by 0.6 points.
-  Calculation: –0.8 – 0.6 = –1.4
-
-Step 4: Divide the result by 12.
-  Calculation: –1.4 / 12 = –0.1 (rounded to 1 decimal place)
-
-Final Answer: –0.1"
-problem_205,"The athletic analysis reveals a percentage change of -0.6 points in Thomas's capabilities. First the change in performance shifts downward by 1 point. Then, the change is scaled with a division by -9.3. Next, the change is scaled with a division by -0.6, and then the change in performance shifts downward by 1 point. What is the final performance change? Round your answer and any steps to 1 decimal place.",1.3,-1.3,"Step 1: Start with –0.6, then shift downward by 1 point.
- Result = –0.6 – 1 = –1.6
-
-Step 2: Divide the new change by –9.3.
- Result = –1.6 ÷ (–9.3) ≈ 0.1720, rounded to 1 decimal place = 0.2
-
-Step 3: Divide this result by –0.6.
- Result = 0.2 ÷ (–0.6) ≈ –0.3333, rounded to 1 decimal place = –0.3
-
-Step 4: Finally, shift the performance downward by 1 point.
- Result = –0.3 – 1 = –1.3
-
-Final Answer: –1.3"
-problem_223,"Xavier's training data shows an initial percentage change of -10.7 points in overall fitness metrics. First, the change drops by 1.3 points, and then the performance change grows by 1.5 points. Later, the change drops by 1.6 points, and next the change decreases by 1.6 points. What is the resulting performance change? Give your answer and any work steps rounded to 1 decimal place.",13.7,-13.7,"Start with an initial change of –10.7.
-Step 1: Subtract 1.3: –10.7 – 1.3 = –12.0.
-Step 2: Add 1.5: –12.0 + 1.5 = –10.5.
-Step 3: Subtract 1.6: –10.5 – 1.6 = –12.1.
-Step 4: Subtract another 1.6: –12.1 – 1.6 = –13.7.
-Final Answer: –13.7"
 problem_228,"Benjamin has 155.48 dollars in funds. First Benjamin deposits 29.17 more dollars from a payment. Next, the balance decreased by 44.20 dollars. Later, the value undergoes multiplication by 1.73. What is the final value in dollars? Express your answer and any intermediate steps to 2 decimal places.",242.97,242.98,"Step 1: Deposit 29.17 dollars into the initial amount of 155.48 dollars.
   New balance = 155.48 + 29.17 = 184.65 dollars
 
@@ -203,15 +171,6 @@ Step 4: Add another $35.38 from the bank:
   Final Balance = 24.47 + 35.38 = 59.85 (rounded to 2 decimal places)
 
 Final Answer: 59.85"
-problem_422,"The athletic analysis reveals a percentage change of -4.1 points in Ismail's capabilities. In the beginning, the performance change grows by 1.1 points. Later, the performance change goes up by 2.2 points, and next the performance change goes up by 1.2 points. Following that, the performance change is divided by -5.7. Then, the change in performance shifts downward by 1.7 points. What is the final performance change? Make sure to round both your answer and any steps to 1 decimal place.",1.8,-1.8,"Starting with an initial change of –4.1 points:
-
-1. Add 1.1 points: –4.1 + 1.1 = –3.0  
-2. Add 2.2 points: –3.0 + 2.2 = –0.8  
-3. Add 1.2 points: –0.8 + 1.2 = 0.4  
-4. Divide by –5.7: 0.4 / (–5.7) ≈ –0.1  (0.4/–5.7 = –0.0702 which rounds to –0.1)  
-5. Decrease by 1.7 points: –0.1 – 1.7 = –1.8  
-
-Final Answer: –1.8"
 problem_425,"Nina observes a percentage shift of 317.78 points in brightness. First, Nina makes the total percentage change as a number of points be 1/2.03 of what it was. Next, the current percentage change is multiplied by 2.84, and after that the percentage change in points divides to 1/2.57 of the total value. And now, what is the final change as a percentage change? All calculations and the final answer should be rounded to 2 decimal places.",173.0,172.98,"Step 1: Start with 317.78. Divide by 2.03:
   317.78 ÷ 2.03 = 156.54 (rounded to 2 decimals).
 
@@ -348,17 +307,6 @@ Step 4: Recalculate the cement content to one‐to–2.07 of the current amount 
   0.66 × 2.07 = 1.37 parts (using 2‑decimal precision).
 
 Final Answer: 1.37"
-problem_641,"Ismail sets the target elevation to -2.7 meters height from the baseline. First, Ismail adds 1.6 meters to the elevation plan. Later, he elevates the plan by 1.8 meters, and next Ismail adjusts the height downward by 1 meter. Following that, he applies a multiplication factor of 2.4 to the elevation. What relative level in meters does the plan specify? Round your answer and any steps to 1 decimal place.",0.7,-0.7,"Step 1: Start with the target elevation of –2.7 m.
-
-Step 2: Add 1.6 m to get: –2.7 + 1.6 = –1.1 m.
-
-Step 3: Elevate the plan by 1.8 m: –1.1 + 1.8 = 0.7 m.
-
-Step 4: Adjust downward by 1 m: 0.7 – 1.0 = –0.3 m.
-
-Step 5: Multiply by 2.4: –0.3 × 2.4 = –0.72 m. Rounding to 1 decimal place gives –0.7 m.
-
-Final Answer: –0.7"
 problem_642,"Chen records a price swing of 2.14 dollars. Then, Chen notes an additional rise of 0.01 dollars, and after that Chen drops 0.02 dollars. Later, Chen calculates the change divided by 0.50. Following that, the price moves up another 0.03 dollars. What is the final total change in dollars? Express your answer and any intermediate steps to 2 decimal places.",2.16,4.29,"Step 1: Start with the recorded price swing of 2.14 dollars.
 
 Step 2: Add the additional rise of 0.01 dollars:
@@ -522,14 +470,3 @@ Finally, we add the additional warming of 0.20°C:
   9.94 + 0.20 = 10.14°C
 
 Final Answer: 10.14"
-problem_985,"Ava measures the ground elevation at -6.4 meters height from the reference point. First, Ava increases the planned elevation by 1.4 meters, and later she increases the planned elevation by 1.9 meters. Later, the elevation plan is adjusted down by 2.3 meters, and next the elevation is multiplied by 2.9. What is the final relative elevation in meters? All calculations and the final answer should be rounded to 1 decimal place.",15.7,-15.7,"Step 1: Start with the initial elevation: –6.4 m.
-
-Step 2: Increase by 1.4 m: –6.4 + 1.4 = –5.0 m.
-
-Step 3: Increase by another 1.9 m: –5.0 + 1.9 = –3.1 m.
-
-Step 4: Adjust down by 2.3 m: –3.1 – 2.3 = –5.4 m.
-
-Step 5: Multiply by 2.9: –5.4 × 2.9 = –15.66, which rounds to –15.7 m (to one decimal place).
-
-Final Answer: –15.7"

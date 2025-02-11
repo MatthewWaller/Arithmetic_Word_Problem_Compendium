@@ -79,7 +79,7 @@ Current benchmarks show varying performance across different model sizes (accura
 
 * GPT 3.5 Turbo: 84.50% accuracy
 * GPT 4 Turbo: 93.20% accuracy
-* o3-mini: 95.20% accuracy
+* o3-mini: 95.80% accuracy
 
 ## Usage
 
