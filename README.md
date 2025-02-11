@@ -77,10 +77,9 @@ Thus, we arrive at the answer: 44,885."
 
 Current benchmarks show varying performance across different model sizes (accuracy means the model's final answer is correctly rounded to the correct number of decimal places):
 
-* Llama 3.2 1B Instruct: 33.7% accuracy
-* Llama 3.2 3B Instruct: 58.2% accuracy
-* ChatGPT 3.5 Turbo: 74.7% accuracy
-* ChatGPT 4 Turbo: 87.7% accuracy
+* GPT 3.5 Turbo: 84.50% accuracy
+* GPT 4 Turbo: 93.20% accuracy
+* o3-mini: 95.20% accuracy
 
 ## Usage
 
