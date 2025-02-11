@@ -1,0 +1,405 @@
+Summary,,,,,Error type
+Model Type,o3-mini,,,,
+Total Problems,1000,,,,
+Successful,964,,,,
+Failed,36,,,,
+Accuracy,96.4%,,,,
+,,,,,
+Failed Problems,,,,,
+Problem ID,Question,Predicted Answer,Actual Answer,Model Response,
+problem_6,"Chitra starts with -717.83 dollars in the bank account. Then, 12.52 more dollars were added to the account balance. Next, the balance is multiplied by 1.15. Later, the balance is multiplied by 1.18. What is the total value in dollars? Give your answer and any work steps rounded to 2 decimal places.",-957.1,-957.11,"Step 1: Start with a balance of -717.83 dollars.
+Step 2: Add 12.52 dollars: -717.83 + 12.52 = -705.31 dollars.
+Step 3: Multiply by 1.15: -705.31 × 1.15 = -811.1015 dollars, which rounds to -811.10 dollars.
+Step 4: Multiply by 1.18: -811.10 × 1.18 = -957.098 dollars, which rounds to -957.10 dollars.
+Final Answer: -957.10",Rounding
+problem_44,"During the review period, Elena notes a rating change of 0.26 points. First, Elena applies an additional 0.02 points to the current change. Then, she adjusts the rating change by dividing it by 0.43. Next, the current change is multiplied by 0.76. Given this information, what is the final rating change in points? Use only 2 decimal places for your answer and any calculations shown.",0.5,0.49,"Step 1: Start with the initial change: 0.26  
+Step 2: Add an additional 0.02 points: 0.26 + 0.02 = 0.28  
+Step 3: Divide by 0.43: 0.28 / 0.43 ≈ 0.65  
+Step 4: Multiply by 0.76: 0.65 × 0.76 ≈ 0.50  
+
+Final Answer: 0.50",Rounding
+problem_107,"The fitness assessment shows a percentage change of -0.5 points in Emma's performance level. To start, the change in performance shifts downward by 1 point. Then, the performance change is scaled by a factor of 1/11.1. Next, the change is divided by -3.8. Later, the performance change is multiplied by 2.4. What is the final performance change? Use only 1 decimal place for your answer and any calculations shown.",0.1,0,"Step 1: Start with the initial performance change: –0.5. Then shifting downward by 1 gives:
+  –0.5 – 1 = –1.5
+
+Step 2: Scale the change by a factor of 1/11.1:
+  –1.5 × (1/11.1) = –1.5/11.1 ≈ –0.1351
+
+Step 3: Divide the result by –3.8:
+  (–0.1351) / (–3.8) = 0.1351/3.8 ≈ 0.0356
+
+Step 4: Multiply by 2.4:
+  0.0356 × 2.4 ≈ 0.0853
+
+Rounding to 1 decimal place, the final performance change is approximately 0.1.
+
+Final Answer: 0.1",Rounding/Following instructions
+problem_120,"Anna records a GPA score equal to 1.22. First the GPA is multiplied by a factor of 2.31, making this the new number of points. Later, Anna gains 0.05 additional points. Following that, Anna updates the GPA to be the current value in points divided by 0.84. How many points is the score in the end? When showing work, use only 2 decimal places for all calculations and the answer.",3.43,3.42,"Step 1: Multiply GPA by 2.31  
+ 1.22 × 2.31 = 2.83
+
+Step 2: Add 0.05 points  
+ 2.83 + 0.05 = 2.88
+
+Step 3: Divide by 0.84  
+ 2.88 ÷ 0.84 = 3.43
+
+Final Answer: 3.43",Rounding
+problem_150,"During the scene, Amelia notes a percentage change of 131.76 points in lighting. Then, Amelia lowers the current percentage change by 19.06 points. Following that, she applies a 2.22-time multiplication to the percentage change. Then, the percentage change gets divided by 3.06. And now, what is the total lighting change as a percentage change? Make sure to round both your answer and any steps to 2 decimal places.",81.78,81.76,"Step 1: Start with the initial percentage change of 131.76.
+
+Step 2: Lower it by 19.06:  
+  131.76 – 19.06 = 112.70
+
+Step 3: Multiply the result by 2.22:  
+  112.70 × 2.22 = 250.19
+
+Step 4: Divide by 3.06:  
+  250.19 ÷ 3.06 = 81.78
+
+Final Answer: 81.78",
+problem_191,"Keiko verifies 42 financial transactions for records. First, 1 transaction was withdrawn, and then the queue expanded with 2 additional transactions. Then, Keiko logs 2 more transactions from the processing queue. Given this information, how many transactions are there?",43.0,45.0,"We start with Keiko having verified 42 transactions. Then one transaction was withdrawn, leaving 42 – 1 = 41 transactions. Next, the processing queue expanded by 2 additional transactions. These new transactions were not yet verified, so there are now 2 pending in the queue. Finally, Keiko logs (verifies) those 2 transactions from the queue. Adding these 2 to the 41 already verified gives 41 + 2 = 43 transactions.
+
+Final Answer: 43",Confused about verification
+problem_198,"The venue allocates Oliver 3,057 tickets to manage. At the outset, after a division into 3 equal sections, a single portion stays in the count. Following that, the remaining total is multiplied by 2. Then, 40 additional tickets become available from the overflow section. What is the current ticket total?",4116.0,2078.0,"Step 1: Divide the total of 3,057 tickets into 3 equal sections. Each section is 3,057 ÷ 3 = 1,019 tickets.
+
+Step 2: One section (1,019 tickets) remains set aside, so the remaining two sections total 3,057 − 1,019 = 2,038 tickets.
+
+Step 3: The remaining 2,038 tickets are then multiplied by 2, giving 2,038 × 2 = 4,076 tickets.
+
+Step 4: Finally, 40 additional tickets are added, which brings the total to 4,076 + 40 = 4,116 tickets.
+
+Final Answer: 4116",Misunderstands “stays in the count”
+problem_199,"Indira measures a change of 0.53 points in the rating. First the adjustment is multiplied by 0.65. Next, she applies a 0.56 division to the current change, and then 0.04 more points come from the review platform, increasing the total. What is the total rating change in points? Give your answer and any work steps rounded to 2 decimal places.",0.66,0.65,"Step 1: Multiply the change by 0.65.
+  0.53 × 0.65 = 0.3445
+
+Step 2: Divide the result by 0.56.
+  0.3445 ÷ 0.56 ≈ 0.61518, which rounds to 0.62
+
+Step 3: Add an additional 0.04 points.
+  0.62 + 0.04 = 0.66
+
+Final Answer: 0.66",
+problem_234,"In the lab, Anna measures 0.21 parts cement for the concrete mix. First, 0.03 more parts were incorporated. Following that, following calculations, the cement becomes one-9.65 of the present number of parts. Then, the mixture level expands 2.99-fold. What is the total number of parts now? Round both your final answer and any steps to 2 decimal places.",6.94,0.06,"Step 1: Start with the amount of cement: 0.21 parts.
+Step 2: Add 0.03 parts of cement: 0.21 + 0.03 = 0.24 parts.
+Step 3: After some calculations, the cement becomes 1/9.65 of the current total parts. That means the total (before expansion) is given by:
+  Total = Cement × 9.65 = 0.24 × 9.65 = 2.32 parts (rounded to 2 decimal places).
+Step 4: Then the mixture level expands 2.99–fold:
+  Final total = 2.32 × 2.99 = 6.94 parts (rounded to 2 decimal places).
+
+Final Answer: 6.94",Step three is incorrect and a multiplication rather than a division happens.
+problem_241,"Thomas begins with 684.43 dollars in the account balance. To start, Thomas sets the balance to 1.32 times the current level. Then, he scales the account value 1.10-fold. Next, the account dropped by 31.47 dollars. How many dollars are there? Give your answer and any work steps rounded to 2 decimal places.",962.28,962.33,"Step 1: Multiply the initial balance by 1.32.
+ 684.43 × 1.32 = 903.41 dollars (rounded to 2 decimal places).
+
+Step 2: Scale the new balance by 1.10.
+ 903.41 × 1.10 = 993.75 dollars (rounded to 2 decimal places).
+
+Step 3: Subtract 31.47 dollars.
+ 993.75 − 31.47 = 962.28 dollars (rounded to 2 decimal places).
+
+Final Answer: 962.28",
+problem_243,"Gabriel is measuring soil temperature. The soil sensor reads 21.17 degrees Celsius. First the sensors detect warming of 0.27 degrees, and then the sensors detect cooling of 0.21 degrees. Next, the temperature values are adjusted to be 1/2.19 of its present value, and after that the ground heats up by 0.38 degrees. What temperature is the soil in Celsius? All calculations and the final answer should be rounded to 2 decimal places.",10.08,10.07,"Step 1: Start with the initial temperature: 21.17°C.
+
+Step 2: Add the warming of 0.27°C. 
+         21.17 + 0.27 = 21.44°C
+
+Step 3: Subtract the cooling of 0.21°C.
+         21.44 - 0.21 = 21.23°C
+
+Step 4: Adjust the temperature to be 1/2.19 of its present value.
+         21.23 ÷ 2.19 ≈ 9.70°C (rounded to 2 decimal places)
+
+Step 5: Add the final heating of 0.38°C.
+         9.70 + 0.38 = 10.08°C
+
+Final Answer: 10.08",
+problem_284,"The sports analytics data indicates a percentage change of -2.9 points in Amelia's athletic output. To start, Amelia notes that the new change in points becomes the equivalent of dividing the current change in points by -4.5. Next, she sees the change in performance increase by 1.7 points, and after that the change decreases by 1.8 points. Later, the change is adjusted by a factor of 2.5. What is the resulting performance change? Keep only 1 decimal place in your answer and any work shown.",1.4,1.3,"Starting with a change of -2.9 points:
+
+1. Divide by -4.5:
+  (-2.9) ÷ (-4.5) = 2.9/4.5 ≈ 0.6444
+
+2. Increase by 1.7 points:
+  0.6444 + 1.7 = 2.3444
+
+3. Decrease by 1.8 points:
+  2.3444 − 1.8 = 0.5444
+
+4. Adjust by a factor of 2.5 (multiply by 2.5):
+  0.5444 × 2.5 ≈ 1.3611
+
+Rounded to one decimal place, the resulting performance change is 1.4.
+
+Final Answer: 1.4",
+problem_308,"The ground temperature measures -0.65 degrees Celsius. First, the monitoring system shows warming of 0.33 degrees. Then, a sensor calibration adjustment multiplies all readings by 2.49. Next, the monitoring system applies a multiplication factor of 2.52. Later, the temperature values are adjusted to be 1/2.11 of its present value. How many degrees Celsius is the soil temperature now? Give your answer and any work steps rounded to 2 decimal places.",-0.95,-0.96,"Step 1: Start with the temperature of -0.65°C and add 0.33°C.  
+  New temperature = -0.65 + 0.33 = -0.32°C  
+
+Step 2: Multiply the new temperature by 2.49.  
+  New temperature = -0.32 × 2.49 = -0.7968°C  
+
+Step 3: Multiply by the factor 2.52.  
+  New temperature = -0.7968 × 2.52 = -2.00794°C (rounded to 5 decimal places for accuracy)  
+
+Step 4: Adjust by taking 1/2.11 of the current value.  
+  Final temperature = -2.00794 / 2.11 ≈ -0.9511°C  
+
+Rounded to two decimal places, the soil temperature is -0.95°C.  
+
+Final Answer: -0.95",
+problem_321,"Alexander's athletic performance percentage starts at 13.7 points. At the outset, the performance change grows by 2.4 points, and later the performance change goes up by 1.8 points. Following that, the performance change grows by 2 points, and after that the performance change reduces by 1.4 points. Then, the change is scaled with a division by 1. What is the resulting relative performance change? Keep only 1 decimal place in your answer and any work shown.",4.8,18.5,"Step 1: Identify the individual changes.  
+• First change: +2.4 points  
+• Second change: +1.8 points  
+• Third change: +2.0 points  
+• Fourth change: –1.4 points  
+
+Step 2: Sum the changes.  
+2.4 + 1.8 = 4.2  
+4.2 + 2.0 = 6.2  
+6.2 – 1.4 = 4.8  
+
+Step 3: Apply the scaling by dividing by 1.  
+4.8 ÷ 1 = 4.8  
+
+The resulting relative performance change is 4.8 points.
+
+Final Answer: 4.8",Tricky to understand that the changes are simple arithmetic
+problem_406,"The soil temperature starts at 4.22 degrees Celsius. First, the monitoring system shows warming of 0.36 degrees, and then the measurements need to be scaled down by 1/2.89 due to sensor calibration, and later the temperature sensor is recalibrated, adjusting all readings to 1/2.77 of their current value. Next, the calibration software multiplies all readings by 2.04. What is the final soil temperature in degrees Celsius? Use only 2 decimal places for your answer and any calculations shown.",1.17,1.16,"Step 1: Add the warming increment  
+4.22 + 0.36 = 4.58
+
+Step 2: Scale down by 1/2.89  
+4.58 ÷ 2.89 ≈ 1.58
+
+Step 3: Recalibrate to 1/2.77 of the current reading  
+1.58 ÷ 2.77 ≈ 0.57
+
+Step 4: Multiply by 2.04  
+0.57 × 2.04 ≈ 1.17
+
+Final Answer: 1.17",
+problem_483,"At the trading desk, Diana spots a move of 0.74 dollars. At the outset, Diana sees a further gain of 0.02 dollars come from analyst upgrades. Later, the price movement is modified by a factor of 2.66. Following that, Diana calculates the change be multiplied by 1.22. Then, the movement is scaled by a factor of 0.98. What is the change in dollars, in the end? Keep only 2 decimal places in your answer and any work shown.",2.42,2.41,"Start with the observed move:
+ 0.74 dollars
+
+Add the additional gain:
+ 0.74 + 0.02 = 0.76 dollars
+
+Multiply by the first factor:
+ 0.76 × 2.66 = 2.0216 dollars
+
+Multiply by the second factor:
+ 2.0216 × 1.22 = 2.466352 dollars
+
+Scale by the final factor:
+ 2.466352 × 0.98 = 2.41702496 dollars
+
+Rounded to 2 decimal places, the final change is 2.42 dollars.
+
+Final Answer: 2.42",
+problem_492,"During the review of the financial records, Anna records a total of 627.94 dollars. At the outset, 15.84 additional dollars were gained. Later, the funds are divided by 195.86, and then Anna brings the value to 2.42 times its current amount. How many dollars are there in total? Express your answer and any intermediate steps to 2 decimal places.",7.95,7.96,"Step 1: Add the additional dollars to the initial amount.
+  Initial total = 627.94 dollars
+  Additional dollars = 15.84 dollars
+  New total = 627.94 + 15.84 = 643.78 dollars
+
+Step 2: Divide the new total by 195.86.
+  Result after division = 643.78 ÷ 195.86 ≈ 3.29 (to 2 decimal places)
+
+Step 3: Multiply this result by 2.42.
+  Final amount = 3.29 × 2.42 ≈ 7.95 dollars
+
+Final Answer: 7.95",
+problem_495,"The ground temperature measures -1.06 degrees Celsius. Then, the soil warms by 0.15 degrees. Later, a correction results in the temperature being set to 1/3.47 of its current value, and then the calibration software multiplies all readings by 2.24. What is the final temperature reading in degrees Celsius? Keep only 2 decimal places in your answer and any work shown.",-0.59,-0.58,"Step 1: Start with the initial temperature.
+ - T₀ = -1.06°C
+
+Step 2: The soil warms by 0.15°C.
+ - T₁ = -1.06 + 0.15 = -0.91°C
+
+Step 3: A correction sets the temperature to 1/3.47 of its current value.
+ - T₂ = (-0.91) / 3.47 ≈ -0.2623°C
+
+Step 4: The calibration software multiplies all readings by 2.24.
+ - T₃ = -0.2623 × 2.24 ≈ -0.5873°C
+
+Rounded to 2 decimal places, the final temperature reading is -0.59°C.
+
+Final Answer: -0.59",
+problem_552,"Alexander records an initial change of 0.37 points in the rating. First the current rating change is multiplied by 0.26. Then, the accumulated adjustment undergoes division by 0.47. What is the total rating change in points? Express your answer and any intermediate steps to 2 decimal places.",0.2,0.21,"Step 1: Multiply the initial change by 0.26.
+  0.37 × 0.26 = 0.0962
+
+Step 2: Divide the result by 0.47.
+  0.0962 ÷ 0.47 = 0.20468 (approximately)
+
+Rounding to two decimal places, the total rating change is 0.20.
+
+Final Answer: 0.20",
+problem_561,"During the scene, Aisha notes a percentage change of 118.12 points in lighting. To start, the running total of percentage change drops by 12.21 points. Then, Aisha brings the percentage change in points to 1/3.49 of its value. Next, 16.54 more points comes from the light operator. What is the final lighting percentage change in points? Round your answer and any steps to 2 decimal places.",46.91,46.89,"Step 1: Start with the initial percentage change of 118.12 points.
+Step 2: Subtract 12.21 points.
+  Result = 118.12 − 12.21 = 105.91
+Step 3: Multiply the result by 1/3.49.
+  Result = 105.91 / 3.49 = 30.37 (rounded to two decimal places)
+Step 4: Add 16.54 points.
+  Result = 30.37 + 16.54 = 46.91
+
+Final Answer: 46.91",
+problem_596,"Gabriel starts mise en place with 15.52 kilograms of flour. To start, Gabriel includes 0.50 more kilograms from the prep kitchen, and next he keeps only one portion after splitting the flour into 6.21 equal portions, and then 0.15 additional kilograms were combined with the rest. What is the current supply of kilograms of flour? Express your answer and any intermediate steps to 2 decimal places.",13.59,2.73,"Step 1: Start with the initial flour amount.
+ Initial flour = 15.52 kg
+
+Step 2: Add 0.50 kg from the prep kitchen.
+ Total flour now = 15.52 kg + 0.50 kg = 16.02 kg
+
+Step 3: Split the 16.02 kg into 6.21 equal portions.
+ Weight of one portion = 16.02 kg ÷ 6.21 ≈ 2.58 kg
+
+Step 4: Gabriel keeps only one portion aside. This means the remaining flour is:
+ Remaining flour = Total flour – one portion = 16.02 kg – 2.58 kg = 13.44 kg
+
+Step 5: Then, 0.15 kg are added to the remaining flour.
+ Final supply = 13.44 kg + 0.15 kg = 13.59 kg
+
+Final Answer: 13.59",Confused about keeping only one portion.
+problem_617,"At study hall, Daniel schedules 7.6 study hours. At the outset, Daniel schedules in 2.2 additional hours. Later, he keeps only one portion of hours after breaking down them into 5.7 equal portions, and after that the study time becomes the equivalent of 4.9 times its present duration. What is the final time in hours? Keep only 1 decimal place in your answer and any work shown.",8.4,8.3,"Daniel first has 7.6 hours, then adds 2.2 hours, so his new total time is:
+  7.6 + 2.2 = 9.8 hours.
+
+Next, he breaks the 9.8 hours into 5.7 equal portions and keeps one portion:
+  9.8 / 5.7 ≈ 1.7193 hours.
+
+Finally, he multiplies this portion by 4.9:
+  1.7193 × 4.9 ≈ 8.4246 hours, which rounds to 8.4 hours (to 1 decimal place).
+
+Final Answer: 8.4",
+problem_683,"While mixing concrete, Ismail uses 0.41 parts cement. First Ismail blends 0.01 additional parts from the lab. Then, he changes the batch to 2.11 times its current amount in parts. Next, the cement proportion is adjusted to one-9.35 of its current value in parts. What is the final total of parts? When showing work, use only 2 decimal places for all calculations and the answer.",8.32,0.1,"Step 1: Ismail starts with 0.41 parts cement.
+Step 2: He adds 0.01 parts, giving 0.41 + 0.01 = 0.42 parts (to 2 decimal places).
+Step 3: The batch is then multiplied by 2.11, so the cement becomes 0.42 × 2.11 = 0.89 parts (0.42 × 2.11 = 0.8862 rounds to 0.89).
+Step 4: The cement is adjusted to a 1:9.35 ratio. This means that 1 part cement corresponds to 9.35 total parts. With 0.89 parts cement, the total is 0.89 × 9.35 = 8.3215, which rounds to 8.32 parts.
+
+Final Answer: 8.32",Again confuses multiplication and division with the one-9.35
+problem_691,"Hana reviews 31 financial transactions for approval. To start, another 5 transactions were added to the queue, and next 1 additional transaction was added to the system. Then, Hana handles 5 more transactions from the financial network. What is the total number of transactions in the end?",32.0,42.0,"Start with 31 transactions.
+Add 5 transactions, which gives 31 + 5 = 36.
+Add 1 more transaction, reaching 36 + 1 = 37.
+Then handle 5 transactions from the financial network, reducing the count to 37 - 5 = 32.
+
+Final Answer: 32",Confused about adding versus subtracting in the end.
+problem_713,"Jack starts with 0.53 parts cement in the concrete mix. First, Jack mixes 0.02 more parts from the mixing station. Then, following calculations, the cement becomes one-5.65 of the present number of parts. Next, Jack mixes in 0.02 additional parts from the batch plant. What is the cement content, measured in parts, in the final batch? When showing work, use only 2 decimal places for all calculations and the answer.",3.13,0.12,"Step 1: Jack’s starting amount is 0.53 parts.
+
+Step 2: He adds 0.02 parts, so:
+  0.53 + 0.02 = 0.55 parts
+
+Step 3: Next, the cement is multiplied by 5.65; that is, the 0.55 parts become:
+  0.55 × 5.65 = 3.11 parts               (using two‐decimal precision)
+
+Step 4: Finally, Jack adds another 0.02 parts:
+  3.11 + 0.02 = 3.13 parts
+
+Final Answer: 3.13",
+problem_714,"Keiko measures out 0.74 parts cement for a concrete mixture. First Keiko introduces 0.05 extra parts from the mixing station. Then, the cement proportion is modified to one-4.23 of its present value in parts, and later Keiko changes the batch to 3.94 times its current amount in parts. What is the measured cement content in parts? Use only 2 decimal places for your answer and any calculations shown.",0.74,0.75,"Step 1: Start with 0.74 parts of cement.
+Step 2: Add 0.05 extra parts:
+  0.74 + 0.05 = 0.79 parts.
+Step 3: Modify to one‐4.23 (i.e. multiply by 1/4.23):
+  0.79 ÷ 4.23 ≈ 0.18675 parts.
+Step 4: Change the batch to 3.94 times its current amount:
+  0.18675 × 3.94 ≈ 0.73580 parts.
+Rounded to two decimal places, the final measured cement content is 0.74 parts.
+
+Final Answer: 0.74",This one understood one- properly
+problem_777,"During the scene, Chen notes a percentage change of -48.28 points in lighting. First, Chen uses a division by 2.03 on the percentage change. Next, he reduces the total percentage change by 20.42 points. Later, the running total of percentage change drops by 10.43 points. And now, what is the total lighting change as a percentage change? Keep only 2 decimal places in your answer and any work shown.",-54.65,-54.63,"Step 1: Start with the initial percentage change: –48.28.
+Step 2: Divide –48.28 by 2.03:
+  –48.28 ÷ 2.03 = –23.80 (approximately)
+Step 3: Subtract 20.42 from –23.80:
+  –23.80 – 20.42 = –44.22
+Step 4: Subtract 10.43 from –44.22:
+  –44.22 – 10.43 = –54.65
+
+Final Answer: -54.65",
+problem_791,"Grace starts with a percentage change of 112.40 points in lighting. At the outset, the percentage change gets divided by 5.93. Next, the present percentage change, as a percentage, undergoes a multiplication by 2.16, and later Grace applies an additional 19.24 points as a percent change adjustment. And now, what is the final shift as a percentage change? Express your answer and any intermediate steps to 2 decimal places.",60.15,60.17,"Step 1: Divide the initial percentage change by 5.93.
+  112.40 ÷ 5.93 = 18.94
+
+Step 2: Multiply the result from Step 1 by 2.16.
+  18.94 × 2.16 = 40.91
+
+Step 3: Add the additional adjustment of 19.24 points.
+  40.91 + 19.24 = 60.15
+
+Final Answer: 60.15",
+problem_802,"In the library, Feng plans 8 study hours. To start, Feng schedules in 1.4 additional hours. Following that, he includes 2 more hours, and next Feng goes forward with only one block of time after breaking down the hours into 3.8 equal blocks. And now, how many hours are there? Use only 1 decimal place for your answer and any calculations shown.",13.5,3.0,"Step 1: Feng plans 8 study hours.
+
+Step 2: He schedules in an additional 1.4 hours, so:
+  8 + 1.4 = 9.4 hours.
+
+Step 3: Then he includes 2 more hours:
+  9.4 + 2 = 11.4 hours.
+
+Step 4: Next, he breaks down the original 8 hours into 3.8 equal blocks and uses one of these blocks.
+  One block = 8 ÷ 3.8 ≈ 2.1 hours (to 1 decimal place).
+
+Step 5: Now add this block time to the running total:
+  11.4 + 2.1 = 13.5 hours.
+
+Final Answer: 13.5",
+problem_813,"Gabriel begins with a rating adjustment of 0.28 points. First, the current change is multiplied by 0.63. Following that, the accumulated adjustment undergoes division by 0.42, and later the running adjustment decreases by 0.02 points. Now, what is the final rating change in points? Express your answer and any intermediate steps to 2 decimal places.",0.4,0.41,"Step 1: Multiply the initial rating by 0.63.  
+  0.28 × 0.63 = 0.1764, which expressed to 2 decimals is 0.18.
+
+Step 2: Divide the result by 0.42.  
+  0.1764 ÷ 0.42 = 0.42 (exactly), which to 2 decimals remains 0.42.
+
+Step 3: Subtract 0.02 from the running adjustment.  
+  0.42 – 0.02 = 0.40.
+
+Final Answer: 0.40",
+problem_855,"Indira begins planning out their farm with 86.21 hectares of land. First 2.42 more hectares were added to their property. Later, another 1.52 hectares were added to the total, and then Indira takes one share after breaking the land into 30.36 equal shares. What does the survey show as the total hectares? All calculations and the final answer should be rounded to 2 decimal places.",90.15,2.97,"Step 1: Start with the initial land.
+  Initial hectares = 86.21
+
+Step 2: Add 2.42 hectares.
+  New total = 86.21 + 2.42 = 88.63
+
+Step 3: Add another 1.52 hectares.
+  New total = 88.63 + 1.52 = 90.15
+
+Step 4: The land is then divided into 30.36 equal shares. Compute the size of one share:
+  One share = 90.15 ÷ 30.36 ≈ 2.97 hectares  (rounded to 2 decimal places)
+
+Step 5: Indira takes one share. Though one share is designated for her, the survey still records the entire property.
+  Thus, the survey shows a total of 90.15 hectares.
+
+Final Answer: 90.15",
+problem_859,"In the plate storage, Oliver finds 9 serving plates. First 2 additional serving plates were brought in. Next, the stack increased by 3 more serving plates, and then Oliver divides the plates by 7. What is the current inventory of plates?",14.0,2.0,"Start with 9 serving plates.
+Add 2 more plates: 9 + 2 = 11.
+Then add another 3 plates: 11 + 3 = 14.
+Finally, Oliver divides the 14 plates evenly into 7 groups, which gives 14 ÷ 7 = 2 plates per group. However, his total inventory remains 14 plates.
+Final Answer: 14",
+problem_885,"Emma records an initial percentage change of 248.02 points in intensity. Then, Emma brings the percentage change in points to 1/4.19 of its value. Later, Emma uses a division by 2.97 on the percentage change. As a percentage, what is the final shift as a percentage change? Keep only 2 decimal places in your answer and any work shown.",19.92,19.93,"Initial percentage change: 248.02 points.
+
+Step 1: Bring the value to 1/4.19 of its original value.
+ New value = 248.02 ÷ 4.19 ≈ 59.17 points
+
+Step 2: Divide by 2.97.
+ Final value = 59.17 ÷ 2.97 ≈ 19.92 points
+
+Thus, as a percentage, the final shift is approximately 19.92%.
+
+Final Answer: 19.92",
+problem_974,"During the review period, Pradeep notes a rating change of 0.13 points. First Pradeep applies a 0.73 division to the current change. Next, the current change increases by 0.02 points. Later, the running total is taken and divided by 0.43. Now, what is the final rating change in points? Use only 2 decimal places for your answer and any calculations shown.",0.46,0.47,"Step 1: Divide the initial change by 0.73.  
+  0.13 ÷ 0.73 ≈ 0.18
+
+Step 2: Increase the result by 0.02 points.  
+  0.18 + 0.02 = 0.20
+
+Step 3: Divide the sum by 0.43.  
+  0.20 ÷ 0.43 ≈ 0.46
+
+Final Answer: 0.46",
+problem_997,"While operating lights, Liam tracks a percentage adjustment of 114.76 points in intensity. To start, Liam uses a division by 2.92 on the percentage change. Later, the total percentage change is multiplied by 2.70. Following that, the current percentage change is multiplied by 3.49. What is the total adjustment as a percentage change? All calculations and the final answer should be rounded to 2 decimal places.",370.5,370.32,"Step 1: Divide 114.76 by 2.92  
+  Result = 114.76 ÷ 2.92 ≈ 39.32  
+
+Step 2: Multiply the result by 2.70  
+  Result = 39.32 × 2.70 ≈ 106.16  
+
+Step 3: Multiply the new result by 3.49  
+  Result = 106.16 × 3.49 ≈ 370.50  
+
+Final Answer: 370.50",
+problem_999,"Hana observes a percentage shift of 65.69 points in brightness. At the outset, Hana increases the percent change in intensity by 7.89 more points. Then, a shift causes the total percentage change in points to be to 1/5.73 of its previous value. Next, the current percentage change falls by 15.90 points. As a percentage, what is the final lighting percent change? Make sure to round both your answer and any steps to 2 decimal places.",-3.05,-3.06,"Step 1: Start with the initial brightness percentage change of 65.69.
+
+Step 2: Increase by 7.89 points:
+  65.69 + 7.89 = 73.58
+
+Step 3: Shift to 1/5.73 of its previous value:
+  73.58 ÷ 5.73 ≈ 12.85
+
+Step 4: Decrease by 15.90 points:
+  12.85 − 15.90 = -3.05
+
+Final Answer: -3.05",

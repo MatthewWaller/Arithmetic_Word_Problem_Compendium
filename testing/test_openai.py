@@ -205,16 +205,24 @@ def clean_response(text: str) -> str:
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
 
-def extract_final_number(response: str) -> Optional[float]:
-    """Extract the final number from the model's response."""
-    final_answer_match = re.search(r'Final Answer:\s*(-?[\d,]*\.?\d+)', response, re.IGNORECASE)
+def extract_final_number(response):
+    # First try to find a number after "Final Answer:", handling commas and various dash types
+    final_answer_match = re.search(r'Final Answer:\s*([–-]?[\d,]*\.?\d+)', response, re.IGNORECASE)
     if final_answer_match:
-        num_str = final_answer_match.group(1).replace(',', '')
-        return float(num_str)
-    
-    numbers = re.findall(r'-?[\d,]*\.?\d+', response)
+        # Replace em dash with regular minus sign and remove commas
+        num_str = final_answer_match.group(1).replace('–', '-').replace(',', '')
+        try:
+            return float(num_str)
+        except ValueError:
+            pass
+
+    # If that fails, look for the last number in the text
+    numbers = re.findall(r'[–-]?[\d,]*\.?\d+', response)
     if numbers:
-        return float(numbers[-1].replace(',', ''))
+        try:
+            return float(numbers[-1].replace('–', '-').replace(',', ''))
+        except ValueError:
+            pass
     return None
 
 def evaluate_problem(model: RemoteModel, problem: Dict[str, Any]) -> Dict[str, Any]:

@@ -77,9 +77,9 @@ Thus, we arrive at the answer: 44,885."
 
 Current benchmarks show varying performance across different model sizes (accuracy means the model's final answer is correctly rounded to the correct number of decimal places):
 
-* GPT 3.5 Turbo: 84.50% accuracy
-* GPT 4 Turbo: 93.20% accuracy
-* o3-mini: 95.80% accuracy
+* GPT 3.5 Turbo: 81.70% accuracy
+* GPT 4 Turbo: 93.90% accuracy
+* o3-mini: 96.40% accuracy
 
 ## Usage
 
