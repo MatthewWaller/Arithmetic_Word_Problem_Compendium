@@ -174,7 +174,7 @@ def main():
     
     # Load the sample problems
     print("Loading problems...")
-    with open('datasets/sample_train.jsonl', 'r') as f:
+    with open('sample.jsonl', 'r') as f:
         problems = [json.loads(line) for line in f]
 
     # Process problems in batches

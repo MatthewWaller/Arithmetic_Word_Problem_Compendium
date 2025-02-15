@@ -459,7 +459,7 @@ def main():
         
         # Load just one problem for testing
         print("Loading test problem...")
-        with open('datasets/sample_train.jsonl', 'r') as f:
+        with open('sample.jsonl', 'r') as f:
             problems = [json.loads(line) for line in f]
         
         print("\nTest problem details:")

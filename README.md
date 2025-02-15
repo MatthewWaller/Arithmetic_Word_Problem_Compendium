@@ -26,9 +26,8 @@ The available data is a sample of 1,000 problems, and commerical options are ava
 
 ## Data Format
 
-The dataset is provided in JSONL format with the following files:
-- `sample_train.jsonl`: Training dataset with 1,000 problems
-- `sample_eval.jsonl`: Evaluation dataset with 1,000 problems
+The dataset is provided in JSONL format with the following file:
+- `sample.jsonl`: Dataset with 1,000 problems
 
 Each problem entry contains:
 ```json
@@ -43,7 +42,8 @@ Each problem entry contains:
         "solution": number,
         "operators": string[],
         "decimals": number
-    }
+    },
+    "answer": "Text of the solution to the problem"
 }
 ```
 
@@ -53,7 +53,7 @@ Each problem entry contains:
 ```
 Question: "Jack sets up 19 bank accounts for clients. First the total rises to be 2 times greater than before. Following that, another 4 accounts were added."
 
-Solution:
+Answer:
 "Here's how we can solve this problem:
 19 accounts times 2 equals 38
 Addition step: 38 + 4 = 42 accounts
@@ -65,7 +65,7 @@ Based on these steps, the answer is 42."
 ```
 Question: "Kevin oversees 14,457 metric tons of grain storage in the new concrete silo. In the beginning, the facility grows to 3 times its current measure of grain. Following that, the overall supply of grain grows by 1,514 tons."
 
-Solution:
+Answer:
 "Following these steps will give us the answer:
 Multiplication operation: 14,457 tons * 3 = 43,371
 Add 1514 to 43,371 tons: 44,885
@@ -91,8 +91,8 @@ def load_jsonl(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         return [json.loads(line) for line in f]
 
-# Load training data
-train_data = load_jsonl('sample_train.jsonl')
+# Load data
+data = load_jsonl('sample.jsonl')
 ```
 
 ## Intended Uses & Limitations
